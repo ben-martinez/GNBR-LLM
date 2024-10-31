@@ -1,0 +1,46 @@
+Your task is to analyze a biomedical abstract and extract relevant entities and relationships to construct a knowledge graph. Please identify and categorize entities as well as describe the relationships between them. The entities you should extract include drugs, diseases, genes, and proteins. Each entity should have a name, type, and a brief description if available in the text. Types should be limited to "Drug," "Disease," "Gene," and "Protein."
+
+In addition to entities, identify any relationships between them, such as regulatory actions, effects, binding interactions, and modulations. For each relationship, provide:
+- A brief description of the interaction as stated or implied in the text.
+- The names of the source and target entities involved in the interaction.
+- The type of interaction, chosen from common scientific actions like "binds," "modulates," "inhibits," "activates," etc., based on context.
+
+Return the output as a structured JSON with two sections: "entities" and "relationships." Use the following format as a guide:
+
+{
+  "entities": [
+    {
+      "name": "<entity_name>",
+      "type": "<entity_type>",
+      "description": "<brief_description>"
+    },
+    ...
+  ],
+  "relationships": [
+    {
+      "description": "<brief_relationship_description>",
+      "source_name": "<source_entity_name>",
+      "target_name": "<target_entity_name>",
+      "type": "<relationship_type>"
+    },
+    ...
+  ]
+}
+
+Example:
+Given the abstract:
+"Suppressor of cytokine signaling 1 (SOCS-1) protein modulates signaling by IFN-gamma by binding to JAK2 and targeting it for degradation."
+
+The expected output is:
+{
+  "entities": [
+    {"name": "SOCS-1", "type": "Protein", "description": "Suppressor of cytokine signaling 1"},
+    {"name": "IFN-gamma", "type": "Gene", "description": "interferon gamma"},
+    {"name": "JAK2", "type": "Protein", "description": "Janus kinase 2"}
+  ],
+  "relationships": [
+    {"description": "SOCS-1 protein modulates signaling by IFN-gamma by binding to JAK2 and targeting it for degradation", "source_name": "SOCS-1", "target_name": "JAK2", "type": "modulates"}
+  ]
+}
+
+Using this format, analyze the following abstract and return the output in JSON format.

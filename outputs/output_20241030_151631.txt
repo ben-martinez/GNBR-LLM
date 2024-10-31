@@ -1,0 +1,112 @@
+```json
+{
+  "entities": [
+    {
+      "name": "LDL",
+      "type": "Protein",
+      "description": "Low-Density Lipoprotein, mediates transfection with plasmid DNA."
+    },
+    {
+      "name": "plasmid DNA",
+      "type": "Gene",
+      "description": "A circular DNA molecule used in genetic engineering."
+    },
+    {
+      "name": "apo B100",
+      "type": "Protein",
+      "description": "A protein component of LDL that contributes to its transfection capacity."
+    },
+    {
+      "name": "apo E",
+      "type": "Protein",
+      "description": "A protein that may contribute to the transfection capacity of LDL."
+    },
+    {
+      "name": "Dengue virus capsid proteins",
+      "type": "Protein",
+      "description": "Proteins similar to apo E that can bind DNA."
+    },
+    {
+      "name": "Region 1",
+      "type": "Protein",
+      "description": "Peptides representing apo B100 regions with nucleic acid-binding domains."
+    },
+    {
+      "name": "Region 2",
+      "type": "Protein",
+      "description": "Peptides containing the known B/E receptor ligand."
+    },
+    {
+      "name": "HeLa cells",
+      "type": "Cell",
+      "description": "A type of human cell line used in scientific research."
+    },
+    {
+      "name": "human herpesvirus 5 immediate-early transcriptional regulator (UL122)",
+      "type": "Gene",
+      "description": "A protein involved in the transcriptional regulation of human herpesvirus 5."
+    },
+    {
+      "name": "Flaviviridae NS3 helicases",
+      "type": "Protein",
+      "description": "Proteins involved in the replication of Flavivirus."
+    }
+  ],
+  "relationships": [
+    {
+      "description": "LDL mediates transfection with plasmid DNA in various cells.",
+      "source_name": "LDL",
+      "target_name": "plasmid DNA",
+      "type": "mediates"
+    },
+    {
+      "description": "Apo B100 is responsible for the transfection capacity of LDL.",
+      "source_name": "apo B100",
+      "target_name": "LDL",
+      "type": "contributes to"
+    },
+    {
+      "description": "Apo E may contribute to the transfection capacity due to its similarity to Dengue virus capsid proteins.",
+      "source_name": "apo E",
+      "target_name": "Dengue virus capsid proteins",
+      "type": "similar to"
+    },
+    {
+      "description": "Region 1 peptides mediate transfection of HeLa cells.",
+      "source_name": "Region 1",
+      "target_name": "HeLa cells",
+      "type": "mediates"
+    },
+    {
+      "description": "Region 2 peptides are ineffective in cell transfection.",
+      "source_name": "Region 2",
+      "target_name": "HeLa cells",
+      "type": "ineffective in"
+    },
+    {
+      "description": "Region 1 shares sequence motifs with DNA binding domains of Interferon Regulatory Factors.",
+      "source_name": "Region 1",
+      "target_name": "Interferon Regulatory Factors",
+      "type": "shares motifs with"
+    },
+    {
+      "description": "Region 2 shares analog motifs with the human herpesvirus 5 immediate-early transcriptional regulator.",
+      "source_name": "Region 2",
+      "target_name": "human herpesvirus 5 immediate-early transcriptional regulator (UL122)",
+      "type": "shares motifs with"
+    },
+    {
+      "description": "Region 2 contains the known B/E receptor ligand.",
+      "source_name": "Region 2",
+      "target_name": "B/E receptor ligand",
+      "type": "contains"
+    },
+    {
+      "description": "Region 1 peptides were shown to bind DNA.",
+      "source_name": "Region 1",
+      "target_name": "plasmid DNA",
+      "type": "binds"
+    }
+  ]
+}
+```
