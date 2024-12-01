@@ -1,0 +1,276 @@
+{
+    "nodes": [
+        {
+            "id": "Tumor necrosis factor",
+            "type": "Protein",
+            "entries": [
+                {
+                    "primary_name": "Tumor necrosis factor",
+                    "candidates": [
+                        "Tumor necrosis factor",
+                        "TNF"
+                    ],
+                    "entity_name": "Tumor necrosis factor (TNF)",
+                    "type": "Protein",
+                    "description": "A major mediator of apoptosis, inflammation, and immunity that has various roles in human diseases.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "TNF receptor 1",
+            "type": "Protein",
+            "entries": [
+                {
+                    "primary_name": "TNF receptor 1",
+                    "candidates": [
+                        "TNF receptor 1",
+                        "TNF receptor-1",
+                        "TNF-R1"
+                    ],
+                    "entity_name": "TNF receptor-1 (TNF-R1)",
+                    "type": "Protein",
+                    "description": "A receptor that mediates the signaling of tumor necrosis factor, activating several signal transduction pathways.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Sepsis",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Sepsis",
+                    "candidates": [
+                        "Sepsis"
+                    ],
+                    "entity_name": "sepsis",
+                    "type": "Disease",
+                    "description": "A life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Diabetes mellitus",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Diabetes mellitus",
+                    "candidates": [
+                        "Diabetes mellitus",
+                        "Diabetes"
+                    ],
+                    "entity_name": "diabetes",
+                    "type": "Disease",
+                    "description": "A group of diseases that result in high blood sugar (too much glucose) due to insulin resistance or inadequate insulin production.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Cancer",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Cancer",
+                    "candidates": [
+                        "Cancer"
+                    ],
+                    "entity_name": "cancer",
+                    "type": "Disease",
+                    "description": "A disease in which abnormal cells divide without control and can invade nearby tissues.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Osteoporosis",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Osteoporosis",
+                    "candidates": [
+                        "Osteoporosis"
+                    ],
+                    "entity_name": "osteoporosis",
+                    "type": "Disease",
+                    "description": "A condition characterized by weak and brittle bones, increasing the risk of fractures.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Multiple sclerosis",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Multiple sclerosis",
+                    "candidates": [
+                        "Multiple sclerosis"
+                    ],
+                    "entity_name": "multiple sclerosis",
+                    "type": "Disease",
+                    "description": "An autoimmune disease that affects the central nervous system, leading to a range of symptoms including physical and cognitive impairment.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Rheumatoid arthritis",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Rheumatoid arthritis",
+                    "candidates": [
+                        "Rheumatoid arthritis"
+                    ],
+                    "entity_name": "rheumatoid arthritis",
+                    "type": "Disease",
+                    "description": "An autoimmune disorder that primarily affects joints, leading to inflammation and pain.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "id": "Inflammatory bowel disease",
+            "type": "Disease",
+            "entries": [
+                {
+                    "primary_name": "Inflammatory bowel disease",
+                    "candidates": [
+                        "Inflammatory bowel disease",
+                        "Inflammatory bowel diseases"
+                    ],
+                    "entity_name": "inflammatory bowel diseases",
+                    "type": "Disease",
+                    "description": "Chronic inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+                    "is_ambiguous": false,
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "TNF receptor-1 (TNF-R1)",
+            "relationship": "activates",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "TNF receptor-1 (TNF-R1)",
+                    "relationship": "activates",
+                    "description": "The interaction of TNF with TNF receptor-1 activates several signal transduction pathways.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "sepsis",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "sepsis",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of sepsis.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "diabetes",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "diabetes",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of diabetes.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "cancer",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "cancer",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of cancer.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "osteoporosis",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "osteoporosis",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of osteoporosis.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "multiple sclerosis",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "multiple sclerosis",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of multiple sclerosis.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "rheumatoid arthritis",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "rheumatoid arthritis",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of rheumatoid arthritis.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        },
+        {
+            "source": "Tumor necrosis factor (TNF)",
+            "target": "inflammatory bowel diseases",
+            "relationship": "implicated in",
+            "entries": [
+                {
+                    "source": "Tumor necrosis factor (TNF)",
+                    "target": "inflammatory bowel diseases",
+                    "relationship": "implicated in",
+                    "description": "TNF has been implicated in the pathogenesis of inflammatory bowel diseases.",
+                    "source_pubmed_id": "12040173"
+                }
+            ]
+        }
+    ]
+}

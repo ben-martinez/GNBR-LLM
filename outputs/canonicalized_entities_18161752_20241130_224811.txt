@@ -1,0 +1,60 @@
+```json
+[
+    {
+        "primary_name": "Tumor Necrosis Factor",
+        "candidates": ["Tumor Necrosis Factor", "TNF"],
+        "entity_name": "TNF (Tumor Necrosis Factor)",
+        "type": "Protein",
+        "description": "A key regulator of the inflammatory response, involved in cell signaling and various cellular responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Receptor 1",
+        "candidates": ["Tumor Necrosis Factor Receptor 1", "TNFR1"],
+        "entity_name": "TNFR1",
+        "type": "Protein",
+        "description": "One of the two receptors that TNF interacts with, involved in initiating signal transduction pathways.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Receptor 2",
+        "candidates": ["Tumor Necrosis Factor Receptor 2", "TNFR2"],
+        "entity_name": "TNFR2",
+        "type": "Protein",
+        "description": "The second receptor that TNF interacts with, also involved in signal transduction.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Rheumatoid Arthritis",
+        "candidates": ["Rheumatoid Arthritis", "RA"],
+        "entity_name": "rheumatoid arthritis",
+        "type": "Disease",
+        "description": "A chronic inflammatory disorder affecting joints, leading to pain and disability.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Ankylosing Spondylitis",
+        "candidates": ["Ankylosing Spondylitis", "AS"],
+        "entity_name": "ankylosing spondylitis",
+        "type": "Disease",
+        "description": "A type of arthritis that causes inflammation of the spine and the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": ["Inflammatory Bowel Disease", "IBD", "Crohn's Disease", "Ulcerative Colitis"],
+        "entity_name": "inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Psoriasis",
+        "candidates": ["Psoriasis"],
+        "entity_name": "psoriasis",
+        "type": "Disease",
+        "description": "A chronic autoimmune condition that results in the rapid growth of skin cells, leading to scaling on the skin's surface.",
+        "is_ambiguous": false
+    }
+]
+```

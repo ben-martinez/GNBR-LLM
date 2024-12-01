@@ -1,0 +1,38 @@
+[
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "TNFR1",
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR1, initiating distinct signal transduction pathways."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "TNFR2",
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR2, initiating overlapping signal transduction pathways."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "rheumatoid arthritis",
+        "relationship": "modulates",
+        "description": "TNF modulates the inflammatory response in rheumatoid arthritis."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "ankylosing spondylitis",
+        "relationship": "modulates",
+        "description": "TNF modulates the inflammatory response in ankylosing spondylitis."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "inflammatory bowel disease (IBD)",
+        "relationship": "modulates",
+        "description": "TNF modulates the inflammatory response in inflammatory bowel disease."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "psoriasis",
+        "relationship": "modulates",
+        "description": "TNF modulates the inflammatory response in psoriasis."
+    }
+]

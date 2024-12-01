@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "entity_name": "Tumor necrosis factor (TNF)",
+    "type": "Protein",
+    "description": "A major mediator of apoptosis as well as inflammation and immunity.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "TNF receptor-1 (TNF-R1)",
+    "type": "Protein",
+    "description": "A receptor that mediates the actions of tumor necrosis factor.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "sepsis",
+    "type": "Disease",
+    "description": "A life-threatening condition arising when the body's response to infection injures its own tissues and organs.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "diabetes",
+    "type": "Disease",
+    "description": "A metabolic disease that causes high blood sugar.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "cancer",
+    "type": "Disease",
+    "description": "A disease caused by an uncontrolled division of abnormal cells in a part of the body.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "osteoporosis",
+    "type": "Disease",
+    "description": "A condition in which bones become weak and brittle.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "multiple sclerosis",
+    "type": "Disease",
+    "description": "A potentially disabling disease of the brain and spinal cord.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "rheumatoid arthritis",
+    "type": "Disease",
+    "description": "An autoimmune disorder that primarily affects joints.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "inflammatory bowel diseases",
+    "type": "Disease",
+    "description": "A group of inflammatory conditions of the colon and small intestine.",
+    "is_ambiguous": false
+  }
+]
+```

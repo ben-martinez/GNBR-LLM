@@ -1,0 +1,38 @@
+[
+  {
+    "source": "3-mercaptopyruvate sulfurtransferase (MPST)",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "modulates",
+    "description": "MPST deficiency promotes intestinal epithelial cell apoptosis and aggravates inflammatory bowel disease."
+  },
+  {
+    "source": "3-mercaptopyruvate sulfurtransferase (MPST)",
+    "target": "Ulcerative Colitis (UC)",
+    "relationship": "inhibits",
+    "description": "MPST expression was markedly decreased in colonic samples from patients with ulcerative colitis."
+  },
+  {
+    "source": "3-mercaptopyruvate sulfurtransferase (MPST)",
+    "target": "Crohn's Disease (CD)",
+    "relationship": "inhibits",
+    "description": "MPST expression was markedly decreased in colonic samples from patients with Crohn's disease."
+  },
+  {
+    "source": "3-mercaptopyruvate sulfurtransferase (MPST)",
+    "target": "AKT",
+    "relationship": "interacts with",
+    "description": "Mechanistically, MPST directly interacted with AKT and reduced the phosphorylation of AKT."
+  },
+  {
+    "source": "AKT",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "regulates",
+    "description": "MPST protects the intestines from inflammation most likely by regulating the AKT/apoptosis axis in IECs."
+  },
+  {
+    "source": "TNF-\u03b1",
+    "target": "3-mercaptopyruvate sulfurtransferase (MPST)",
+    "relationship": "inhibits",
+    "description": "Inhibition of MPST significantly increased the expression of proinflammatory cytokines when HT29 cells were treated with TNF-α."
+  }
+]

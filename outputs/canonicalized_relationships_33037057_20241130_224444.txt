@@ -1,0 +1,32 @@
+[
+  {
+    "source": "IL-1α",
+    "target": "IL-23",
+    "relationship": "regulates",
+    "description": "IL-1α is identified as a key cytokine that controls IL-23-producing monocytes."
+  },
+  {
+    "source": "IL-1β",
+    "target": "IL-23",
+    "relationship": "regulates",
+    "description": "IL-1β is identified as a key cytokine that controls IL-23-producing monocytes."
+  },
+  {
+    "source": "IL-10",
+    "target": "IL-23",
+    "relationship": "regulates",
+    "description": "IL-10 is identified as a critical regulator of monocyte IL-23 production."
+  },
+  {
+    "source": "Inflammatory bowel disease (IBD)",
+    "target": "IL-23",
+    "relationship": "associated with",
+    "description": "IL-23 is produced by mononuclear phagocytes in the context of inflammatory bowel disease."
+  },
+  {
+    "source": "Crohn's disease",
+    "target": "anti-tumour necrosis factor (TNF) therapy",
+    "relationship": "resistance to",
+    "description": "Patients with Crohn's disease show resistance to anti-TNF therapy."
+  }
+]

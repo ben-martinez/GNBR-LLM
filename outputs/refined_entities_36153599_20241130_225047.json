@@ -1,0 +1,32 @@
+[
+    {
+        "entity_name": "infliximab",
+        "type": "Drug",
+        "description": "A tumor necrosis factor \u03b1 (TNF\u03b1) antagonist used in the treatment of inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "inflammatory bowel disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "ALOX15",
+        "type": "Gene",
+        "description": "A gene involved in the metabolism of arachidonic acid and associated with inflammatory processes.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "FCER1A",
+        "type": "Gene",
+        "description": "A gene that encodes the alpha subunit of the high-affinity IgE receptor, involved in allergic responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "OLIG2",
+        "type": "Gene",
+        "description": "A gene that plays a critical role in the development of oligodendrocytes and is associated with various neurological processes.",
+        "is_ambiguous": false
+    }
+]

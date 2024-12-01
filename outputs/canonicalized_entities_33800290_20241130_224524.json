@@ -1,0 +1,38 @@
+[
+    {
+        "primary_name": "Tumor Necrosis Factor Alpha",
+        "candidates": [
+            "Tumor Necrosis Factor Alpha",
+            "TNF-\u03b1",
+            "TNF-alpha"
+        ],
+        "entity_name": "Tumor Necrosis Factor Alpha (TNF-\u03b1)",
+        "type": "Protein",
+        "description": "A cytokine involved in systemic inflammation and a key regulator of immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Autoimmune Diseases",
+        "candidates": [
+            "Autoimmune Diseases",
+            "Autoimmune Disorders",
+            "Autoimmunity"
+        ],
+        "entity_name": "Autoimmune diseases",
+        "type": "Disease",
+        "description": "A group of disorders characterized by abnormal immune responses against healthy tissues.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "TNF-\u03b1 Inhibitors",
+        "candidates": [
+            "TNF-\u03b1 Inhibitors",
+            "TNF-alpha Inhibitors",
+            "Tumor Necrosis Factor Inhibitors"
+        ],
+        "entity_name": "TNF-\u03b1 inhibitors",
+        "type": "Drug",
+        "description": "Therapeutic agents designed to inhibit the activity of tumor necrosis factor alpha.",
+        "is_ambiguous": false
+    }
+]

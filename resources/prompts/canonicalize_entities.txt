@@ -1,0 +1,70 @@
+You are an expert in biomedical terminology and information curation. Your task is to canonicalize the names of entities provided in JSON format. Each entity includes a name, type, description, and an is_ambiguous flag. Your goal is to provide canonical names for all entities, regardless of the is_ambiguous flag.
+Instructions:
+
+    Canonicalize All Entities:
+        For each entity, identify the most widely accepted canonical (scientific) name and return it as the primary_name.
+        Include a list of potential aliases under candidates, ensuring the primary_name is included as the first entry.
+
+    Preserve Ambiguity Field:
+        Retain the is_ambiguous field as is, without attempting to resolve ambiguity. This flag simply reflects the entity’s status from previous processing.
+
+    Output Format:
+        Return the updated list of entities in JSON format, with the following fields:
+            primary_name: The canonical name for the entity.
+            candidates: A list of possible aliases, including the primary_name.
+            entity_name: The original name from the input.
+            type: The type of entity (Drug, Disease, Gene, or Protein).
+            description: The original description of the entity.
+            is_ambiguous: Retain this field as is from the input.
+
+Input Example:
+
+[
+  {
+    "entity_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "type": "Protein",
+    "description": "A region identified in Apo B100.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Segment A of BRCA1",
+    "type": "Gene",
+    "description": "Part of the BRCA1 gene sequence.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Region X",
+    "type": "Protein",
+    "description": "No sufficient context provided.",
+    "is_ambiguous": true
+  }
+]
+
+Output Example:
+
+[
+  {
+    "primary_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "candidates": ["Region 1 of Apo B100 (0014Lys-Ser0160)", "Key functional region of Apo B100"],
+    "entity_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "type": "Protein",
+    "description": "A region identified in Apo B100.",
+    "is_ambiguous": false
+  },
+  {
+    "primary_name": "Segment A of BRCA1",
+    "candidates": ["Segment A of BRCA1", "BRCA1 Segment A"],
+    "entity_name": "Segment A of BRCA1",
+    "type": "Gene",
+    "description": "Part of the BRCA1 gene sequence.",
+    "is_ambiguous": false
+  },
+  {
+    "primary_name": "Region X",
+    "candidates": ["Region X"],
+    "entity_name": "Region X",
+    "type": "Protein",
+    "description": "No sufficient context provided.",
+    "is_ambiguous": true
+  }
+]

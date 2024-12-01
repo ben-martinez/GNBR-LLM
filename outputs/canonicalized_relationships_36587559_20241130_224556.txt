@@ -1,0 +1,44 @@
+[
+  {
+    "source": "Dual-targeted therapy (DTT) for Inflammatory Bowel Disease",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "modulates",
+    "description": "DTT is proposed to enhance treatment efficacy for IBD."
+  },
+  {
+    "source": "Dual-targeted therapy (DTT) for Inflammatory Bowel Disease",
+    "target": "Crohn's disease",
+    "relationship": "affects",
+    "description": "The efficacy and safety of DTT on Crohn's disease are explored."
+  },
+  {
+    "source": "Dual-targeted therapy (DTT) for Inflammatory Bowel Disease",
+    "target": "Ulcerative colitis",
+    "relationship": "affects",
+    "description": "The efficacy and safety of DTT on ulcerative colitis are explored."
+  },
+  {
+    "source": "Therapeutic Agents Targeting Cellular Signaling Pathways for IBD",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "targets",
+    "description": "These agents target signaling pathways related to IBD."
+  },
+  {
+    "source": "Therapeutic Agents Targeting Leukocyte Trafficking in IBD",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "targets",
+    "description": "These agents affect leukocyte movement involved in IBD."
+  },
+  {
+    "source": "JAK-dependent therapeutic agents for Inflammatory Bowel Disease",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "targets",
+    "description": "These agents act through the Janus kinase signaling pathway in IBD."
+  },
+  {
+    "source": "JAK-independent therapeutic agents for Inflammatory Bowel Disease",
+    "target": "Inflammatory Bowel Disease (IBD)",
+    "relationship": "targets",
+    "description": "These agents do not rely on the Janus kinase pathway for their action in IBD."
+  }
+]

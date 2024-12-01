@@ -1,0 +1,36 @@
+```json
+[
+    {
+        "primary_name": "Upadacitinib",
+        "candidates": ["Upadacitinib", "ABP 937", "Rinvoq"],
+        "entity_name": "Upadacitinib",
+        "type": "Drug",
+        "description": "A Janus kinase (JAK) 1 inhibitor used for treating inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Risankizumab",
+        "candidates": ["Risankizumab", "ABBV-181", "Skyrizi"],
+        "entity_name": "Risankizumab",
+        "type": "Drug",
+        "description": "An IL-23 inhibitor used for treating inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": ["Inflammatory Bowel Disease (IBD)", "IBD"],
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's Disease",
+        "candidates": ["Crohn's disease", "Crohn disease", "Regional Enteritis"],
+        "entity_name": "Crohn's disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    }
+]
+```

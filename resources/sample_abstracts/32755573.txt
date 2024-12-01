@@ -1,0 +1,55 @@
+1. Cell Rep. 2020 Aug 4;32(5):107979. doi: 10.1016/j.celrep.2020.107979.
+
+Lysophosphatidic Acid-Mediated GPR35 Signaling in CX3CR1(+) Macrophages 
+Regulates Intestinal Homeostasis.
+
+Kaya B(1), Doñas C(2), Wuggenig P(1), Diaz OE(2), Morales RA(2), Melhem H(1); 
+Swiss IBD. Cohort Investigators; Hernández PP(3), Kaymak T(1), Das S(2), Hruz 
+P(4), Franc Y(5), Geier F(6), Ayata CK(1), Villablanca EJ(7), Niess JH(8).
+
+Author information:
+(1)Department of Biomedicine, University of Basel, 4031 Basel, Switzerland.
+(2)Division of Immunology and Allergy, Department of Medicine, Solna, Karolinska 
+Institutet and University Hospital, 17176 Stockholm, Sweden; Center for 
+Molecular Medicine (CMM), 17176 Stockholm, Sweden.
+(3)Institut Curie, PSL Research University, INSERM U934/CNRS UMR3215, 
+Development and Homeostasis of Mucosal Tissues Group, 75005 Paris, France.
+(4)University Center for Gastrointestinal and Liver Diseases, St. Clara Hospital 
+and University Hospital of Basel, 4031 Basel, Switzerland.
+(5)Center for Primary Care and Public Health (Unisanté), University of Lausanne, 
+1011 Lausanne, Switzerland.
+(6)Department of Biomedicine, University of Basel, 4031 Basel, Switzerland; 
+Swiss Institute of Bioinformatics, 4031 Basel, Switzerland.
+(7)Division of Immunology and Allergy, Department of Medicine, Solna, Karolinska 
+Institutet and University Hospital, 17176 Stockholm, Sweden; Center for 
+Molecular Medicine (CMM), 17176 Stockholm, Sweden. Electronic address: 
+eduardo.villablanca@ki.se.
+(8)Department of Biomedicine, University of Basel, 4031 Basel, Switzerland; 
+University Center for Gastrointestinal and Liver Diseases, St. Clara Hospital 
+and University Hospital of Basel, 4031 Basel, Switzerland. Electronic address: 
+janhendrik.niess@unibas.ch.
+
+Single-nucleotide polymorphisms in the gene encoding G protein-coupled receptor 
+35 (GPR35) are associated with increased risk of inflammatory bowel disease. 
+However, the mechanisms by which GPR35 modulates intestinal immune homeostasis 
+remain undefined. Here, integrating zebrafish and mouse experimental models, we 
+demonstrate that intestinal Gpr35 expression is microbiota dependent and 
+enhanced upon inflammation. Moreover, murine GPR35+ colonic macrophages are 
+characterized by enhanced production of pro-inflammatory cytokines. We identify 
+lysophosphatidic acid (LPA) as a potential endogenous ligand produced during 
+intestinal inflammation, acting through GPR35 to induce tumor necrosis factor 
+(Tnf) expression in macrophages. Mice lacking Gpr35 in CX3CR1+ macrophages 
+aggravate colitis when exposed to dextran sodium sulfate, which is associated 
+with decreased transcript levels of the corticosterone-generating gene Cyp11b1 
+and macrophage-derived Tnf. Administration of TNF in these mice restores Cyp11b1 
+expression and intestinal corticosterone production and ameliorates DSS-induced 
+colitis. Our findings indicate that LPA signals through GPR35 in CX3CR1+ 
+macrophages to maintain TNF-mediated intestinal homeostasis.
+
+Copyright © 2020 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.celrep.2020.107979
+PMID: 32755573 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Interests The authors declare no 
+competing interests.

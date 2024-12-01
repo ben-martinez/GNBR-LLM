@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "entity_name": "Inflammatory bowel disease (IBD)",
+    "type": "Disease",
+    "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-23",
+    "type": "Protein",
+    "description": "A cytokine that plays a key role in the immune response and is produced by mononuclear phagocytes.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-10",
+    "type": "Protein",
+    "description": "An anti-inflammatory cytokine that regulates immune responses.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-1α",
+    "type": "Protein",
+    "description": "A pro-inflammatory cytokine that plays a role in the immune response.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-1β",
+    "type": "Protein",
+    "description": "A cytokine involved in the regulation of immune and inflammatory responses.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "anti-tumour necrosis factor (TNF) therapy",
+    "type": "Drug",
+    "description": "A treatment that targets tumor necrosis factor to reduce inflammation in autoimmune diseases.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Crohn's disease",
+    "type": "Disease",
+    "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+    "is_ambiguous": false
+  }
+]
+```

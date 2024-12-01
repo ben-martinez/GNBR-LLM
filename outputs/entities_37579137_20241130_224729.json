@@ -1,0 +1,32 @@
+[
+    {
+        "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "type": "Protein",
+        "description": "A cytokine involved in the regulation of immune responses and inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Death receptor 3 (DR3)",
+        "type": "Protein",
+        "description": "A receptor that mediates apoptosis and plays a role in immune regulation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory bowel disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily affecting the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Helper T (Th) cells",
+        "type": "Gene",
+        "description": "A type of T cell that plays an important role in the immune system, particularly in the activation of B cells and cytotoxic T cells.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "Colonic inflammation",
+        "type": "Disease",
+        "description": "Inflammation of the colon, which can be caused by various conditions including inflammatory bowel disease.",
+        "is_ambiguous": true
+    }
+]

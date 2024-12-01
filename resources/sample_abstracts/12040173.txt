@@ -1,0 +1,24 @@
+1. Science. 2002 May 31;296(5573):1634-5. doi: 10.1126/science.1071924.
+
+TNF-R1 signaling: a beautiful pathway.
+
+Chen G(1), Goeddel DV.
+
+Author information:
+(1)Tularik Inc., Two Corporate Drive, South San Francisco, CA 94080, USA. 
+goeddel@tularik.com
+
+Tumor necrosis factor (TNF) is a major mediator of apoptosis as well as 
+inflammation and immunity, and it has been implicated in the pathogenesis of a 
+wide spectrum of human diseases, including sepsis, diabetes, cancer, 
+osteoporosis, multiple sclerosis, rheumatoid arthritis, and inflammatory bowel 
+diseases. The interaction of TNF with TNF receptor-1 (TNF-R1) activates several 
+signal transduction pathways. A common feature of each pathway is the 
+TNF-induced formation of a multiprotein signaling complex at the cell membrane. 
+Over the past decade, many of the components and mechanisms of these signaling 
+pathways have been elucidated. We provide an overview of current knowledge of 
+TNF signaling and introduce an STKE Connections Map that depicts a canonical 
+view of this process.
+
+DOI: 10.1126/science.1071924
+PMID: 12040173 [Indexed for MEDLINE]

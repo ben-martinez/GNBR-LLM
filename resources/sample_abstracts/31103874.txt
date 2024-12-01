@@ -1,0 +1,39 @@
+1. Int Immunopharmacol. 2019 Aug;73:193-200. doi: 10.1016/j.intimp.2019.04.052. 
+Epub 2019 May 16.
+
+Regulating effect of baicalin on IKK/IKB/NF-kB signaling pathway and 
+apoptosis-related proteins in rats with ulcerative colitis.
+
+Shen J(1), Cheng J(2), Zhu S(2), Zhao J(2), Ye Q(2), Xu Y(2), Dong H(3), Zheng 
+X(2).
+
+Author information:
+(1)Department of Pediatrics, Shuguang Hospital Affiliated to Shanghai 
+Traditional Chinese Medical University, Shanghai 201203, China. Electronic 
+address: shenj_sgh@163.com.
+(2)Department of Pediatrics, Shuguang Hospital Affiliated to Shanghai 
+Traditional Chinese Medical University, Shanghai 201203, China.
+(3)Department of Standardized Resident Training Office, Shuguang Hospital 
+Affiliated to Shanghai Traditional Chinese Medical University, Shanghai 201203, 
+China.
+
+OBJECTIVE: This study was aimed to explore effect of baicalin on IKK/IKB/NF-kB 
+signaling pathway and apoptosis-related proteins in rats with ulcerative colitis 
+(UC).
+METHODS: Histopathological observation and scores of colon tissue were performed 
+in the UC rat model. IKK/IKB/NF-kB signaling pathway and apoptosis-related 
+proteins were measured by Western blotting.
+RESULTS: Baicalin significantly increased the activity of SOD, CAT and GSH-Px in 
+colon tissue of rats with UC, but significantly decreased the content of MDA, 
+IL-1β, MPO, PEG2 and TNF-α in colon tissue of rats with UC. In the molecular 
+mechanism, baicalin significantly decreased the expression of cleaved-caspase3, 
+cleaved-caspase9, Bcl-2/Bax, cyt-c, NF-kB p-65, p-IKKβ/IKKβ and p-IKBα/IKBα. 
+Baicalin could significantly inhibit p-IKBα/IKBα content change, but had no 
+significant effect on p-IKKβ/IKKβ.
+CONCLUSION: Baicalin may have a regulating effect on IKK/IKB/NF-kB signaling 
+pathway and apoptosis-related proteins in UC rats.
+
+Copyright © 2019. Published by Elsevier B.V.
+
+DOI: 10.1016/j.intimp.2019.04.052
+PMID: 31103874 [Indexed for MEDLINE]

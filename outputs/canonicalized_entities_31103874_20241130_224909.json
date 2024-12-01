@@ -1,0 +1,115 @@
+[
+    {
+        "primary_name": "Baicalin",
+        "candidates": [
+            "Baicalin",
+            "5,6-Dihydroxyflavone",
+            "Baicalein 7-O-glucuronide"
+        ],
+        "entity_name": "Baicalin",
+        "type": "Drug",
+        "description": "A natural compound known for its anti-inflammatory effects, investigated for its impact on signaling pathways related to apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Ulcerative Colitis",
+        "candidates": [
+            "Ulcerative Colitis",
+            "UC"
+        ],
+        "entity_name": "Ulcerative Colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease characterized by inflammation of the colon and rectum.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "IKK/IKB/NF-kB Signaling Pathway",
+        "candidates": [
+            "IKK/IKB/NF-kB Signaling Pathway",
+            "NF-kB Pathway"
+        ],
+        "entity_name": "IKK/IKB/NF-kB Signaling Pathway",
+        "type": "Protein",
+        "description": "A signaling pathway involved in the regulation of immune response and cell survival, with components including IKK, IKB, and NF-kB.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Cleaved caspase-3",
+        "candidates": [
+            "Cleaved caspase-3",
+            "Active caspase-3"
+        ],
+        "entity_name": "Cleaved-caspase3",
+        "type": "Protein",
+        "description": "An active form of caspase-3, involved in the execution of apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Cleaved caspase-9",
+        "candidates": [
+            "Cleaved caspase-9",
+            "Active caspase-9"
+        ],
+        "entity_name": "Cleaved-caspase9",
+        "type": "Protein",
+        "description": "An active form of caspase-9, an initiator caspase in the apoptosis pathway.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Bcl-2/Bax Apoptosis Regulators",
+        "candidates": [
+            "Bcl-2/Bax Apoptosis Regulators",
+            "Bcl-2 and Bax"
+        ],
+        "entity_name": "Bcl-2/Bax Apoptosis Regulators",
+        "type": "Protein",
+        "description": "A family of proteins that regulate apoptosis, where Bcl-2 is anti-apoptotic and Bax is pro-apoptotic.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Cytochrome c",
+        "candidates": [
+            "Cytochrome c",
+            "Cyt-c"
+        ],
+        "entity_name": "Cytochrome c (Cyt-c)",
+        "type": "Protein",
+        "description": "Cytochrome c, a protein involved in the electron transport chain and apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "NF-kB p65 Subunit",
+        "candidates": [
+            "NF-kB p65 Subunit",
+            "p65"
+        ],
+        "entity_name": "NF-kB p-65 Subunit",
+        "type": "Protein",
+        "description": "A subunit of the NF-kB transcription factor, involved in the regulation of immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "IKK\u03b2",
+        "candidates": [
+            "IKK\u03b2",
+            "p-IKK\u03b2",
+            "IKK\u03b2 kinase"
+        ],
+        "entity_name": "IKK\u03b2 (p-IKK\u03b2/IKK\u03b2)",
+        "type": "Protein",
+        "description": "Phosphorylated and non-phosphorylated forms of IKK\u03b2, a kinase involved in the NF-kB signaling pathway.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "IKB\u03b1",
+        "candidates": [
+            "IKB\u03b1",
+            "p-IKB\u03b1",
+            "IKB alpha"
+        ],
+        "entity_name": "IKB\u03b1 (p-IKB\u03b1/IKB\u03b1)",
+        "type": "Protein",
+        "description": "Phosphorylated and non-phosphorylated forms of IKB\u03b1, an inhibitor of NF-kB signaling.",
+        "is_ambiguous": false
+    }
+]

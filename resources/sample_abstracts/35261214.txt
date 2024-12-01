@@ -1,0 +1,43 @@
+1. J Zhejiang Univ Sci B. 2022 Mar 15;23(3):173-188. doi: 10.1631/jzus.B2100114.
+
+Emerging role of protein modification in inflammatory bowel disease.
+
+Wang G(1)(2), Yuan J(3), Luo J(1), Ocansey DKW(1)(4), Zhang X(1), Qian H(1), Xu 
+W(1), Mao F(5).
+
+Author information:
+(1)Key Laboratory of Medical Science and Laboratory Medicine of Jiangsu 
+Province, School of Medicine, Jiangsu University, Zhenjiang 212013, China.
+(2)Clinical Laboratory, Wuxi Maternal and Child Health Hospital Affiliated to 
+Nanjing Medical University, Wuxi 214002, China.
+(3)Clinical Laboratory, the People's Hospital of Danyang, Affiliated Danyang 
+Hospital of Nantong University, Zhenjiang 212300, China.
+(4)Directorate of University Health Services, University of Cape Coast, Cape 
+Coast 02630, Ghana.
+(5)Key Laboratory of Medical Science and Laboratory Medicine of Jiangsu 
+Province, School of Medicine, Jiangsu University, Zhenjiang 212013, China. 
+maofei2003@ujs.edu.cn.
+
+The onset of inflammatory bowel disease (IBD) involves many factors, including 
+environmental parameters, microorganisms, and the immune system. Although 
+research on IBD continues to expand, the specific pathogenesis mechanism is 
+still unclear. Protein modification refers to chemical modification after 
+protein biosynthesis, also known as post-translational modification (PTM), which 
+causes changes in the properties and functions of proteins. Since proteins can 
+be modified in different ways, such as acetylation, methylation, and 
+phosphorylation, the functions of proteins in different modified states will 
+also be different. Transitions between different states of protein or changes in 
+modification sites can regulate protein properties and functions. Such 
+modifications like neddylation, sumoylation, glycosylation, and acetylation can 
+activate or inhibit various signaling pathways (e.g., nuclear factor-‍κB 
+(NF-‍κB), extracellular signal-regulated kinase (ERK), and protein kinase B 
+(AKT)) by changing the intestinal flora, regulating immune cells, modulating the 
+release of cytokines such as interleukin-1β (IL-‍‍1β), tumor necrosis factor-α 
+(TNF‍-‍α), and interferon-‍γ (IFN-‍γ), and ultimately leading to the maintenance 
+of the stability of the intestinal epithelial barrier. In this review, we focus 
+on the current understanding of PTM and describe its regulatory role in the 
+pathogenesis of IBD.
+
+DOI: 10.1631/jzus.B2100114
+PMCID: PMC8913920
+PMID: 35261214 [Indexed for MEDLINE]

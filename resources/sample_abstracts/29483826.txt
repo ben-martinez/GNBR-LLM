@@ -1,0 +1,40 @@
+1. Int J Biol Sci. 2018 Jan 11;14(1):69-77. doi: 10.7150/ijbs.22259. eCollection 
+2018.
+
+Aryl Hydrocarbon Receptor Activation Modulates Intestinal Epithelial Barrier 
+Function by Maintaining Tight Junction Integrity.
+
+Yu M(1), Wang Q(1), Ma Y(1), Li L(1), Yu K(1), Zhang Z(1), Chen G(1), Li X(1), 
+Xiao W(1), Xu P(2), Yang H(1).
+
+Author information:
+(1)Department of General Surgery, Xinqiao Hospital, Third Military Medical 
+University, Chongqing, China.
+(2)Department of Gastrointestinal Surgery, the Second Affiliated Hospital of 
+Kunming Medical University, Kunming, China.
+
+Activation of Aryl hydrocarbon receptor (AhR) is involved in the control of 
+intestinal mucosal homeostasis. Intestinal barrier dysfunction contributes to 
+the development of many intestinal diseases, such as inflammatory bowel disease 
+(IBD). In this study, we investigated the mechanisms of AhR activation in the 
+maintenance of intestinal barrier function. Adult C57BL/6 mice were treated with 
+dextran sulphate sodium (DSS) for 7 days, with or without 
+6-Formylindolo(3,2-b)carbazole (FICZ), a ligand of AhR. We found that AhR 
+activation by FICZ attenuated the decreased TJ protein expression in the colonic 
+mucosa of the DSS-induced mice. Further, the increase of both MLC 
+phosphorylation and MLCK expression in the mice with DSS-induced colitis was 
+also significantly inhibited by FICZ induced AhR activation. For in vitro 
+experiments, Caco-2 cells were treated with tumour necrosis factor alpha 
+(TNF-α)/interferon gamma (IFN-γ) for 48 h, with or without FICZ. AhR activation 
+prevented TNF-α/IFN-γ-induced decrease in TER and morphological disruption of 
+the TJs in Caco-2 monolayers. It also inhibited TNF-α/IFN-γ-induced increase in 
+MLCK expression and MLC phosphorylation by suppression of NF-κB p65 signaling 
+pathway. Thus, AhR-activating factors might have potential as therapeutic agents 
+for the treatment of patients with IBD.
+
+DOI: 10.7150/ijbs.22259
+PMCID: PMC5821050
+PMID: 29483826 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing Interests: The authors have declared 
+that no competing interest exists.

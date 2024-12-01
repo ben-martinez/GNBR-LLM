@@ -1,0 +1,58 @@
+1. Redox Biol. 2022 Oct;56:102469. doi: 10.1016/j.redox.2022.102469. Epub 2022
+Sep  11.
+
+MPST deficiency promotes intestinal epithelial cell apoptosis and aggravates 
+inflammatory bowel disease via AKT.
+
+Zhang J(1), Cen L(1), Zhang X(1), Tang C(1), Chen Y(1), Zhang Y(1), Yu M(1), Lu 
+C(1), Li M(1), Li S(1), Lin B(1), Zhang T(1), Song X(1), Yu C(2), Wu H(3), Shen 
+Z(4).
+
+Author information:
+(1)The Department of Gastroenterology, The First Affiliated Hospital, School of 
+Medicine, Zhejiang University, Hangzhou, 310003, China.
+(2)The Department of Gastroenterology, The First Affiliated Hospital, School of 
+Medicine, Zhejiang University, Hangzhou, 310003, China. Electronic address: 
+zyyyych@zju.edu.cn.
+(3)Department of Gastroenterology and Hepatology, Zhongshan Hospital, Fudan 
+University, Shanghai, China. Electronic address: wu.hao@zs-hospital.sh.cn.
+(4)The Department of Gastroenterology, The First Affiliated Hospital, School of 
+Medicine, Zhejiang University, Hangzhou, 310003, China. Electronic address: 
+sz8239@zju.edu.cn.
+
+BACKGROUND & AIMS: Excessive inflammatory responses and oxidative stress are 
+considered the main characteristics of inflammatory bowel disease (IBD). 
+Endogenous hydrogen sulfide (H2S) has been reported to show anti-inflammatory 
+activity in IBD. The main aim of this study was to explore the role of 
+3-mercaptopyruvate sulfurtransferase (MPST), a key enzyme that regulates 
+endogenous H2S biosynthesis, in IBD.
+METHODS: Colonic MPST expression was evaluated in mice and patients with IBD. 
+Various approaches were used to explore the concrete mechanism underlying MPST 
+regulation of the progression of colitis through in vivo and in vitro models.
+RESULTS: MPST expression was markedly decreased in colonic samples from patients 
+with ulcerative colitis (UC) or Crohn's disease (CD) and from mice treated with 
+DSS. MPST deficiency significantly aggravated the symptoms of murine colitis, 
+exacerbated inflammatory responses and apoptosis, and inhibited epithelium stem 
+cell-derived organoid formation in an H2S-independent manner. Consistently, when 
+HT29 cells were treated with TNF-α, inhibition of MPST significantly increased 
+the expression of proinflammatory cytokines, the amount of ROS and the 
+prevalence of apoptosis, whereas overexpression of MPST markedly improved these 
+effects. RNA-seq analysis showed that MPST might play a role in regulating 
+apoptosis through AKT signaling. Mechanistically, MPST directly interacted with 
+AKT and reduced the phosphorylation of AKT. Additionally, MPST expression was 
+positively correlated with AKT expression in human IBD samples. In addition, 
+overexpression of AKT rescued IEC apoptosis caused by MPST deficiency, while 
+inhibition of AKT significantly aggravated it.
+CONCLUSIONS: MPST protects the intestines from inflammation most likely by 
+regulating the AKT/apoptosis axis in IECs. Our results may provide a novel 
+therapeutic strategy for the treatment of colitis.
+
+Copyright © 2022 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.redox.2022.102469
+PMCID: PMC9486620
+PMID: 36126419 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare that they have no conflicts of interest with the contents of this 
+article.

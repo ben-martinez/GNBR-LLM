@@ -1,0 +1,42 @@
+1. Int J Mol Sci. 2021 Mar 8;22(5):2719. doi: 10.3390/ijms22052719.
+
+The Role of Tumor Necrosis Factor Alpha (TNF-α) in Autoimmune Disease and 
+Current TNF-α Inhibitors in Therapeutics.
+
+Jang DI(1), Lee AH(1), Shin HY(2), Song HR(1)(3), Park JH(1), Kang TB(4), Lee 
+SR(5), Yang SH(1).
+
+Author information:
+(1)Department of Medical Biotechnology, Collage of Life Science and 
+Biotechnology, Dongguk University, Seoul 04620, Korea.
+(2)School of Life Science, Handong Global University, Pohang, Gyeongbuk 37554, 
+Korea.
+(3)Department of Pharmacy, College of Pharmacy, Yonsei University, Seoul 03722, 
+Korea.
+(4)Department of Biotechnology, College of Biomedical and Health Science, Konkuk 
+University, Chungju 27478, Korea.
+(5)Department of Biological Environmental Science, Collage of Life Science and 
+Biotechnology, Dongguk University, Seoul 04620, Korea.
+
+Tumor necrosis factor alpha (TNF-α) was initially recognized as a factor that 
+causes the necrosis of tumors, but it has been recently identified to have 
+additional important functions as a pathological component of autoimmune 
+diseases. TNF-α binds to two different receptors, which initiate signal 
+transduction pathways. These pathways lead to various cellular responses, 
+including cell survival, differentiation, and proliferation. However, the 
+inappropriate or excessive activation of TNF-α signaling is associated with 
+chronic inflammation and can eventually lead to the development of pathological 
+complications such as autoimmune diseases. Understanding of the TNF-α signaling 
+mechanism has been expanded and applied for the treatment of immune diseases, 
+which has resulted in the development of effective therapeutic tools, including 
+TNF-α inhibitors. Currently, clinically approved TNF-α inhibitors have shown 
+noticeable potency in a variety of autoimmune diseases, and novel TNF-α 
+signaling inhibitors are being clinically evaluated. In this review, we briefly 
+introduce the impact of TNF-α signaling on autoimmune diseases and its 
+inhibitors, which are used as therapeutic agents against autoimmune diseases.
+
+DOI: 10.3390/ijms22052719
+PMCID: PMC7962638
+PMID: 33800290 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

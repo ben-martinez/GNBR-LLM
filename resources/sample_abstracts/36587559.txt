@@ -1,0 +1,62 @@
+1. Biomed Pharmacother. 2023 Feb;158:114174. doi: 10.1016/j.biopha.2022.114174. 
+Epub 2022 Dec 31.
+
+Breaking through the therapeutic ceiling of inflammatory bowel disease: 
+Dual-targeted therapies.
+
+Feng Z(1), Kang G(2), Wang J(2), Gao X(3), Wang X(1), Ye Y(1), Liu L(1), Zhao 
+J(1), Liu X(4), Huang H(5), Cao X(6).
+
+Author information:
+(1)Department of Gastroenterology and Hepatology, Tianjin Medical University 
+General Hospital, Tianjin Institute of Digestive Disease, Tianjin Key Laboratory 
+of Digestive Diseases, Tianjin 300052, China.
+(2)Department of Biochemical Engineering, School of Chemical Engineering and 
+Technology, Tianjin University, Tianjin 300350, China; Frontiers Science Center 
+for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of 
+Education), Tianjin University, Tianjin 300072, China; Institute of Shaoxing, 
+Tianjin University, Zhejiang 312300, China.
+(3)Department of Biochemistry and Molecular Biology, School of Basic Medical 
+Science, Tianjin Medical University, Tianjin 300070, China.
+(4)Department of Gastroenterology, Beijing Chaoyang Hospital, Capital Medical 
+University, Beijing 100016, China.
+(5)Department of Biochemical Engineering, School of Chemical Engineering and 
+Technology, Tianjin University, Tianjin 300350, China; Frontiers Science Center 
+for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of 
+Education), Tianjin University, Tianjin 300072, China. Electronic address: 
+huang@tju.edu.cn.
+(6)Department of Gastroenterology and Hepatology, Tianjin Medical University 
+General Hospital, Tianjin Institute of Digestive Disease, Tianjin Key Laboratory 
+of Digestive Diseases, Tianjin 300052, China. Electronic address: 
+caoxc@tmu.edu.cn.
+
+Emerging biologics and small-molecule drugs have changed the clinical status quo 
+of inflammatory bowel disease (IBD). However, current treatments remain at a 
+standstill in terms of response and remission in many cases. Accumulating 
+evidence indicates that dual-targeted therapy (DTT) could be promising in 
+overcoming the existing ceiling of IBD treatment. However, data on the efficacy 
+and safety of DTT on Crohn's disease and ulcerative colitis are still limited or 
+insufficient. Moreover, there is a lack of studies delineating the mechanisms of 
+DTT. Given that various targeted drugs have different targets among the 
+extensive redundant inflammatory networks, DTT could result in various outcomes. 
+In this review, we have summarized the current data on the safety, 
+effectiveness, and clinical development status of novel targeted drugs related 
+to refractory IBD, and have explored the mechanism of action of therapy. We have 
+categorized therapeutic agents into "Therapeutic Agents Targeting Cellular 
+Signaling Pathways" and "Therapeutic Agents Targeting Leukocyte Trafficking" 
+based on the different therapeutic targets, and also by classifying therapeutic 
+agents targeting the cellular signaling pathways into "JAK-dependent" and 
+"JAK-independent," and placed the existing drug combinations into 3 categories 
+based on their mechanisms, namely, overlapping, synergistic, and complementary 
+effects. Lastly, we have proposed the possible mechanisms of DTT to conceive a 
+theoretical framework for clinical decision-making and further drug development 
+and research from an IBD standpoint.
+
+Copyright © 2022 The Authors. Published by Elsevier Masson SAS.. All rights 
+reserved.
+
+DOI: 10.1016/j.biopha.2022.114174
+PMID: 36587559 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest statement The authors 
+report no declarations of interest.

@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "entity_name": "Inflammatory bowel disease (IBD)",
+    "type": "Disease",
+    "description": "A chronic inflammatory condition of the gastrointestinal tract.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "nuclear factor-κB (NF-κB)",
+    "type": "Protein",
+    "description": "A protein complex that plays a key role in regulating immune response and inflammation.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "extracellular signal-regulated kinase (ERK)",
+    "type": "Protein",
+    "description": "A protein kinase involved in cell signaling pathways that regulate various cellular processes.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "protein kinase B (AKT)",
+    "type": "Protein",
+    "description": "A kinase involved in signaling pathways that control cell growth and survival.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "interleukin-1β (IL-1β)",
+    "type": "Protein",
+    "description": "A pro-inflammatory cytokine that plays a crucial role in the immune response.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "tumor necrosis factor-α (TNF-α)",
+    "type": "Protein",
+    "description": "A cytokine involved in systemic inflammation and a component of the acute phase reaction.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "interferon-γ (IFN-γ)",
+    "type": "Protein",
+    "description": "A cytokine critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+    "is_ambiguous": false
+  }
+]
+```

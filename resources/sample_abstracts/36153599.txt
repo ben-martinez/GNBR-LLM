@@ -1,0 +1,100 @@
+1. Genome Med. 2022 Sep 24;14(1):110. doi: 10.1186/s13073-022-01112-z.
+
+Longitudinal multi-omics analysis identifies early blood-based predictors of 
+anti-TNF therapy response in inflammatory bowel disease.
+
+Mishra N(1), Aden K(1)(2), Blase JI(1), Baran N(1), Bordoni D(1), Tran F(1)(2), 
+Conrad C(2), Avalos D(3), Jaeckel C(2), Scherer M(4)(5), Sørensen SB(6)(7), 
+Overgaard SH(6)(8)(9), Schulte B(2), Nikolaus S(2), Rey G(3), Gasparoni G(4), 
+Lyons PA(10)(11), Schultze JL(12)(13), Walter J(4), Andersen V(6)(7)(9); SYSCID 
+Consortium; Dermitzakis ET(3), Schreiber S(#)(14)(15), Rosenstiel P(#)(16)(17).
+
+Collaborators: Banos A, Bertsias G, Beyer M, Boumpas D, Finckh A, Franke A, 
+Georges M, Gu W, Häsler R, Jawhara M, Kenyon A, Kratsch C, Krause R, Lauc G, 
+Mangino M, Natoli G, Ostaszewski M, Pezer M, Raes J, Rahmouni S, Ramos-Pamplona 
+M, Reiz B, Rosati E, Sanoudou D, Satagopam V, Schneider R, Schulte-Schrepping J, 
+Sidiropoulos P, Smith KGC, Spector T, Vandeputte D, Vieira-Silva S, Vojta A, 
+Warnat-Herresthal S, Zoldoš V.
+
+Author information:
+(1)Institute of Clinical Molecular Biology, Christian-Albrechts-University Kiel 
+and University Medical Center Schleswig-Holstein, Kiel, Germany.
+(2)Department of Internal Medicine I, University Medical Center 
+Schleswig-Holstein, Kiel, Germany.
+(3)Institute of Genetics and Genomics of Geneva (iGE3), University of Geneva, 
+Geneva, Switzerland.
+(4)Department of Genetics, University of Saarland, Saarbrücken, Germany.
+(5)Present address: Department of Bioinformatics and Genomics, Centre for 
+Genomic Regulation, The Barcelona Institute of Science and Technology, 08003, 
+Barcelona, Spain.
+(6)The Molecular Diagnostics and Clinical Research Unit, University Hospital of 
+Southern Denmark, Aabenraa, Denmark.
+(7)Institute of Molecular Medicine, University of Southern Denmark, Odense, 
+Denmark.
+(8)Section for Biostatistics and Evidence-Based Research, the Parker Institute, 
+Bispebjerg and Frederiksberg Hospital, Copenhagen, Denmark.
+(9)Institute of Regional Health Research, University of Southern Denmark, 
+Odense, Denmark.
+(10)Cambridge Institute of Therapeutic Immunology and Infectious Disease, 
+Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus, Cambridge, CB 0AW, 
+UK.
+(11)Department of Medicine, University of Cambridge School of Clinical Medicine, 
+Cambridge, CB2 0QQ, UK.
+(12)Life &amp; Medical Sciences (LIMES) Institute, University of Bonn, Bonn, 
+Germany.
+(13)PRECISE Platform for Single Cell Genomics and Epigenomics, German Center for 
+Neurodegenerative Diseases (DZNE), and University of Bonn, Bonn, Germany.
+(14)Institute of Clinical Molecular Biology, Christian-Albrechts-University Kiel 
+and University Medical Center Schleswig-Holstein, Kiel, Germany. 
+s.schreiber@mucosa.de.
+(15)Department of Internal Medicine I, University Medical Center 
+Schleswig-Holstein, Kiel, Germany. s.schreiber@mucosa.de.
+(16)Institute of Clinical Molecular Biology, Christian-Albrechts-University Kiel 
+and University Medical Center Schleswig-Holstein, Kiel, Germany. 
+p.rosenstiel@mucosa.de.
+(17)Department of Internal Medicine I, University Medical Center 
+Schleswig-Holstein, Kiel, Germany. p.rosenstiel@mucosa.de.
+(#)Contributed equally
+
+BACKGROUND AND AIMS: Treatment with tumor necrosis factor α (TNFα) antagonists 
+in IBD patients suffers from primary non-response rates of up to 40%. Biomarkers 
+for early prediction of therapy success are missing. We investigated the 
+dynamics of gene expression and DNA methylation in blood samples of IBD patients 
+treated with the TNF antagonist infliximab and analyzed the predictive potential 
+regarding therapy outcome.
+METHODS: We performed a longitudinal, blood-based multi-omics study in two 
+prospective IBD patient cohorts receiving first-time infliximab therapy 
+(discovery: 14 patients, replication: 23 patients). Samples were collected at up 
+to 7 time points (from baseline to 14 weeks after therapy induction). 
+RNA-sequencing and genome-wide DNA methylation data were analyzed and correlated 
+with clinical remission at week 14 as a primary endpoint.
+RESULTS: We found no consistent ex ante predictive signature across the two 
+cohorts. Longitudinally upregulated transcripts in the non-remitter group 
+comprised TH2- and eosinophil-related genes including ALOX15, FCER1A, and OLIG2. 
+Network construction identified transcript modules that were coherently 
+expressed at baseline and in non-remitting patients but were disrupted at early 
+time points in remitting patients. These modules reflected processes such as 
+interferon signaling, erythropoiesis, and platelet aggregation. DNA methylation 
+analysis identified remission-specific temporal changes, which partially 
+overlapped with transcriptomic signals. Machine learning approaches identified 
+features from differentially expressed genes cis-linked to DNA methylation 
+changes at week 2 as a robust predictor of therapy outcome at week 14, which was 
+validated in a publicly available dataset of 20 infliximab-treated CD patients.
+CONCLUSIONS: Integrative multi-omics analysis reveals early shifts of gene 
+expression and DNA methylation as predictors for efficient response to anti-TNF 
+treatment. Lack of such signatures might be used to identify patients with IBD 
+unlikely to benefit from TNF antagonists at an early time point.
+
+© 2022. The Author(s).
+
+DOI: 10.1186/s13073-022-01112-z
+PMCID: PMC9509553
+PMID: 36153599 [Indexed for MEDLINE]
+
+Conflict of interest statement: Stefan Schreiber has been a consultant for 
+AbbVie, Bristol Myers Squibb, Boehringer Ingelheim, Ferring, Genentech/Roche, 
+Janssen, Lilly, Medimmune/AstraZeneca, Novartis, Merck Sharp Dohme, Pfizer, 
+Protagonist, Sanofi, Takeda, Theravance, and UCB and is a paid speaker for 
+AbbVie, Ferring, Janssen, Merck Sharp Dohme, Novartis, Takeda, and UCB. Philip 
+Rosenstiel has been a consultant for Takeda and Omass. All other authors declare 
+no competing interests.

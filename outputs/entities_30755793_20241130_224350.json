@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "Tumour necrosis factor (TNF)",
+        "type": "Protein",
+        "description": "A master pro-inflammatory cytokine that modulates multiple signalling pathways and plays a vital role in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF receptor 1 (TNFR1)",
+        "type": "Protein",
+        "description": "One of the two receptors for tumour necrosis factor, categorised into the TNFR superfamily.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF receptor 2 (TNFR2)",
+        "type": "Protein",
+        "description": "The second receptor for tumour necrosis factor, also part of the TNFR superfamily.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "rheumatoid arthritis",
+        "type": "Disease",
+        "description": "An autoimmune disease that causes chronic inflammation of the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "ankylosing spondylitis",
+        "type": "Disease",
+        "description": "A type of arthritis that causes inflammation of the spine and the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+        "is_ambiguous": false
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "primary_name": "Palmitoleic acid",
+        "candidates": [
+            "Palmitoleic acid",
+            "POA",
+            "Hexadecenoic acid"
+        ],
+        "entity_name": "Palmitoleic acid (POA)",
+        "type": "Drug",
+        "description": "A fatty acid that was shown to repair gut mucosal barriers and improve efficacy of anti-TNF-\u03b1 therapy.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory bowel disease",
+        "candidates": [
+            "Inflammatory bowel disease",
+            "IBD"
+        ],
+        "entity_name": "Inflammatory bowel diseases (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Akkermansia muciniphila",
+        "candidates": [
+            "Akkermansia muciniphila",
+            "Akkermansia",
+            "Akkermansia sp."
+        ],
+        "entity_name": "Akkermansia muciniphila",
+        "type": "Gene",
+        "description": "A type of bacteria that was selectively increased in gut microbiota by palmitoleic acid and is implicated in gut health.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor necrosis factor-alpha",
+        "candidates": [
+            "Tumor necrosis factor-alpha",
+            "TNF-\u03b1",
+            "Cachectin"
+        ],
+        "entity_name": "Tumor necrosis factor-alpha (TNF-\u03b1)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in systemic inflammation and targeted in biological therapies for inflammatory diseases.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin-6",
+        "candidates": [
+            "Interleukin-6",
+            "IL-6",
+            "B-cell stimulatory factor 2"
+        ],
+        "entity_name": "Interleukin-6 (IL-6)",
+        "type": "Protein",
+        "description": "A cytokine that plays a role in inflammation and the immune response, often elevated in inflammatory conditions.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's disease",
+        "candidates": [
+            "Crohn's disease",
+            "CD",
+            "Regional enteritis"
+        ],
+        "entity_name": "Crohn's disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+        "is_ambiguous": false
+    }
+]

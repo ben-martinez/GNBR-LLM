@@ -1,0 +1,32 @@
+[
+  {
+    "source": "Tumour necrosis factor (TNF)",
+    "target": "TNF receptor 1 (TNFR1)",
+    "relationship": "interacts with",
+    "description": "TNF interacts with TNF receptor 1 as part of its signalling pathway."
+  },
+  {
+    "source": "Tumour necrosis factor (TNF)",
+    "target": "TNF receptor 2 (TNFR2)",
+    "relationship": "interacts with",
+    "description": "TNF interacts with TNF receptor 2, contributing to its pro-inflammatory effects."
+  },
+  {
+    "source": "Tumour necrosis factor (TNF)",
+    "target": "rheumatoid arthritis",
+    "relationship": "implicated in",
+    "description": "TNF is implicated in the pathogenesis of rheumatoid arthritis."
+  },
+  {
+    "source": "Tumour necrosis factor (TNF)",
+    "target": "ankylosing spondylitis",
+    "relationship": "implicated in",
+    "description": "TNF is implicated in the development of ankylosing spondylitis."
+  },
+  {
+    "source": "Tumour necrosis factor (TNF)",
+    "target": "Crohn's disease",
+    "relationship": "implicated in",
+    "description": "TNF is implicated in Crohn's disease due to its role in inflammation."
+  }
+]

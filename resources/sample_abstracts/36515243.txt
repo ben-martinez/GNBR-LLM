@@ -1,0 +1,51 @@
+1. Inflamm Bowel Dis. 2023 May 2;29(5):771-782. doi: 10.1093/ibd/izac246.
+
+The Clinical Response of Upadacitinib and Risankizumab Is Associated With 
+Reduced Inflammatory Bowel Disease Anti-TNF-α Inadequate Response Mechanisms.
+
+Wang J(1), Macoritto M(1), Guay H(2), Davis JW(3), Levesque MC(4), Cao X(1).
+
+Author information:
+(1)Genomic Research Center, AbbVie Inc, Cambridge, MA, 02139, USA.
+(2)AbbVie Bioresearch Center, Worcester, MA, 01605, USA.
+(3)Genomic Research Center, AbbVie Inc, North Chicago, IL, 60064, USA.
+(4)AbbVie Cambridge Research Center, Cambridge, MA, 02139, USA.
+
+BACKGROUND: Janus kinase (JAK) 1 inhibitor upadacitinib and IL-23 inhibitor 
+risankizumab are efficacious in inflammatory bowel disease (IBD) patients who 
+are antitumor necrosis factor (anti-TNF)-α inadequate responders (TNF-IRs). We 
+aimed to understand the mechanisms mediating the response of upadacitinib and 
+risankizumab.
+METHODS: Eight tissue transcriptomic data sets from IBD patients treated with 
+anti-TNF-α therapies along with single-cell RNAseq data from ulcerative colitis 
+were integrated to identify TNF-IR mechanisms. The RNAseq colon tissue data from 
+clinical studies of TNF-IR Crohn's disease patients treated with upadacitinib or 
+risankizumab were used to identify TNF-IR mechanisms that were favorably 
+modified by upadacitinib and risankizumab.
+RESULTS: We found 7 TNF-IR upregulated modules related to innate/adaptive immune 
+responses, interferon signaling, and tissue remodeling and 6 TNF-IR upregulated 
+cell types related to inflammatory fibroblasts, postcapillary venules, 
+inflammatory monocytes, macrophages, dendritic cells, and cycling B cells. 
+Upadacitinib was associated with a significant decrease in the expression of 
+most TNF-IR upregulated modules in JAK1 responders (JAK1-R); in contrast, there 
+was no change in these modules among TNF-IR patients treated with a placebo or 
+among JAK1 inadequate responders (JAK1-IR). In addition, 4 of the 6 TNF-IR 
+upregulated cell types were significantly decreased after upadacitinib treatment 
+in JAK1-R but not among subjects treated with a placebo or among JAK1-IR 
+patients. We observed similar findings from colon biopsy samples from TNF-IR 
+patients treated with risankizumab.
+CONCLUSIONS: Collectively, these data suggest that upadacitinib and risankizumab 
+affect TNF-IR upregulated mechanisms, which may account for their clinical 
+response among TNF-IR IBD patients.
+
+Plain Language Summary: We identified molecular and cellular mechanisms 
+associated with and potentially mediating the response of upadacitinib and 
+risankizumab for IBD patients that inadequately responded to anti-TNF-α 
+treatment.
+
+© The Author(s) 2022. Published by Oxford University Press on behalf of Crohn’s 
+& Colitis Foundation. All rights reserved. For permissions, please e-mail: 
+journals.permissions@oup.com.
+
+DOI: 10.1093/ibd/izac246
+PMID: 36515243 [Indexed for MEDLINE]

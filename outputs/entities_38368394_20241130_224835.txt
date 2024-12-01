@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "entity_name": "Inflammatory bowel disease (IBD)",
+    "type": "Disease",
+    "description": "A group of inflammatory conditions of the colon and small intestine.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "TNF-α-antagonists",
+    "type": "Drug",
+    "description": "A class of medications used to reduce inflammation by inhibiting tumor necrosis factor alpha.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Bifidobacterium",
+    "type": "Gene",
+    "description": "A genus of bacteria that is part of the gut microbiota, associated with health benefits.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Bacteroides",
+    "type": "Gene",
+    "description": "A genus of bacteria that plays a significant role in the gut microbiome and is involved in various metabolic processes.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Lachnoclostridium",
+    "type": "Gene",
+    "description": "A genus of bacteria found in the gut, associated with fiber degradation and immune system regulation.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Ruminococcaceae",
+    "type": "Gene",
+    "description": "A family of bacteria that are important in the fermentation of dietary fibers in the gut.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Metallothionein signaling",
+    "type": "Protein",
+    "description": "Signaling pathway linked with the metal-binding proteins that play a role in metal homeostasis and detoxification.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "Immunoregulatory genes",
+    "type": "Gene",
+    "description": "Genes that are involved in the regulation of immune responses.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "Fatty acid metabolism genes",
+    "type": "Gene",
+    "description": "Genes involved in the biochemical processes of fatty acid synthesis and degradation.",
+    "is_ambiguous": true
+  }
+]
+```

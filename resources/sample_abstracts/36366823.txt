@@ -1,0 +1,43 @@
+1. Digestion. 2023;104(1):74-81. doi: 10.1159/000527422. Epub 2022 Nov 10.
+
+New and Emerging Treatments for Inflammatory Bowel Disease.
+
+Higashiyama M(1), Hokari R(1).
+
+Author information:
+(1)Department of Internal Medicine, National Defense Medical College, Saitama, 
+Japan.
+
+Erratum in
+    Digestion. 2023;104(2):164. doi: 10.1159/000529206.
+
+BACKGROUND: The specific etiopathogenesis of inflammatory bowel disease (IBD) is 
+still unknown. Although the conventional anti-inflammatory or immunomodulatory 
+drugs relatively nonspecific to pathogenesis have been quite useful in many 
+cases, elucidating the pathogenesis has gradually facilitated developments of 
+disease-specific therapies for refractory cases in the last 2 decades.
+SUMMARY: With a greater understanding of the multiple overactive signaling 
+pathways of the gut mucosal immune response and enhanced leukocyte trafficking, 
+several biological agents or small molecule drugs following the first novel 
+biologic, anti-tumor necrosis factor α (anti-TNFα), have been developed against 
+several modes of action including adhesion molecules, sphingosine-1-phospate 
+receptors, cytokines (IL-12/23, TL1A, and IL-36), Janus kinase (JAK), and 
+phosphodiesterase. Although preceding biological agents have dramatically 
+changed the IBD treatment strategy, many patients still require alternative 
+therapies due to failure or side effects. Newer treatments are now expected to 
+be provided for better efficacy with an improved adverse event profile. In 
+addition, translational studies have highlighted the new therapeutic concepts' 
+potential, including modulation of host-microbiome interactions, stem therapy 
+for perianal fistula, regulation of fibrosis, regulation of the gut-brain axis, 
+and control of previously less targeted immune cells (B cells and innate 
+lymphoid cells). This paper comprehensively reviewed not only the latest already 
+or shortly available therapies but also emerging promising treatments that will 
+be hopefully established in the future for IBD.
+KEY MESSAGES: Many kinds of new treatments are available, and promising 
+treatments with new perspectives are expected to emerge for refractory IBD in 
+the future.
+
+© 2022 S. Karger AG, Basel.
+
+DOI: 10.1159/000527422
+PMID: 36366823 [Indexed for MEDLINE]

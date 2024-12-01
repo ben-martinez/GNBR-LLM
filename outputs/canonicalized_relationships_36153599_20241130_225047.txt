@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Infliximab",
+    "target": "Inflammatory Bowel Disease",
+    "relationship": "treats",
+    "description": "Infliximab is used to treat inflammatory bowel disease (IBD) patients."
+  },
+  {
+    "source": "ALOX15",
+    "target": "Inflammatory Bowel Disease",
+    "relationship": "involved in",
+    "description": "ALOX15 is associated with inflammatory processes relevant to inflammatory bowel disease."
+  },
+  {
+    "source": "FCER1A",
+    "target": "Inflammatory Bowel Disease",
+    "relationship": "involved in",
+    "description": "FCER1A is associated with allergic responses that may be relevant in the context of inflammatory bowel disease."
+  },
+  {
+    "source": "OLIG2",
+    "target": "Inflammatory Bowel Disease",
+    "relationship": "involved in",
+    "description": "OLIG2 is implicated in various neurological processes that may intersect with inflammatory bowel disease."
+  }
+]

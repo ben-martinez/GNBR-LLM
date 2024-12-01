@@ -1,0 +1,65 @@
+1. Gut. 2020 Jun;69(6):1053-1063. doi: 10.1136/gutjnl-2019-318264. Epub 2019 Sep 
+10.
+
+Anti-TNF therapy in IBD exerts its therapeutic effect through macrophage IL-10 
+signalling.
+
+Koelink PJ(#)(1), Bloemendaal FM(#)(2)(3), Li B(4), Westera L(2), Vogels EWM(2), 
+van Roest M(2), Gloudemans AK(5), van 't Wout AB(5), Korf H(6), Vermeire S(6), 
+Te Velde AA(2), Ponsioen CY(7), D'Haens GR(7), Verbeek JS(8), Geiger TL(4), 
+Wildenberg ME(2)(7), van den Brink GR(2)(7)(9).
+
+Author information:
+(1)Tytgat Insitute for Liver & Intestinal Research, Amsterdam UMC, Amsterdam, 
+The Netherlands p.j.koelink@amc.nl.
+(2)Tytgat Insitute for Liver & Intestinal Research, Amsterdam UMC, Amsterdam, 
+The Netherlands.
+(3)Department of Gastroenterology and hepatology, Amsterdam UMC, Amsterdam, The 
+Netherlands.
+(4)Department of Pathology, St. Jude Children's Research Hospital, Memphis, 
+Tennessee, USA.
+(5)Janssen Prevention Center of Janssen Vaccines & Prevention BV, Janssen 
+Pharmaceutical Companies of Johnson & Johnson, Leiden, The Netherlands.
+(6)Translational Research Center for Gastrointestinal Disorders (TARGID), 
+Department of Clinical and Experimental Medicine, KU Leuven, Leuven, Belgium.
+(7)Gastroenterology & Hepatology, Amsterdam UMC, Amsterdam, The Netherlands.
+(8)Human Genetics, Leids Universitair Medisch Centrum, Leiden, The Netherlands.
+(9)Roche Innovation Center Basel, F Hoffmann-La Roche AG, Basel, Switzerland.
+(#)Contributed equally
+
+OBJECTIVE: Macrophage interleukin (IL)-10 signalling plays a critical role in 
+the maintenance of a regulatory phenotype that prevents the development of IBD. 
+We have previously found that anti-tumour necrosis factor (TNF) monoclonal 
+antibodies act through Fcγ-receptor (FcγR) signalling to promote repolarisation 
+of proinflammatory intestinal macrophages to a CD206+ regulatory phenotype. The 
+role of IL-10 in anti-TNF-induced macrophage repolarisation has not been 
+examined.
+DESIGN: We used human peripheral blood monocytes and mouse bone marrow-derived 
+macrophages to study IL-10 production and CD206+ regulatory macrophage 
+differentiation. To determine whether the efficacy of anti-TNF was dependent on 
+IL-10 signalling in vivo and in which cell type, we used the CD4+CD45Rbhigh 
+T-cell transfer model in combination with several genetic mouse models.
+RESULTS: Anti-TNF therapy increased macrophage IL-10 production in an 
+FcγR-dependent manner, which caused differentiation of macrophages to a more 
+regulatory CD206+ phenotype in vitro. Pharmacological blockade of IL-10 
+signalling prevented the induction of these CD206+ regulatory macrophages and 
+diminished the therapeutic efficacy of anti-TNF therapy in the CD4+CD45Rbhigh 
+T-cell transfer model of IBD. Using cell type-specific IL-10 receptor mutant 
+mice, we found that IL-10 signalling in macrophages but not T cells was critical 
+for the induction of CD206+ regulatory macrophages and therapeutic response to 
+anti-TNF.
+CONCLUSION: The therapeutic efficacy of anti-TNF in resolving intestinal 
+inflammation is critically dependent on IL-10 signalling in macrophages.
+
+© Author(s) (or their employer(s)) 2020. Re-use permitted under CC BY-NC. No 
+commercial re-use. See rights and permissions. Published by BMJ.
+
+DOI: 10.1136/gutjnl-2019-318264
+PMCID: PMC7282553
+PMID: 31506328 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: AKG and ABvtW are employees 
+of Janssen Vaccines and Prevention B.V. GRvdB is currently an employee of Roche. 
+CYP received research support from Takeda, speaker’s fees from Takeda, Abbvie 
+and Dr. Falk Pharma, and consultancy fee from Takeda outside this work. Other 
+authors declare no conflict of interest related to this work.

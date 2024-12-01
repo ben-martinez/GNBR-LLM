@@ -1,0 +1,74 @@
+[
+    {
+        "entity_name": "GPR174",
+        "type": "Gene",
+        "description": "A G protein-coupled receptor that is an essential regulator of immunity and is widely expressed in immune cells.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "DSS (Dextran sodium sulfate)",
+        "type": "Drug",
+        "description": "A chemical compound used to induce colitis in animal models for research purposes.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF-\u03b1 (Tumor Necrosis Factor-alpha)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in systemic inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-6 (Interleukin-6)",
+        "type": "Protein",
+        "description": "A cytokine that plays a role in inflammation and the maturation of B cells.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-10 (Interleukin-10)",
+        "type": "Protein",
+        "description": "An anti-inflammatory cytokine that regulates immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IFN-\u03b3 (Interferon-gamma)",
+        "type": "Protein",
+        "description": "A cytokine that is critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-4 (Interleukin-4)",
+        "type": "Protein",
+        "description": "A cytokine that induces differentiation of na\u00efve T cells to Th2 cells.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "MHC-II (Major Histocompatibility Complex Class II)",
+        "type": "Protein",
+        "description": "A protein complex that presents peptides to CD4+ T cells, playing a crucial role in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD80",
+        "type": "Protein",
+        "description": "A costimulatory molecule that plays a crucial role in T cell activation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD86",
+        "type": "Protein",
+        "description": "Another costimulatory molecule that works alongside CD80 to enhance T cell activation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD40",
+        "type": "Protein",
+        "description": "A costimulatory protein that is essential for T cell activation and B cell responses.",
+        "is_ambiguous": false
+    }
+]

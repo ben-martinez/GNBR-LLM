@@ -1,0 +1,46 @@
+```json
+[
+    {
+        "entity_name": "Neutrophil Extracellular Traps (NETs)",
+        "type": "Protein",
+        "description": "Web-like structures formed by neutrophils that trap pathogens and sustain inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ulcerative Colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease causing inflammation and ulcers in the digestive tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "anti-Tumor Necrosis Factor α (anti-TNF-α)",
+        "type": "Drug",
+        "description": "A class of medications used to reduce inflammation by inhibiting tumor necrosis factor α.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Interleukin-1β (IL-1β)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in inflammatory responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Extracellular Signal-Regulated Kinase 1/2 (ERK1/2)",
+        "type": "Protein",
+        "description": "Proteins involved in signaling pathways that mediate cellular responses to growth factors and stress.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Dextran Sodium Sulfate (DSS)",
+        "type": "Drug",
+        "description": "A chemical used to induce colitis in experimental models.",
+        "is_ambiguous": false
+    }
+]
+```

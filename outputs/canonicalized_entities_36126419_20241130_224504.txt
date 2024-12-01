@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "primary_name": "3-mercaptopyruvate sulfurtransferase",
+        "candidates": ["3-mercaptopyruvate sulfurtransferase", "MPST"],
+        "entity_name": "3-mercaptopyruvate sulfurtransferase (MPST)",
+        "type": "Protein",
+        "description": "A key enzyme that regulates endogenous hydrogen sulfide (H2S) biosynthesis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": ["Inflammatory Bowel Disease", "IBD"],
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, characterized by excessive inflammatory responses and oxidative stress.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Ulcerative Colitis",
+        "candidates": ["Ulcerative Colitis", "UC"],
+        "entity_name": "Ulcerative Colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic condition that causes inflammation and ulcers in the digestive tract, part of inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's Disease",
+        "candidates": ["Crohn's Disease", "CD"],
+        "entity_name": "Crohn's Disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "AKT",
+        "candidates": ["AKT"],
+        "entity_name": "AKT",
+        "type": "Gene",
+        "description": "A gene involved in signaling pathways that regulate various cellular processes, including apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor alpha",
+        "candidates": ["Tumor Necrosis Factor alpha", "TNF-α"],
+        "entity_name": "TNF-α",
+        "type": "Protein",
+        "description": "A proinflammatory cytokine involved in systemic inflammation and stimulation of the acute phase reaction.",
+        "is_ambiguous": false
+    }
+]
+```

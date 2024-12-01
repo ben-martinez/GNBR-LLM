@@ -1,0 +1,32 @@
+[
+  {
+    "source": "Anti-TNF therapy",
+    "target": "IL-10",
+    "relationship": "modulates",
+    "description": "Anti-TNF therapy increases macrophage IL-10 production."
+  },
+  {
+    "source": "IL-10",
+    "target": "CD206+ regulatory macrophages",
+    "relationship": "induces",
+    "description": "IL-10 signalling causes differentiation of macrophages to a more regulatory CD206+ phenotype."
+  },
+  {
+    "source": "Anti-TNF therapy",
+    "target": "CD206+ regulatory macrophages",
+    "relationship": "induces",
+    "description": "Anti-TNF therapy promotes the induction of CD206+ regulatory macrophages through IL-10 signalling."
+  },
+  {
+    "source": "IL-10",
+    "target": "Fc gamma receptor (FcγR)",
+    "relationship": "depends on",
+    "description": "The efficacy of anti-TNF therapy is dependent on IL-10 signalling in an FcγR-dependent manner."
+  },
+  {
+    "source": "CD4+CD45Rbhigh T-cells",
+    "target": "CD206+ regulatory macrophages",
+    "relationship": "interacts with",
+    "description": "IL-10 signalling in macrophages is critical for the induction of CD206+ regulatory macrophages and therapeutic response to anti-TNF in models involving CD4+CD45Rbhigh T-cells."
+  }
+]

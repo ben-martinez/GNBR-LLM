@@ -1,0 +1,63 @@
+1. Front Immunol. 2022 May 20;13:841254. doi: 10.3389/fimmu.2022.841254. 
+eCollection 2022.
+
+Gpr174 Knockout Alleviates DSS-Induced Colitis via Regulating the Immune 
+Function of Dendritic Cells.
+
+Wei W(1), Mu S(1), Han Y(1), Chen Y(1), Kuang Z(1), Wu X(1), Luo Y(1), Tong 
+C(1), Zhang Y(2), Yang Y(1), Song Z(1)(3)(4).
+
+Author information:
+(1)Department of Emergency Medicine, Zhongshan Hospital, Fudan University, 
+Shanghai, China.
+(2)Endoscopy Center and Endoscopy Research Institute, Zhongshan Hospital, Fudan 
+University, Shanghai, China.
+(3)Shanghai Key Laboratory of Lung Inflammation and Injury, Shanghai, China.
+(4)Shanghai Institute of Infectious Disease and Biosecurity, School of Public 
+Health, Fudan University, Shanghai, China.
+
+BACKGROUND: Dysfunction of the immune system would disturb the intestinal 
+homeostasis and lead to inflammatory bowel disease (IBD). Dendritic cells (DCs) 
+help maintain intestinal homeostasis and immediately respond to pathogens or 
+injuries once the mucosa barriers are destroyed during IBD. G protein-coupled 
+receptors(GPR)174 is an essential regulator of immunity that is widely expressed 
+in most immune cells, including DCs. However, the role of GPR174 in regulating 
+the immune function of DC in colitis has not been investigated.
+METHODS: Dextran sodium sulfate (DSS) was administered to establish the mice 
+colitis model. Data of weight, length of colon, disease activity index (DAI), 
+and macroscopic scores were collected. The flow cytometry was used to detect the 
+infiltrations of T cells and DCs, the mean fluorescence intensity (MFI) of CD80, 
+CD86, CD40, and major histocompatibility complex-II (MHC-II). And T cells 
+proliferataion was measured by carboxyfluorescein diacetate succinimidyl ester 
+(CFSE). The expression of cytokines (tumor necrosis factor-α (TNF-α), 
+interleukin-6 (IL-6), interleukin-10 (IL-10), interferon-γ (IFN-γ), interleukin 
+-4 (IL-4)) and GPR174 mRNA were measured by Elisa, quantitative polymerase chain 
+reaction (qPCR), and immunofluorescence. RNA of bone-marrow-derived dendritic 
+cells (BMDCs) was extracted for sequencing. Adoptive transfer of BMDCs was 
+administrated intravenously.
+RESULTS: Gpr174-/- mice exposed to 3% DSS showed significant alleviation 
+characterized by reduced loss of weight, more minor colon damage, and better DAI 
+and macroscopic scores. The expression of pro-inflammatory cytokines (TNF-α, 
+IL-6) decreased, while anti-inflammatory cytokine (IL-10) increased compared 
+with WT mice. In vitro, Gpr174-/- BMDCs showed less maturity, with a declined 
+expression of MHC-II, CD80, CD86 and reduced TNF-α, higher IL-10 after LPS 
+stimulation. Gpr174-/- BMDCs were less capable of activating OT-II naïve CD4+ T 
+cells than WT BMDCs and induced more Th0 cells to differentiate into Treg while 
+less into Th1. Furthermore, the transcriptome sequencing analysis exhibited that 
+Gpr174 participated in TNF-α (NF-κB) signaling, leukocyte transendothelial 
+migration, and Th1/Th2 cell differentiation pathways. Adoptive transfer of 
+Gpr174-/- BMDCs to WT mice ameliorated DSS-induced colitis.
+CONCLUSION: Our study indicated that GPR174 was involved in the pathogenesis of 
+IBD by regulating the maturation of the dendritic cells to maintain immune 
+homeostasis. TNF-α (NF-κB) signaling pathway, leukocyte transendothelial 
+migration, and Th1/Th2 cell differentiation pathways may be the target pathway.
+
+Copyright © 2022 Wei, Mu, Han, Chen, Kuang, Wu, Luo, Tong, Zhang, Yang and Song.
+
+DOI: 10.3389/fimmu.2022.841254
+PMCID: PMC9164256
+PMID: 35669778 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+    "target": "Death receptor 3 (DR3)",
+    "relationship": "binds",
+    "description": "TL1A binds to DR3, playing an important role in the interaction between dendritic cells and T cells."
+  },
+  {
+    "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+    "target": "CD4+ T cells",
+    "relationship": "promotes",
+    "description": "TL1A promotes differentiation of naive CD4+ T cells into Th1 and Th17 cells."
+  },
+  {
+    "source": "CD4+ T cells",
+    "target": "Colonic inflammation due to Inflammatory bowel disease",
+    "relationship": "contributes to",
+    "description": "CD4+ T cells are involved in the development of colonic inflammation in the context of inflammatory bowel disease."
+  },
+  {
+    "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+    "target": "Inflammatory bowel disease",
+    "relationship": "regulates",
+    "description": "TL1A plays a regulatory role in the pathogenesis of inflammatory bowel disease."
+  }
+]

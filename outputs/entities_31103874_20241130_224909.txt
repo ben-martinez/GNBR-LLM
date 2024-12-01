@@ -1,0 +1,64 @@
+```json
+[
+  {
+    "entity_name": "Baicalin",
+    "type": "Drug",
+    "description": "A natural compound known for its anti-inflammatory effects, investigated for its impact on signaling pathways related to apoptosis.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Ulcerative Colitis (UC)",
+    "type": "Disease",
+    "description": "A chronic inflammatory bowel disease characterized by inflammation of the colon and rectum.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IKK/IKB/NF-kB signaling pathway",
+    "type": "Protein",
+    "description": "A signaling pathway involved in the regulation of immune response and cell survival, with components including IKK, IKB, and NF-kB.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "Cleaved-caspase3",
+    "type": "Protein",
+    "description": "An active form of caspase-3, involved in the execution of apoptosis.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Cleaved-caspase9",
+    "type": "Protein",
+    "description": "An active form of caspase-9, an initiator caspase in the apoptosis pathway.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Bcl-2/Bax",
+    "type": "Protein",
+    "description": "A family of proteins that regulate apoptosis, where Bcl-2 is anti-apoptotic and Bax is pro-apoptotic.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "Cyt-c",
+    "type": "Protein",
+    "description": "Cytochrome c, a protein involved in the electron transport chain and apoptosis.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "NF-kB p-65",
+    "type": "Protein",
+    "description": "A subunit of the NF-kB transcription factor, involved in the regulation of immune responses.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "p-IKKβ/IKKβ",
+    "type": "Protein",
+    "description": "Phosphorylated and non-phosphorylated forms of IKKβ, a kinase involved in the NF-kB signaling pathway.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "p-IKBα/IKBα",
+    "type": "Protein",
+    "description": "Phosphorylated and non-phosphorylated forms of IKBα, an inhibitor of NF-kB signaling.",
+    "is_ambiguous": true
+  }
+]
+```

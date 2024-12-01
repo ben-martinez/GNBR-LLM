@@ -1,0 +1,47 @@
+Prompt:
+
+You are an expert in biomedical information extraction. Your task is to process a PubMed biomedical abstract and identify named entities. Limit your extraction to the following entity types: Drug, Disease, Gene, and Protein.
+
+For each entity identified, return a structured JSON object with the following fields:
+
+    entity_name: The name of the entity, described as specifically as possible. If the entity name is not descriptive (e.g., "Region 1"), enrich it using contextual information from the abstract. For example:
+        If the text mentions "Region 1 (0014Lys-Ser0160)" and relates it to "Apo B100," return the name as "Region 1 of Apo B100 (0014Lys-Ser0160)."
+    type: The type of entity (Drug, Disease, Gene, or Protein).
+    description: A short description of the entity, if available. This can be derived from the abstract text.
+    is_ambiguous: A boolean field (true or false). Set this to true if the entity name cannot be made specific or if there isn’t enough context to resolve ambiguity.
+
+Rules:
+
+    If an entity name is not inherently descriptive, enhance it using additional context from the abstract.
+    If there isn’t sufficient context to create a specific name, flag the entity as is_ambiguous: true for further processing.
+    Ensure that ambiguous entities retain their original names but include the ambiguity flag.
+    Exclude entities that don’t fall into the specified types.
+
+Input:
+
+Here is the PubMed biomedical abstract for processing:
+
+<Insert abstract here>
+
+Example Output:
+
+[
+  {
+    "entity_name": "Aspirin",
+    "type": "Drug",
+    "description": "A drug commonly used for pain relief and anti-inflammatory purposes.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Region 1 (0014Lys-Ser0160)",
+    "type": "Protein",
+    "description": "A region identified in Apo B100.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "Alzheimer's disease",
+    "type": "Disease",
+    "description": "A progressive neurodegenerative disorder that affects memory and cognitive function.",
+    "is_ambiguous": false
+  }
+]

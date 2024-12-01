@@ -1,0 +1,50 @@
+[
+    {
+        "source": "Inflammatory Bowel Disease",
+        "target": "anti-tumor necrosis factor \u03b1",
+        "relationship": "modulates",
+        "description": "Adalimumab is a treatment that modulates inflammation in patients with Inflammatory Bowel Disease."
+    },
+    {
+        "source": "anti-tumor necrosis factor \u03b1",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "treats",
+        "description": "Adalimumab is used to treat Inflammatory Bowel Disease by reducing inflammation."
+    },
+    {
+        "source": "Janus kinase",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "implicated in",
+        "description": "Janus kinase is implicated in the signaling pathways associated with Inflammatory Bowel Disease."
+    },
+    {
+        "source": "Sphingosine-1-phosphate receptors",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "involved in",
+        "description": "Sphingosine-1-phosphate receptors are involved in the immune response related to Inflammatory Bowel Disease."
+    },
+    {
+        "source": "Interleukin 12/23",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "associated with",
+        "description": "Interleukin 12/23 is associated with the immune response in Inflammatory Bowel Disease."
+    },
+    {
+        "source": "TL1A",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "regulates",
+        "description": "TL1A regulates immune responses that can impact Inflammatory Bowel Disease."
+    },
+    {
+        "source": "Interleukin 36",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "involved in",
+        "description": "Interleukin 36 is involved in the inflammatory processes of Inflammatory Bowel Disease."
+    },
+    {
+        "source": "phosphodiesterase enzymes",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "impact",
+        "description": "Phosphodiesterase enzymes impact cellular signaling that may affect Inflammatory Bowel Disease treatment."
+    }
+]

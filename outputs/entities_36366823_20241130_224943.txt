@@ -1,0 +1,64 @@
+```json
+[
+  {
+    "entity_name": "Inflammatory Bowel Disease",
+    "type": "Disease",
+    "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "anti-tumor necrosis factor α",
+    "type": "Drug",
+    "description": "A biologic therapy used to reduce inflammation by inhibiting tumor necrosis factor α.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Janus kinase",
+    "type": "Protein",
+    "description": "A family of enzymes that transduce extracellular signals through the activation of the JAK-STAT signaling pathway.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "sphingosine-1-phosphate receptors",
+    "type": "Protein",
+    "description": "A family of G protein-coupled receptors that are activated by sphingosine-1-phosphate and play roles in immune responses.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-12/23",
+    "type": "Protein",
+    "description": "Cytokines that are involved in the immune response and are produced by antigen-presenting cells.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "TL1A",
+    "type": "Protein",
+    "description": "A cytokine that plays a role in regulating immune responses and inflammation.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "IL-36",
+    "type": "Protein",
+    "description": "A pro-inflammatory cytokine involved in the immune response and inflammation.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "phosphodiesterase",
+    "type": "Protein",
+    "description": "Enzymes that degrade phosphodiester bonds in nucleotides, important for cellular signaling.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "B cells",
+    "type": "Gene",
+    "description": "A type of white blood cell that plays a vital role in the immune response by producing antibodies.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "innate lymphoid cells",
+    "type": "Gene",
+    "description": "A group of immune cells that contribute to the body's immune response, particularly at mucosal barriers.",
+    "is_ambiguous": false
+  }
+]
+```

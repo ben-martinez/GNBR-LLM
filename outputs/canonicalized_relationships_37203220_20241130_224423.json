@@ -1,0 +1,44 @@
+[
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Inflammatory bowel diseases (IBD)",
+        "relationship": "improves",
+        "description": "Palmitoleic acid improves efficacy of anti-TNF-\u03b1 therapy in IBD mouse models."
+    },
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Tumor necrosis factor-alpha (TNF-\u03b1)",
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of TNF-\u03b1."
+    },
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Interleukin-6 (IL-6)",
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of IL-6."
+    },
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Akkermansia muciniphila",
+        "relationship": "upregulates",
+        "description": "Palmitoleic acid significantly upregulated the transcriptional signatures of Akkermansia muciniphila."
+    },
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Akkermansia muciniphila",
+        "relationship": "increases",
+        "description": "Palmitoleic acid selectively increased the growth and abundance of Akkermansia muciniphila in gut microbiota."
+    },
+    {
+        "source": "Akkermansia muciniphila",
+        "target": "Inflammatory bowel diseases (IBD)",
+        "relationship": "provides protection against",
+        "description": "Akkermansia muciniphila provides better protection against colitis in anti-TNF-\u03b1 mAb-treated recipient mice."
+    },
+    {
+        "source": "Palmitoleic acid (POA)",
+        "target": "Crohn's disease (CD)",
+        "relationship": "reduces",
+        "description": "POA treatment reduced pro-inflammatory signaling/cytokines in inflamed colon tissues derived from CD patients."
+    }
+]

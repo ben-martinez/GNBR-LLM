@@ -1,0 +1,56 @@
+[
+    {
+        "source": "GPR174",
+        "target": "Inflammatory Bowel Disease (IBD)",
+        "relationship": "regulates",
+        "description": "GPR174 is involved in the pathogenesis of IBD by regulating the maturation of dendritic cells."
+    },
+    {
+        "source": "GPR174",
+        "target": "TNF-\u03b1 (Tumor Necrosis Factor-alpha)",
+        "relationship": "participates in",
+        "description": "GPR174 participated in TNF-\u03b1 (NF-\u03baB) signaling pathway."
+    },
+    {
+        "source": "GPR174",
+        "target": "IL-6 (Interleukin-6)",
+        "relationship": "participates in",
+        "description": "GPR174 participated in TNF-\u03b1 (NF-\u03baB) signaling pathway which involves IL-6."
+    },
+    {
+        "source": "GPR174",
+        "target": "IL-10 (Interleukin-10)",
+        "relationship": "regulates",
+        "description": "GPR174 modulates the expression of IL-10 in dendritic cells."
+    },
+    {
+        "source": "GPR174",
+        "target": "MHC-II (Major Histocompatibility Complex Class II)",
+        "relationship": "regulates",
+        "description": "GPR174 is involved in the maturation of dendritic cells affecting MHC-II expression."
+    },
+    {
+        "source": "GPR174",
+        "target": "CD80",
+        "relationship": "regulates",
+        "description": "GPR174 affects the expression of CD80 in dendritic cells."
+    },
+    {
+        "source": "GPR174",
+        "target": "CD86",
+        "relationship": "regulates",
+        "description": "GPR174 influences the expression of CD86 in dendritic cells."
+    },
+    {
+        "source": "GPR174",
+        "target": "CD40",
+        "relationship": "regulates",
+        "description": "GPR174 plays a role in the expression of CD40 in dendritic cells."
+    },
+    {
+        "source": "DSS (Dextran sodium sulfate)",
+        "target": "Inflammatory Bowel Disease (IBD)",
+        "relationship": "induces",
+        "description": "DSS was administered to establish the mice colitis model, mimicking IBD."
+    }
+]

@@ -1,0 +1,40 @@
+```json
+[
+    {
+        "entity_name": "Lysophosphatidic acid (LPA)",
+        "type": "Drug",
+        "description": "An endogenous ligand produced during intestinal inflammation that acts through GPR35.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "G protein-coupled receptor 35 (GPR35)",
+        "type": "Gene",
+        "description": "A gene associated with increased risk of inflammatory bowel disease and involved in intestinal immune homeostasis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Tumor necrosis factor (Tnf)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine produced by macrophages that plays a role in intestinal homeostasis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory bowel disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, associated with GPR35.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Corticosterone-generating gene (Cyp11b1)",
+        "type": "Gene",
+        "description": "A gene involved in the production of corticosterone, which is regulated during intestinal inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Colitis",
+        "type": "Disease",
+        "description": "An inflammation of the colon characterized in the study by the administration of dextran sodium sulfate.",
+        "is_ambiguous": false
+    }
+]
+```

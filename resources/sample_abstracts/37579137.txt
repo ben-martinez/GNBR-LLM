@@ -1,0 +1,53 @@
+1. Proc Natl Acad Sci U S A. 2023 Aug 22;120(34):e2120771120. doi: 
+10.1073/pnas.2120771120. Epub 2023 Aug 14.
+
+Tumor necrosis factor-like cytokine 1A plays a role in inflammatory bowel 
+disease pathogenesis.
+
+Meng F(#)(1)(2), Jiang X(#)(1), Wang X(1), Zheng Q(3), Wang XN(1), Mei C(1)(4), 
+Yan S(1), He Y(1), Xue J(1), Zhang X(1)(5), Fu W(1)(6), You Y(1)(7), Zhai 
+J(8)(9), Wang Y(10), Sun X(1).
+
+Author information:
+(1)Department of Immunology, Basic Medicine College, China Medical University, 
+Shenyang, Liaoning Province 110122, China.
+(2)Department of Laboratory Medicine, The First Hospital of China Medical 
+University, Shenyang, Liaoning Province 110801, China.
+(3)Department of Pathophysiology, Basic Medicine College, China Medical 
+University, Shenyang, Liaoning Province 110122, China.
+(4)Department of Gastroenterology, Shengjing Hospital of China Medical 
+University, Shenyang, Liaoning Province 110122, China.
+(5)Teaching Center for Medical Experiment, China Medical University, Shenyang, 
+Liaoning Province 110122, China.
+(6)Department of Blood Transfusion, Tangdu Hospital, The Fourth Military Medical 
+University, Xi'an, Shaanxi Province 710032, China.
+(7)Department of Immunology, Chengde medical university, Chengde, Hebei Province 
+067000, China.
+(8)Medical College, Inner Mongolia Minzu University, Tongliao 028000, China.
+(9)Key Laboratory of Zoonose Prevention and Control at Universities of Inner 
+Mongolia Autonomous Region, Tongliao 028000, China.
+(10)Department of Anesthesiology, The Fourth Affiliated Hospital of China 
+Medical University, Shenyang, Liaoning Province 110032, China.
+(#)Contributed equally
+
+The binding of tumor necrosis factor-like cytokine 1A (TL1A) to death receptor 3 
+(DR3) plays an important role in the interaction between dendritic cells (DCs) 
+and T cells and contributes to intestinal inflammation development. However, the 
+mechanism by which DCs expressing TL1A mediate helper T (Th) cell 
+differentiation in the intestinal lamina propria (LP) during the pathogenesis of 
+inflammatory bowel disease remains unclear. In this study, we found that 
+TL1A/DR3 promoted Th1 and Th17 cell differentiation in T-T and DC-T cell 
+interaction-dependent manners. TL1A-deficient CD4+ T cells failed to polarize 
+into Th1/Th17 cells and did not cause colonic inflammation in a T cell transfer 
+colitis model. Notably, TL1A was located in the cytoplasm and nuclei of DCs, 
+positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear 
+factor κB signaling pathway, enhanced the antigen uptake ability of DCs, and 
+promoted TLR4-mediated DC activation, inducing naive CD4+ T cell differentiation 
+into Th1 and Th17 cells. Our work reveals that TL1A plays a regulatory role in 
+inflammatory bowel disease pathogenesis.
+
+DOI: 10.1073/pnas.2120771120
+PMCID: PMC10452302
+PMID: 37579137 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interest.

@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ulcerative colitis",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease that causes inflammation and ulcers in the digestive tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Dual-targeted therapy (DTT) for Inflammatory Bowel Disease",
+        "type": "Drug",
+        "description": "A therapeutic approach targeting multiple pathways to enhance treatment efficacy for inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Therapeutic Agents Targeting Cellular Signaling Pathways for IBD",
+        "type": "Drug",
+        "description": "A category of drugs that target signaling pathways involved in cellular processes related to inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Therapeutic Agents Targeting Leukocyte Trafficking in IBD",
+        "type": "Drug",
+        "description": "Drugs that affect the movement of leukocytes, which are involved in the inflammatory response in diseases like IBD.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "JAK-dependent therapeutic agents for Inflammatory Bowel Disease",
+        "type": "Drug",
+        "description": "Drugs that act through the Janus kinase signaling pathway, involved in immune response regulation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "JAK-independent therapeutic agents for Inflammatory Bowel Disease",
+        "type": "Drug",
+        "description": "Drugs that do not rely on the Janus kinase pathway for their therapeutic action.",
+        "is_ambiguous": false
+    }
+]
+```

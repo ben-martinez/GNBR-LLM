@@ -1,0 +1,66 @@
+1. Nat Commun. 2024 Feb 17;15(1):1470. doi: 10.1038/s41467-024-45855-2.
+
+Mucosal host-microbe interactions associate with clinical phenotypes in 
+inflammatory bowel disease.
+
+Hu S(#)(1)(2)(3), Bourgonje AR(#)(1), Gacesa R(1)(2), Jansen BH(1), Björk JR(1), 
+Bangma A(1), Hidding IJ(1), van Dullemen HM(1), Visschedijk MC(1), Faber KN(1), 
+Dijkstra G(1), Harmsen HJM(4), Festen EAM(1), Vich Vila A(1)(2), Spekhorst 
+LM(1)(5), Weersma RK(#)(6).
+
+Author information:
+(1)Department of Gastroenterology and Hepatology, University of Groningen, 
+University Medical Center Groningen, Groningen, the Netherlands.
+(2)Department of Genetics, University of Groningen, University Medical Center 
+Groningen, Groningen, the Netherlands.
+(3)Institute of Precision Medicine, the First Affiliated Hospital of Sun Yat-Sen 
+University, Sun Yat-Sen University, Guangzhou, Guangdong, China.
+(4)Department of Medical Microbiology, University of Groningen, University 
+Medical Center Groningen, Groningen, the Netherlands.
+(5)Department of Gastroenterology and Hepatology, Medisch Spectrum Twente, 
+Enschede, the Netherlands.
+(6)Department of Gastroenterology and Hepatology, University of Groningen, 
+University Medical Center Groningen, Groningen, the Netherlands. 
+r.k.weersma@umcg.nl.
+(#)Contributed equally
+
+Disrupted host-microbe interactions at the mucosal level are key to the 
+pathophysiology of IBD. This study aimed to comprehensively examine crosstalk 
+between mucosal gene expression and microbiota in patients with IBD. To study 
+tissue-specific interactions, we perform transcriptomic (RNA-seq) and microbial 
+(16S-rRNA-seq) profiling of 697 intestinal biopsies (645 derived from 335 
+patients with IBD and 52 from 16 non-IBD controls). Mucosal gene expression 
+patterns in IBD are mainly determined by tissue location and inflammation, 
+whereas the mucosal microbiota composition shows a high degree of individual 
+specificity. Analysis of transcript-bacteria interactions identifies six 
+distinct groups of inflammation-related pathways that are associated with 
+intestinal microbiota (adjusted P < 0.05). An increased abundance of 
+Bifidobacterium is associated with higher expression of genes involved in fatty 
+acid metabolism, while Bacteroides correlates with increased metallothionein 
+signaling. In patients with fibrostenosis, a transcriptional network dominated 
+by immunoregulatory genes is associated with Lachnoclostridium bacteria in 
+non-stenotic tissue (adjusted P < 0.05), while being absent in CD without 
+fibrostenosis. In patients using TNF-α-antagonists, a transcriptional network 
+dominated by fatty acid metabolism genes is linked to Ruminococcaceae (adjusted 
+P < 0.05). Mucosal microbiota composition correlates with enrichment of 
+intestinal epithelial cells, macrophages, and NK-cells. Overall, these data 
+demonstrate the presence of context-specific mucosal host-microbe interactions 
+in IBD, revealing significantly altered inflammation-associated gene-taxa 
+modules, particularly in patients with fibrostenotic CD and patients using 
+TNF-α-antagonists. This study provides compelling insights into host-microbe 
+interactions that may guide microbiota-directed precision medicine and fuels the 
+rationale for microbiota-targeted therapeutics as a strategy to alter disease 
+course in IBD.
+
+© 2024. The Author(s).
+
+DOI: 10.1038/s41467-024-45855-2
+PMCID: PMC10874382
+PMID: 38368394 [Indexed for MEDLINE]
+
+Conflict of interest statement: RKW acted as a consultant for Takeda, received 
+unrestricted research grants from Takeda, Johnson & Johnson, Tramedico and 
+Ferring and received speaker fees from MSD, Abbvie, and Janssen Pharmaceuticals. 
+GD received an unrestricted research grant from Takeda and speaker fees from 
+Pfizer and Janssen Pharmaceuticals. All other authors declare no competing 
+interests.

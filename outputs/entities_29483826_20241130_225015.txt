@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "entity_name": "Aryl hydrocarbon receptor (AhR)",
+    "type": "Protein",
+    "description": "A receptor involved in the regulation of intestinal mucosal homeostasis and barrier function.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Dextran sulphate sodium (DSS)",
+    "type": "Drug",
+    "description": "A chemical compound used to induce colitis in experimental models.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+    "type": "Drug",
+    "description": "A ligand that activates the Aryl hydrocarbon receptor (AhR).",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Inflammatory bowel disease (IBD)",
+    "type": "Disease",
+    "description": "A group of inflammatory conditions of the colon and small intestine.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Tumor necrosis factor alpha (TNF-α)",
+    "type": "Protein",
+    "description": "A cytokine involved in systemic inflammation and a key player in the inflammatory response.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "Interferon gamma (IFN-γ)",
+    "type": "Protein",
+    "description": "A cytokine that plays a critical role in immune responses and inflammation.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "MLC",
+    "type": "Protein",
+    "description": "Myosin light chain, involved in muscle contraction and cellular processes.",
+    "is_ambiguous": true
+  },
+  {
+    "entity_name": "MLCK",
+    "type": "Gene",
+    "description": "Myosin light chain kinase, an enzyme that phosphorylates the myosin light chain.",
+    "is_ambiguous": false
+  },
+  {
+    "entity_name": "NF-κB p65",
+    "type": "Protein",
+    "description": "A subunit of the NF-κB transcription factor involved in the immune response.",
+    "is_ambiguous": false
+  }
+]
+```

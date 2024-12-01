@@ -1,0 +1,98 @@
+You are an expert in biomedical relationship extraction. Your task is to analyze the given biomedical abstract and identify relationships between entities. You will be provided with a JSON list of canonicalized entities present in the abstract and the original abstract. Extract relationships between the entities based on the context in the abstract. ONLY return the JSON output without prefixed text.
+Task:
+
+For each relationship you identify:
+
+    Determine the source entity and the target entity based on the context in the abstract.
+    Classify the type of relationship using common scientific actions such as "binds", "modulates", "inhibits", "activates", "interacts with", etc.
+    Include a brief description of the relationship, if possible, extracted from the abstract.
+    Ensure each relationship entry is represented in a structured JSON format.
+
+Input:
+
+Abstract:
+
+<Insert biomedical abstract here>
+
+Canonicalized Entities JSON:
+
+[
+  {
+    "primary_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "candidates": ["Region 1 of Apo B100 (0014Lys-Ser0160)", "Key functional region of Apo B100"],
+    "entity_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "type": "Protein",
+    "description": "A region identified in Apo B100.",
+    "is_ambiguous": false
+  },
+  {
+    "primary_name": "Segment A of BRCA1",
+    "candidates": ["Segment A of BRCA1", "BRCA1 Segment A"],
+    "entity_name": "Segment A of BRCA1",
+    "type": "Gene",
+    "description": "Part of the BRCA1 gene sequence.",
+    "is_ambiguous": false
+  },
+  {
+    "primary_name": "Region X",
+    "candidates": ["Region X"],
+    "entity_name": "Region X",
+    "type": "Protein",
+    "description": "No sufficient context provided.",
+    "is_ambiguous": true
+  }
+]
+
+Output Format:
+
+The output should be a JSON list where each relationship is structured as follows:
+
+[
+  {
+    "source": "<source canonicalized name>",
+    "target": "<target canonicalized name>",
+    "relationship": "<type of relationship>",
+    "description": "<brief description of the relationship>"
+  },
+  ...
+]
+
+Example Output:
+
+[
+  {
+    "source": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "target": "Segment A of BRCA1",
+    "relationship": "binds",
+    "description": "Region 1 of Apo B100 interacts with Segment A of BRCA1 during lipid transport."
+  },
+  {
+    "source": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "target": "Region X",
+    "relationship": "activates",
+    "description": "Region 1 of Apo B100 activates Region X to enhance lipid binding."
+  }
+]
+
+Rules:
+
+    Focus on Given Entities:
+        Only extract relationships between entities provided in the canonicalized JSON list.
+        Ignore relationships involving other entities not present in the list.
+
+    Relationship Types:
+        Use precise action verbs commonly found in biomedical literature, such as "binds", "modulates", "inhibits", "activates", "interacts with", "phosphorylates", etc.
+        Choose the most contextually appropriate term.
+
+    Description:
+        If the abstract provides additional details about the relationship, include a short description.
+        If no description is available, leave the field empty.
+
+    Handle Ambiguity:
+        For entities with insufficient context (is_ambiguous: true), attempt to infer relationships only if explicitly mentioned in the abstract. Otherwise, omit them from the relationships list.
+
+Special Notes:
+
+    Ensure the relationships are contextual and scientifically accurate based on the abstract.
+    Preserve the integrity of canonicalized names while ensuring clarity in the relationships.
+    Only return a JSON output.

@@ -1,0 +1,71 @@
+[
+    {
+        "primary_name": "Tumor Necrosis Factor",
+        "candidates": [
+            "Tumor Necrosis Factor",
+            "TNF",
+            "Tumour necrosis factor (TNF)"
+        ],
+        "entity_name": "Tumour necrosis factor (TNF)",
+        "type": "Protein",
+        "description": "A master pro-inflammatory cytokine that modulates multiple signalling pathways and plays a vital role in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Receptor 1",
+        "candidates": [
+            "Tumor Necrosis Factor Receptor 1",
+            "TNF receptor 1",
+            "TNFR1"
+        ],
+        "entity_name": "TNF receptor 1 (TNFR1)",
+        "type": "Protein",
+        "description": "One of the two receptors for tumour necrosis factor, categorised into the TNFR superfamily.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Receptor 2",
+        "candidates": [
+            "Tumor Necrosis Factor Receptor 2",
+            "TNF receptor 2",
+            "TNFR2"
+        ],
+        "entity_name": "TNF receptor 2 (TNFR2)",
+        "type": "Protein",
+        "description": "The second receptor for tumour necrosis factor, also part of the TNFR superfamily.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Rheumatoid Arthritis",
+        "candidates": [
+            "Rheumatoid Arthritis",
+            "rheumatoid arthritis"
+        ],
+        "entity_name": "rheumatoid arthritis",
+        "type": "Disease",
+        "description": "An autoimmune disease that causes chronic inflammation of the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Ankylosing Spondylitis",
+        "candidates": [
+            "Ankylosing Spondylitis",
+            "ankylosing spondylitis"
+        ],
+        "entity_name": "ankylosing spondylitis",
+        "type": "Disease",
+        "description": "A type of arthritis that causes inflammation of the spine and the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's Disease",
+        "candidates": [
+            "Crohn's Disease",
+            "Crohn disease"
+        ],
+        "entity_name": "Crohn's disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+        "is_ambiguous": false
+    }
+]

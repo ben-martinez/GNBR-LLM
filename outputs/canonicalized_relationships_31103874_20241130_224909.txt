@@ -1,0 +1,50 @@
+[
+  {
+    "source": "Baicalin",
+    "target": "IKK/IKB/NF-kB Signaling Pathway",
+    "relationship": "modulates",
+    "description": "Baicalin has a regulating effect on the IKK/IKB/NF-kB signaling pathway in rats with ulcerative colitis."
+  },
+  {
+    "source": "Baicalin",
+    "target": "Cleaved-caspase3",
+    "relationship": "inhibits",
+    "description": "Baicalin significantly decreased the expression of cleaved-caspase3 in the colon tissue."
+  },
+  {
+    "source": "Baicalin",
+    "target": "Cleaved-caspase9",
+    "relationship": "inhibits",
+    "description": "Baicalin significantly decreased the expression of cleaved-caspase9 in the colon tissue."
+  },
+  {
+    "source": "Baicalin",
+    "target": "Bcl-2/Bax Apoptosis Regulators",
+    "relationship": "modulates",
+    "description": "Baicalin significantly decreased the Bcl-2/Bax expression ratio."
+  },
+  {
+    "source": "Baicalin",
+    "target": "Cytochrome c (Cyt-c)",
+    "relationship": "inhibits",
+    "description": "Baicalin significantly decreased the expression of cytochrome c in the colon tissue."
+  },
+  {
+    "source": "Baicalin",
+    "target": "NF-kB p-65 Subunit",
+    "relationship": "inhibits",
+    "description": "Baicalin significantly decreased the expression of NF-kB p-65 in the colon tissue."
+  },
+  {
+    "source": "Baicalin",
+    "target": "IKK\u03b2 (p-IKK\u03b2/IKK\u03b2)",
+    "relationship": "modulates",
+    "description": "Baicalin had no significant effect on the expression of p-IKKβ/IKKβ."
+  },
+  {
+    "source": "Baicalin",
+    "target": "IKB\u03b1 (p-IKB\u03b1/IKB\u03b1)",
+    "relationship": "inhibits",
+    "description": "Baicalin significantly inhibited the content change of p-IKBα/IKBα."
+  }
+]

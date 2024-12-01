@@ -1,0 +1,58 @@
+```json
+[
+    {
+        "entity_name": "Tumor necrosis factor (TNF)",
+        "type": "Protein",
+        "description": "A major mediator of apoptosis, inflammation, and immunity that has various roles in human diseases.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF receptor-1 (TNF-R1)",
+        "type": "Protein",
+        "description": "A receptor that mediates the signaling of tumor necrosis factor, activating several signal transduction pathways.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "sepsis",
+        "type": "Disease",
+        "description": "A life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "diabetes",
+        "type": "Disease",
+        "description": "A group of diseases that result in high blood sugar (too much glucose) due to insulin resistance or inadequate insulin production.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cancer",
+        "type": "Disease",
+        "description": "A disease in which abnormal cells divide without control and can invade nearby tissues.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "osteoporosis",
+        "type": "Disease",
+        "description": "A condition characterized by weak and brittle bones, increasing the risk of fractures.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "multiple sclerosis",
+        "type": "Disease",
+        "description": "An autoimmune disease that affects the central nervous system, leading to a range of symptoms including physical and cognitive impairment.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "rheumatoid arthritis",
+        "type": "Disease",
+        "description": "An autoimmune disorder that primarily affects joints, leading to inflammation and pain.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "inflammatory bowel diseases",
+        "type": "Disease",
+        "description": "Chronic inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    }
+]
+```

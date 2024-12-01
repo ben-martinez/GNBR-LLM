@@ -1,0 +1,32 @@
+[
+  {
+    "source": "Lysophosphatidic acid (LPA)",
+    "target": "G protein-coupled receptor 35 (GPR35)",
+    "relationship": "activates",
+    "description": "Lysophosphatidic acid acts through GPR35 to induce tumor necrosis factor expression in macrophages."
+  },
+  {
+    "source": "G protein-coupled receptor 35 (GPR35)",
+    "target": "Tumor necrosis factor (Tnf)",
+    "relationship": "modulates",
+    "description": "GPR35 modulates the expression of tumor necrosis factor in macrophages."
+  },
+  {
+    "source": "G protein-coupled receptor 35 (GPR35)",
+    "target": "Inflammatory bowel disease",
+    "relationship": "associated with",
+    "description": "Single-nucleotide polymorphisms in GPR35 are associated with increased risk of inflammatory bowel disease."
+  },
+  {
+    "source": "Corticosterone-generating gene (Cyp11b1)",
+    "target": "Colitis",
+    "relationship": "regulates",
+    "description": "Transcript levels of Cyp11b1 are decreased in mice lacking GPR35, which aggravates colitis."
+  },
+  {
+    "source": "Tumor necrosis factor (Tnf)",
+    "target": "Corticosterone-generating gene (Cyp11b1)",
+    "relationship": "restores",
+    "description": "Administration of TNF restores Cyp11b1 expression and intestinal corticosterone production."
+  }
+]

@@ -1,0 +1,63 @@
+1. Gut Microbes. 2023 Jan-Dec;15(1):2211501. doi: 10.1080/19490976.2023.2211501.
+
+Dietary palmitoleic acid reprograms gut microbiota and improves biological 
+therapy against colitis.
+
+Chen Y(1)(2), Mai Q(1), Chen Z(1), Lin T(1), Cai Y(1), Han J(3), Wang Y(3), 
+Zhang M(3), Tan S(1), Wu Z(1), Chen L(1), Zhang Z(1), Yang Y(1), Cui T(1), 
+Ouyang B(1), Sun Y(4), Yang L(5), Xu L(1), Zhang S(4), Li J(6), Shen H(7), Liu 
+L(8), Zeng L(9), Zhang S(3), Zeng G(1).
+
+Author information:
+(1)Department of Microbiology, Zhongshan School of Medicine, Sun Yat-sen 
+University, Guangzhou, China.
+(2)State Key Laboratory of Oncology in South China, Collaborative Innovation 
+Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, 
+China.
+(3)Division of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen 
+University, Guangzhou, China.
+(4)Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-sen 
+University, Guangzhou, China.
+(5)College of Stomatology, Jinan University, Guangzhou, China.
+(6)The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, China.
+(7)Clinic and Research Center of Tuberculosis, Shanghai Key Laboratory of 
+Tuberculosis, Tongji University Shanghai Pulmonary Hospital, Shanghai, China.
+(8)Guangzhou Eighth People's Hospital, Guangzhou Medical University, Guangzhou, 
+China.
+(9)Clinical Research Center, Department of Medical Records Management, Guanghua 
+School of Stomatology, Hospital of Stomatology, Sun Yat-sen University, 
+Guangzhou, China.
+
+Magnitude and diversity of gut microbiota and metabolic systems are critical in 
+shaping human health and diseases, but it remains largely unclear how complex 
+metabolites may selectively regulate gut microbiota and determine health and 
+diseases. Here, we show that failures or compromised effects of anti-TNF-α 
+therapy in inflammatory bowel diseases (IBD) patients were correlated with 
+intestinal dysbacteriosis with more pro-inflammatory bacteria, extensive 
+unresolved inflammation, failed mucosal repairment, and aberrant lipid 
+metabolism, particularly lower levels of palmitoleic acid (POA). Dietary POA 
+repaired gut mucosal barriers, reduced inflammatory cell infiltrations and 
+expressions of TNF-α and IL-6, and improved efficacy of anti-TNF-α therapy in 
+both acute and chronic IBD mouse models. Ex vivo treatment with POA in cultured 
+inflamed colon tissues derived from Crohn's disease (CD) patients reduced 
+pro-inflammatory signaling/cytokines and conferred appreciable tissue 
+repairment. Mechanistically, POA significantly upregulated the transcriptional 
+signatures of cell division and biosynthetic process of Akkermansia muciniphila, 
+selectively increased the growth and abundance of Akkermansia muciniphila in gut 
+microbiota, and further reprogrammed the composition and structures of gut 
+microbiota. Oral transfer of such POA-reprogrammed, but not control, gut 
+microbiota induced better protection against colitis in anti-TNF-α mAb-treated 
+recipient mice, and co-administration of POA with Akkermansia muciniphila showed 
+significant synergistic protections against colitis in mice. Collectively, this 
+work not only reveals the critical importance of POA as a polyfunctional 
+molecular force to shape the magnitude and diversity of gut microbiota and 
+therefore promote the intestinal homeostasis, but also implicates a new 
+potential therapeutic strategy against intestinal or abenteric inflammatory 
+diseases.
+
+DOI: 10.1080/19490976.2023.2211501
+PMCID: PMC10202094
+PMID: 37203220 [Indexed for MEDLINE]
+
+Conflict of interest statement: No potential conflict of interest was reported 
+by the authors.

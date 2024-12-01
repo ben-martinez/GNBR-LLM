@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "primary_name": "Tumor necrosis factor-like cytokine 1A",
+        "candidates": ["Tumor necrosis factor-like cytokine 1A", "TL1A"],
+        "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "type": "Protein",
+        "description": "A cytokine involved in the regulation of immune responses and inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Death receptor 3",
+        "candidates": ["Death receptor 3", "DR3"],
+        "entity_name": "Death receptor 3 (DR3)",
+        "type": "Protein",
+        "description": "A receptor that mediates apoptosis and plays a role in immune regulation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory bowel disease",
+        "candidates": ["Inflammatory bowel disease"],
+        "entity_name": "Inflammatory bowel disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily affecting the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "CD4+ T cells",
+        "candidates": ["Helper T cells", "Th cells", "CD4+ T cells"],
+        "entity_name": "Helper T (Th) cells",
+        "type": "Gene",
+        "description": "A type of T cell that plays an important role in the immune system, particularly in the activation of B cells and cytotoxic T cells.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Colonic inflammation",
+        "candidates": ["Colonic inflammation", "Inflammation due to Inflammatory bowel disease"],
+        "entity_name": "Colonic inflammation due to Inflammatory bowel disease",
+        "type": "Disease",
+        "description": "Inflammation of the colon, which can be caused by various conditions including inflammatory bowel disease.",
+        "is_ambiguous": false
+    }
+]
+```

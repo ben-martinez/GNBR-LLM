@@ -1,0 +1,38 @@
+[
+    {
+        "source": "Nuclear factor kappa-light-chain-enhancer of activated B cells",
+        "target": "Inflammatory bowel disease",
+        "relationship": "modulates",
+        "description": "PTM can activate or inhibit signaling pathways like NF-\u03baB, affecting IBD pathogenesis."
+    },
+    {
+        "source": "Extracellular signal-regulated kinase",
+        "target": "Inflammatory bowel disease",
+        "relationship": "modulates",
+        "description": "Modifications can activate or inhibit signaling pathways such as ERK, influencing the development of IBD."
+    },
+    {
+        "source": "Protein kinase B",
+        "target": "Inflammatory bowel disease",
+        "relationship": "modulates",
+        "description": "Changes in protein modifications can affect AKT signaling pathways involved in IBD."
+    },
+    {
+        "source": "Interleukin-1 beta",
+        "target": "Inflammatory bowel disease",
+        "relationship": "regulates",
+        "description": "Cytokines like IL-1\u03b2 are modulated through protein modifications, impacting IBD."
+    },
+    {
+        "source": "Tumor necrosis factor alpha",
+        "target": "Inflammatory bowel disease",
+        "relationship": "regulates",
+        "description": "TNF-\u03b1 levels can be altered by protein modifications, affecting inflammatory responses in IBD."
+    },
+    {
+        "source": "Interferon gamma",
+        "target": "Inflammatory bowel disease",
+        "relationship": "regulates",
+        "description": "Modifications can influence IFN-\u03b3 release, which plays a role in the immune response in IBD."
+    }
+]

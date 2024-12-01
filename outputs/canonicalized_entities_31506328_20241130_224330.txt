@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "primary_name": "Anti-TNF therapy",
+        "candidates": ["Anti-TNF therapy", "Anti-tumor necrosis factor therapy"],
+        "entity_name": "Anti-TNF therapy",
+        "type": "Drug",
+        "description": "Therapy using anti-tumor necrosis factor monoclonal antibodies to treat inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": ["Inflammatory Bowel Disease (IBD)", "IBD", "Crohn's disease", "Ulcerative colitis"],
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin 10",
+        "candidates": ["IL-10", "Interleukin-10"],
+        "entity_name": "IL-10",
+        "type": "Protein",
+        "description": "Interleukin 10, a cytokine with anti-inflammatory properties produced by macrophages.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Fc gamma receptor",
+        "candidates": ["Fcγ receptor", "FcγR", "Fc gamma receptor"],
+        "entity_name": "Fcγ receptor (FcγR)",
+        "type": "Protein",
+        "description": "A receptor that binds to the Fc region of immunoglobulins and is involved in immune response mechanisms.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "CD206+ macrophages",
+        "candidates": ["CD206+ regulatory macrophages", "CD206+ macrophages", "M2 macrophages"],
+        "entity_name": "CD206+ regulatory macrophages",
+        "type": "Cell Type",
+        "description": "Macrophages that express CD206 and have a regulatory phenotype important for immune regulation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "CD4+CD45Rbhigh T-cells",
+        "candidates": ["CD4+CD45Rbhigh T-cells", "CD4+ T-cells", "CD45Rbhigh T-cells"],
+        "entity_name": "CD4+CD45Rbhigh T-cells",
+        "type": "Cell Type",
+        "description": "A subset of T-cells characterized by high expression of CD45Rb, used in models of inflammatory bowel disease.",
+        "is_ambiguous": false
+    }
+]
+```

@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "Anti-TNF therapy",
+        "type": "Drug",
+        "description": "Therapy using anti-tumor necrosis factor monoclonal antibodies to treat inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-10",
+        "type": "Protein",
+        "description": "Interleukin 10, a cytokine with anti-inflammatory properties produced by macrophages.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Fc\u03b3 receptor (Fc\u03b3R)",
+        "type": "Protein",
+        "description": "A receptor that binds to the Fc region of immunoglobulins and is involved in immune response mechanisms.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD206+ regulatory macrophages",
+        "type": "Cell Type",
+        "description": "Macrophages that express CD206 and have a regulatory phenotype important for immune regulation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD4+CD45Rbhigh T-cells",
+        "type": "Cell Type",
+        "description": "A subset of T-cells characterized by high expression of CD45Rb, used in models of inflammatory bowel disease.",
+        "is_ambiguous": false
+    }
+]

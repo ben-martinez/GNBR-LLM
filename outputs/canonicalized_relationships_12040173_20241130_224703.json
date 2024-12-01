@@ -1,0 +1,50 @@
+[
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "TNF receptor-1 (TNF-R1)",
+        "relationship": "interacts with",
+        "description": "The interaction of TNF with TNF receptor-1 activates several signal transduction pathways."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "sepsis",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of sepsis."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "diabetes",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of diabetes."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "cancer",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of cancer."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "osteoporosis",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of osteoporosis."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "multiple sclerosis",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of multiple sclerosis."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "rheumatoid arthritis",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of rheumatoid arthritis."
+    },
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "inflammatory bowel diseases",
+        "relationship": "implicated in",
+        "description": "TNF has been implicated in the pathogenesis of inflammatory bowel diseases."
+    }
+]

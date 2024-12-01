@@ -1,0 +1,32 @@
+1. J Pathol. 2008 Jan;214(2):149-60. doi: 10.1002/path.2287.
+
+TNF-mediated inflammatory disease.
+
+Bradley JR(1).
+
+Author information:
+(1)NIHR Cambridge Biomedical Research Centre, Addenbrooke's Hospital, Cambridge, 
+UK. jrb1000@cam.ac.uk
+
+TNF was originally described as a circulating factor that can cause necrosis of 
+tumours, but has since been identified as a key regulator of the inflammatory 
+response. This review describes the known signalling pathways and cell 
+biological effects of TNF, and our understanding of the role of TNF in human 
+disease. TNF interacts with two different receptors, designated TNFR1 and TNFR2, 
+which are differentially expressed on cells and tissues and initiate both 
+distinct and overlapping signal transduction pathways. These diverse signalling 
+cascades lead to a range of cellular responses, which include cell death, 
+survival, differentiation, proliferation and migration. Vascular endothelial 
+cells respond to TNF by undergoing a number of pro-inflammatory changes, which 
+increase leukocyte adhesion, transendothelial migration and vascular leak and 
+promote thrombosis. The central role of TNF in inflammation has been 
+demonstrated by the ability of agents that block the action of TNF to treat a 
+range of inflammatory conditions, including rheumatoid arthritis, ankylosing 
+spondylitis, inflammatory bowel disease and psoriasis. The increased incidence 
+of infection in patients receiving anti-TNF treatment has highlighted the 
+physiological role of TNF in infectious diseases.
+
+2007 Pathological Society of Great Britain and Ireland
+
+DOI: 10.1002/path.2287
+PMID: 18161752 [Indexed for MEDLINE]

@@ -1,0 +1,44 @@
+[
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+    "relationship": "activates",
+    "description": "6-Formylindolo(3,2-b)carbazole (FICZ) is a ligand that activates the Aryl hydrocarbon receptor (AhR)."
+  },
+  {
+    "source": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+    "target": "Dextran sulphate sodium (DSS)",
+    "relationship": "inhibits",
+    "description": "FICZ induced AhR activation inhibits the DSS-induced decrease in TJ protein expression."
+  },
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "Tumor necrosis factor alpha (TNF-α)",
+    "relationship": "modulates",
+    "description": "AhR activation prevents TNF-α-induced decrease in TER and morphological disruption of TJs."
+  },
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "Interferon gamma (IFN-γ)",
+    "relationship": "modulates",
+    "description": "AhR activation prevents IFN-γ-induced decrease in TER and morphological disruption of TJs."
+  },
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "Myosin light chain kinase (MLCK)",
+    "relationship": "inhibits",
+    "description": "AhR activation inhibits TNF-α/IFN-γ-induced increase in MLCK expression."
+  },
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "Myosin light chain (MLC)",
+    "relationship": "inhibits",
+    "description": "AhR activation inhibits TNF-α/IFN-γ-induced increase in MLC phosphorylation."
+  },
+  {
+    "source": "Aryl hydrocarbon receptor (AhR)",
+    "target": "NF-κB p65",
+    "relationship": "suppresses",
+    "description": "AhR activation suppresses the NF-κB p65 signaling pathway."
+  }
+]

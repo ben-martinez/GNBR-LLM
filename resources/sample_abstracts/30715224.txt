@@ -1,0 +1,50 @@
+1. J Crohns Colitis. 2019 May 27;13(6):772-784. doi: 10.1093/ecco-jcc/jjy215.
+
+Neutrophil Extracellular Traps Sustain Inflammatory Signals in Ulcerative 
+Colitis.
+
+Dinallo V(1), Marafini I(1), Di Fusco D(1), Laudisi F(1), Franzè E(1), Di Grazia 
+A(1), Figliuzzi MM(1), Caprioli F(2), Stolfi C(1), Monteleone I(3), Monteleone 
+G(1).
+
+Author information:
+(1)Department of Systems Medicine, University of 'Tor Vergata', Rome, Italy.
+(2)Department of Pathophysiology and Transplantation, University of Milan, 
+Milan, Italy.
+(3)Department of Biomedicine and Prevention, University of 'Tor Vergata', Rome, 
+Italy.
+
+BACKGROUND AND AIMS: In ulcerative colitis [UC], mucosal damage occurs in areas 
+that are infiltrated with neutrophils. The antimicrobial function of neutrophils 
+relies in part on the formation of extracellular web-like structures, named 
+neutrophil extracellular traps [NETs]. The formation and/or clearance of 
+aberrant NETs have been associated with several immune diseases. Here we 
+investigated the role of NETs in UC-related inflammation.
+METHODS: The expression of NET-associated proteins was evaluated in colonic 
+biopsies of patients with Crohn's disease [CD], UC and in normal controls [NC] 
+by Western blotting, immunofluorescence and immunohistochemistry. Colonic 
+biopsies of UC patients were analysed before and after anti-tumour necrosis 
+factor α [anti-TNF-α] treatment. The capacity of neutrophils to produce NETs 
+upon activation was tested in vitro. UC lamina propria mononuclear cells [LPMCs] 
+were cultured with NETs in the presence or absence of an extracellular 
+signal-regulated kinase-1/2 [ERK1/2] inhibitor and inflammatory cytokine 
+induction was assessed by real-time polymerase chain reaction and enzyme-linked 
+immunosorbent assay. We also characterized the contribution of NETs in dextran 
+sodium sulfate [DSS]-induced colitis.
+RESULTS: NET-associated proteins were over-expressed in inflamed colon of UC 
+patients as compared to CD patients and NC. Circulating neutrophils of UC 
+patients produced NETs in response to TNF-α stimulation, and reduced expression 
+of NET-related proteins and diminished NET formation were seen in patients 
+receiving successful treatment with anti-TNF-α. Treatment of UC LPMCs with NETs 
+activated ERK1/2, thus enhancing TNF-α and interleukin-1β [IL-1β] production. 
+NETs were induced in mice with DSS-colitis and in vivo inhibition of NET release 
+attenuated colitis.
+CONCLUSIONS: Our data show that NET release occurs in UC and suggest a role for 
+NETs in sustaining mucosal inflammation in this disorder.
+
+Copyright © 2019 European Crohn’s and Colitis Organisation (ECCO). Published by 
+Oxford University Press. All rights reserved. For permissions, please email: 
+journals.permissions@oup.com.
+
+DOI: 10.1093/ecco-jcc/jjy215
+PMID: 30715224 [Indexed for MEDLINE]
