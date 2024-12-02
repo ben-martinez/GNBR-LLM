@@ -15,3 +15,9 @@ To sample your own abstracts, there's a helper script. You can use the downloade
 
 ## TODO
 - Currently there may still be an issue with the edges containing source or target nodes which are not found in the list of retrieved entities. Either its a new node, or we're not correctly finding the matching entity
+- Confidence score?
+- Better visualization UI
+- Include graph uncertainty and metadata on visualization
+- Improve original source metadata (currently just the PubmedID)
+- Improve code for scalability
+- Test more and varied abstracts
