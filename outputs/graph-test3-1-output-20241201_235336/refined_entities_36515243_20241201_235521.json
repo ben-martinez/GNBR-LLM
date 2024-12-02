@@ -1,0 +1,26 @@
+[
+    {
+        "entity_name": "Upadacitinib",
+        "type": "Drug",
+        "description": "A Janus kinase (JAK) 1 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Risankizumab",
+        "type": "Drug",
+        "description": "An IL-23 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory Bowel Disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+        "is_ambiguous": false
+    }
+]

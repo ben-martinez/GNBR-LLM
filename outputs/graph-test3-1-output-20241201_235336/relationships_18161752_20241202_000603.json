@@ -1,0 +1,38 @@
+[
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "TNFR1",
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR1, initiating distinct and overlapping signal transduction pathways."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "TNFR2",
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR2, which initiates different signal transduction pathways."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "rheumatoid arthritis",
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat rheumatoid arthritis."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "ankylosing spondylitis",
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat ankylosing spondylitis."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "inflammatory bowel disease",
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat inflammatory bowel disease."
+    },
+    {
+        "source": "TNF (Tumor Necrosis Factor)",
+        "target": "psoriasis",
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat psoriasis."
+    }
+]

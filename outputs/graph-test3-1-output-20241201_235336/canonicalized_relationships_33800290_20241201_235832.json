@@ -1,0 +1,65 @@
+[
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha",
+                "TNF-alpha",
+                "TNF-\u03b1",
+                "Tumor Necrosis Factor",
+                "Cachectin"
+            ],
+            "entity_name": "Tumor Necrosis Factor Alpha (TNF-\u03b1)",
+            "type": "Protein",
+            "description": "A cytokine involved in systemic inflammation and a key regulator of immune response.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Autoimmune Disease",
+            "candidates": [
+                "Autoimmune Disease",
+                "Autoimmunity",
+                "Autoimmune Disorders",
+                "Autoimmune Conditions"
+            ],
+            "entity_name": "Autoimmune Disease",
+            "type": "Disease",
+            "description": "A condition where the immune system mistakenly attacks the body's own tissues.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "TNF-\u03b1 is identified as a pathological component of autoimmune diseases."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha",
+                "TNF-alpha",
+                "TNF-\u03b1",
+                "Tumor Necrosis Factor",
+                "Cachectin"
+            ],
+            "entity_name": "Tumor Necrosis Factor Alpha (TNF-\u03b1)",
+            "type": "Protein",
+            "description": "A cytokine involved in systemic inflammation and a key regulator of immune response.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Alpha Inhibitors",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha Inhibitors",
+                "TNF-alpha Inhibitors",
+                "TNF-\u03b1 Inhibitors",
+                "Anti-TNF Agents",
+                "TNF Inhibitors"
+            ],
+            "entity_name": "TNF-\u03b1 Inhibitors",
+            "type": "Drug",
+            "description": "Therapeutic agents that inhibit the action of Tumor Necrosis Factor Alpha (TNF-\u03b1) to reduce inflammation in autoimmune diseases.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "TNF-\u03b1 inhibitors are therapeutic agents that inhibit the action of TNF-\u03b1 to reduce inflammation in autoimmune diseases."
+    }
+]

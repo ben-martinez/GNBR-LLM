@@ -1,0 +1,32 @@
+[
+    {
+        "source": "Neutrophil Extracellular Traps (NETs)",
+        "target": "Ulcerative Colitis (UC)",
+        "relationship": "modulates",
+        "description": "NETs sustain inflammatory signals in Ulcerative Colitis."
+    },
+    {
+        "source": "Neutrophil Extracellular Traps (NETs)",
+        "target": "Interleukin-1 Beta (IL-1\u03b2)",
+        "relationship": "activates",
+        "description": "NETs activate ERK1/2, enhancing IL-1\u03b2 production."
+    },
+    {
+        "source": "Neutrophil Extracellular Traps (NETs)",
+        "target": "Extracellular Signal-Regulated Kinase 1/2 (ERK1/2)",
+        "relationship": "activates",
+        "description": "NETs activate ERK1/2 in UC lamina propria mononuclear cells."
+    },
+    {
+        "source": "Anti-Tumor Necrosis Factor Alpha (anti-TNF-\u03b1)",
+        "target": "Neutrophil Extracellular Traps (NETs)",
+        "relationship": "inhibits",
+        "description": "Anti-TNF-\u03b1 treatment reduced NET formation in UC patients."
+    },
+    {
+        "source": "Dextran Sodium Sulfate (DSS)",
+        "target": "Neutrophil Extracellular Traps (NETs)",
+        "relationship": "induces",
+        "description": "NETs were induced in mice with DSS-colitis."
+    }
+]

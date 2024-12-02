@@ -1,0 +1,26 @@
+[
+    {
+        "source": "Bifidobacterium",
+        "target": "Fatty Acid Metabolism Pathway in IBD",
+        "relationship": "modulates",
+        "description": "An increased abundance of Bifidobacterium is associated with higher expression of genes involved in fatty acid metabolism."
+    },
+    {
+        "source": "Bacteroides",
+        "target": "Metallothionein Signaling Pathway in IBD",
+        "relationship": "correlates with",
+        "description": "Bacteroides correlates with increased metallothionein signaling."
+    },
+    {
+        "source": "Lachnoclostridium",
+        "target": "immunoregulatory genes",
+        "relationship": "associates with",
+        "description": "A transcriptional network dominated by immunoregulatory genes is associated with Lachnoclostridium bacteria in non-stenotic tissue."
+    },
+    {
+        "source": "Ruminococcaceae",
+        "target": "Fatty Acid Metabolism Pathway in IBD",
+        "relationship": "links to",
+        "description": "A transcriptional network dominated by fatty acid metabolism genes is linked to Ruminococcaceae in patients using TNF-\u03b1-antagonists."
+    }
+]

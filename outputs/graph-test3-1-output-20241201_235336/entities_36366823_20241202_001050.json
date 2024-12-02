@@ -1,0 +1,44 @@
+[
+    {
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A chronic inflammatory condition of the gastrointestinal tract with unknown specific etiopathogenesis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "anti-tumor necrosis factor \u03b1 (anti-TNF\u03b1)",
+        "type": "Drug",
+        "description": "A biologic drug used to treat inflammatory bowel disease by inhibiting tumor necrosis factor \u03b1.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Janus kinase (JAK)",
+        "type": "Protein",
+        "description": "A family of enzymes that transmit signals within cells and are implicated in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "sphingosine-1-phosphate receptors",
+        "type": "Protein",
+        "description": "Receptors involved in lymphocyte trafficking and various aspects of the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cytokines (IL-12/23, TL1A, and IL-36)",
+        "type": "Protein",
+        "description": "Signaling molecules that mediate and regulate immunity, inflammation, and hematopoiesis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "B cells",
+        "type": "Gene",
+        "description": "A type of white blood cell that plays a vital role in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "innate lymphoid cells",
+        "type": "Gene",
+        "description": "A group of immune cells involved in the maintenance of tissue homeostasis and immune responses.",
+        "is_ambiguous": false
+    }
+]

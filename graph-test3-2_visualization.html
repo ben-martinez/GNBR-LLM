@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 600px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "lightblue", "id": "Inflammatory Bowel Disease", "label": "Inflammatory Bowel Disease", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Crohn\u0027s Disease", "label": "Crohn\u0027s Disease", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Ulcerative Colitis", "label": "Ulcerative Colitis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Dual-Targeted Therapy for Inflammatory Bowel Disease", "label": "Dual-Targeted Therapy for Inflammatory Bowel Disease", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Therapeutic Agents Targeting Cellular Signaling Pathways in Inflammatory Bowel Disease", "label": "Therapeutic Agents Targeting Cellular Signaling Pathways in Inflammatory Bowel Disease", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions", "label": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease", "label": "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease", "label": "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Tumor Necrosis Factor", "label": "Tumor Necrosis Factor", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Rheumatoid Arthritis", "label": "Rheumatoid Arthritis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Ankylosing Spondylitis", "label": "Ankylosing Spondylitis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Tumor Necrosis Factor Receptor 1", "label": "Tumor Necrosis Factor Receptor 1", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Tumor Necrosis Factor Receptor 2", "label": "Tumor Necrosis Factor Receptor 2", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "G Protein-Coupled Receptor 174", "label": "G Protein-Coupled Receptor 174", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Dextran Sodium Sulfate", "label": "Dextran Sodium Sulfate", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Interleukin 6", "label": "Interleukin 6", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Interleukin 10", "label": "Interleukin 10", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Interferon Gamma", "label": "Interferon Gamma", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Interleukin 4", "label": "Interleukin 4", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Major Histocompatibility Complex Class II", "label": "Major Histocompatibility Complex Class II", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Infliximab", "label": "Infliximab", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Arachidonate 15-Lipoxygenase", "label": "Arachidonate 15-Lipoxygenase", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Fc Fragment of IgE Receptor 1 Alpha Chain", "label": "Fc Fragment of IgE Receptor 1 Alpha Chain", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Oligodendrocyte Transcription Factor 2", "label": "Oligodendrocyte Transcription Factor 2", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Tumor Necrosis Factor-alpha Antagonists", "label": "Tumor Necrosis Factor-alpha Antagonists", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Bifidobacterium", "label": "Bifidobacterium", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Bacteroides", "label": "Bacteroides", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Lachnoclostridium", "label": "Lachnoclostridium", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Ruminococcaceae", "label": "Ruminococcaceae", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Metallothionein Signaling Pathway", "label": "Metallothionein Signaling Pathway", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Fatty Acid Metabolism Pathway", "label": "Fatty Acid Metabolism Pathway", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Aryl Hydrocarbon Receptor", "label": "Aryl Hydrocarbon Receptor", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "6-Formylindolo(3,2-b)carbazole", "label": "6-Formylindolo(3,2-b)carbazole", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Myosin Light Chain", "label": "Myosin Light Chain", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Myosin Light Chain Kinase", "label": "Myosin Light Chain Kinase", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Nuclear Factor Kappa B Subunit P65", "label": "Nuclear Factor Kappa B Subunit P65", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Baicalin", "label": "Baicalin", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "I\u03baB Kinase", "label": "I\u03baB Kinase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Inhibitor of Kappa B", "label": "Inhibitor of Kappa B", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells", "label": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Superoxide Dismutase", "label": "Superoxide Dismutase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Catalase", "label": "Catalase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Glutathione Peroxidase", "label": "Glutathione Peroxidase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Malondialdehyde", "label": "Malondialdehyde", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Interleukin 1 Beta", "label": "Interleukin 1 Beta", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Myeloperoxidase", "label": "Myeloperoxidase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Prostaglandin E2", "label": "Prostaglandin E2", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Cleaved-Caspase 3", "label": "Cleaved-Caspase 3", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Cleaved-Caspase 9", "label": "Cleaved-Caspase 9", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "B-Cell Lymphoma 2", "label": "B-Cell Lymphoma 2", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Bcl-2-Associated X Protein", "label": "Bcl-2-Associated X Protein", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Cytochrome c", "label": "Cytochrome c", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Phosphorylated I\u03baB Kinase Beta", "label": "Phosphorylated I\u03baB Kinase Beta", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Phosphorylated Inhibitor of Kappa B Alpha", "label": "Phosphorylated Inhibitor of Kappa B Alpha", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Palmitoleic Acid", "label": "Palmitoleic Acid", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Tumor Necrosis Factor-Alpha Inhibitor Therapy", "label": "Tumor Necrosis Factor-Alpha Inhibitor Therapy", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Akkermansia muciniphila", "label": "Akkermansia muciniphila", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Neutrophil Extracellular Traps", "label": "Neutrophil Extracellular Traps", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Anti-Tumor Necrosis Factor Alpha", "label": "Anti-Tumor Necrosis Factor Alpha", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Extracellular Signal-Regulated Kinase 1/2", "label": "Extracellular Signal-Regulated Kinase 1/2", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Janus Kinase", "label": "Janus Kinase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Sphingosine-1-Phosphate Receptors", "label": "Sphingosine-1-Phosphate Receptors", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Cytokines", "label": "Cytokines", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "B Lymphocytes", "label": "B Lymphocytes", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Innate Lymphoid Cells", "label": "Innate Lymphoid Cells", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Autoimmune Disease", "label": "Autoimmune Disease", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Lysophosphatidic Acid", "label": "Lysophosphatidic Acid", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "G Protein-Coupled Receptor 35", "label": "G Protein-Coupled Receptor 35", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Cytochrome P450 Family 11 Subfamily B Member 1", "label": "Cytochrome P450 Family 11 Subfamily B Member 1", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Interleukin-23", "label": "Interleukin-23", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Interleukin-1 Alpha", "label": "Interleukin-1 Alpha", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Sepsis", "label": "Sepsis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Diabetes Mellitus", "label": "Diabetes Mellitus", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Cancer", "label": "Cancer", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Osteoporosis", "label": "Osteoporosis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Multiple Sclerosis", "label": "Multiple Sclerosis", "shape": "dot", "title": "Type: Disease"}, {"color": "lightblue", "id": "Protein Kinase B", "label": "Protein Kinase B", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Death Receptor 3", "label": "Death Receptor 3", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "T Helper Cell Subtypes Th1 and Th17", "label": "T Helper Cell Subtypes Th1 and Th17", "shape": "dot", "title": "Type: Gene"}, {"color": "lightblue", "id": "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein", "label": "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "RAF Proto-Oncogene Serine/Threonine-Protein Kinase", "label": "RAF Proto-Oncogene Serine/Threonine-Protein Kinase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Toll-Like Receptor 4", "label": "Toll-Like Receptor 4", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Upadacitinib", "label": "Upadacitinib", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Risankizumab", "label": "Risankizumab", "shape": "dot", "title": "Type: Drug"}, {"color": "lightblue", "id": "Fc Gamma Receptor", "label": "Fc Gamma Receptor", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "CD206 Positive Regulatory Macrophages", "label": "CD206 Positive Regulatory Macrophages", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "CD4 Positive CD45R High T-Cells", "label": "CD4 Positive CD45R High T-Cells", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "3-Mercaptopyruvate Sulfurtransferase", "label": "3-Mercaptopyruvate Sulfurtransferase", "shape": "dot", "title": "Type: Protein"}, {"color": "lightblue", "id": "Psoriasis", "label": "Psoriasis", "shape": "dot", "title": "Type: Disease"}, {"color": "orange", "id": "Interleukin-1 Beta", "label": "Interleukin-1 Beta", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Interleukin-10", "label": "Interleukin-10", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Tumor Necrosis Factor Inhibitors", "label": "Tumor Necrosis Factor Inhibitors", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Tumor Necrosis Factor Alpha", "label": "Tumor Necrosis Factor Alpha", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Tumor Necrosis Factor Alpha Inhibitors", "label": "Tumor Necrosis Factor Alpha Inhibitors", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Colitis", "label": "Colitis", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "AKT Protein Kinase", "label": "AKT Protein Kinase", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "Tumor Necrosis Factor-Like Cytokine 1A", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Nuclear Factor Kappa B", "label": "Nuclear Factor Kappa B", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "label": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Extracellular Signal-Regulated Kinase", "label": "Extracellular Signal-Regulated Kinase", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Dextran Sulfate Sodium", "label": "Dextran Sulfate Sodium", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Inflammatory bowel disease (IBD)", "label": "Inflammatory bowel disease (IBD)", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "immunoregulatory genes", "label": "immunoregulatory genes", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Dual-targeted therapy (DTT) for inflammatory bowel disease", "label": "Dual-targeted therapy (DTT) for inflammatory bowel disease", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells p65", "label": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells p65", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Tumor Necrosis Factor-Alpha", "label": "Tumor Necrosis Factor-Alpha", "shape": "dot", "title": "Automatically added"}, {"color": "orange", "id": "Interleukin-6", "label": "Interleukin-6", "shape": "dot", "title": "Automatically added"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Interleukin-1 Alpha", "label": "regulates", "title": "regulates", "to": "Interleukin-23"}, {"arrows": "to", "from": "Interleukin-1 Beta", "label": "regulates", "title": "regulates", "to": "Interleukin-23"}, {"arrows": "to", "from": "Interleukin-10", "label": "regulates", "title": "regulates", "to": "Interleukin-23"}, {"arrows": "to", "from": "Crohn\u0027s Disease", "label": "non-responsive to", "title": "non-responsive to", "to": "Tumor Necrosis Factor Inhibitors"}, {"arrows": "to", "from": "Tumor Necrosis Factor Alpha", "label": "activates", "title": "activates", "to": "Autoimmune Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor Alpha", "label": "inhibits", "title": "inhibits", "to": "Tumor Necrosis Factor Alpha Inhibitors"}, {"arrows": "to", "from": "Lysophosphatidic Acid", "label": "activates", "title": "activates", "to": "G Protein-Coupled Receptor 35"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 35", "label": "modulates", "title": "modulates", "to": "Tumor Necrosis Factor"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 35", "label": "inhibits", "title": "inhibits", "to": "Cytochrome P450 Family 11 Subfamily B Member 1"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "activates", "title": "activates", "to": "Cytochrome P450 Family 11 Subfamily B Member 1"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 35", "label": "regulates", "title": "regulates", "to": "Colitis"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is treated by", "title": "is treated by", "to": "Anti-Tumor Necrosis Factor Alpha"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is targeted by", "title": "is targeted by", "to": "Janus Kinase"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is targeted by", "title": "is targeted by", "to": "Sphingosine-1-Phosphate Receptors"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is targeted by", "title": "is targeted by", "to": "Cytokines"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is influenced by", "title": "is influenced by", "to": "B Lymphocytes"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "is influenced by", "title": "is influenced by", "to": "Innate Lymphoid Cells"}, {"arrows": "to", "from": "Neutrophil Extracellular Traps", "label": "modulates", "title": "modulates", "to": "Ulcerative Colitis"}, {"arrows": "to", "from": "Neutrophil Extracellular Traps", "label": "activates", "title": "activates", "to": "Interleukin-1 Beta"}, {"arrows": "to", "from": "Neutrophil Extracellular Traps", "label": "activates", "title": "activates", "to": "Extracellular Signal-Regulated Kinase 1/2"}, {"arrows": "to", "from": "Anti-Tumor Necrosis Factor Alpha", "label": "inhibits", "title": "inhibits", "to": "Neutrophil Extracellular Traps"}, {"arrows": "to", "from": "Dextran Sodium Sulfate", "label": "induces", "title": "induces", "to": "Neutrophil Extracellular Traps"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "interacts with", "title": "interacts with", "to": "Tumor Necrosis Factor Receptor 1"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "interacts with", "title": "interacts with", "to": "Tumor Necrosis Factor Receptor 2"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "modulates", "title": "modulates", "to": "Rheumatoid Arthritis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "modulates", "title": "modulates", "to": "Ankylosing Spondylitis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "modulates", "title": "modulates", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "modulates", "title": "modulates", "to": "Psoriasis"}, {"arrows": "to", "from": "3-Mercaptopyruvate Sulfurtransferase", "label": "modulates", "title": "modulates", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "3-Mercaptopyruvate Sulfurtransferase", "label": "inhibits", "title": "inhibits", "to": "Ulcerative Colitis"}, {"arrows": "to", "from": "3-Mercaptopyruvate Sulfurtransferase", "label": "inhibits", "title": "inhibits", "to": "Crohn\u0027s Disease"}, {"arrows": "to", "from": "3-Mercaptopyruvate Sulfurtransferase", "label": "interacts with", "title": "interacts with", "to": "AKT Protein Kinase"}, {"arrows": "to", "from": "AKT Protein Kinase", "label": "regulates", "title": "regulates", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor Alpha", "label": "inhibits", "title": "inhibits", "to": "3-Mercaptopyruvate Sulfurtransferase"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "binds", "title": "binds", "to": "Tumor Necrosis Factor Receptor 1"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Sepsis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Diabetes Mellitus"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Cancer"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Osteoporosis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Multiple Sclerosis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Rheumatoid Arthritis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Upadacitinib", "label": "treats", "title": "treats", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Risankizumab", "label": "treats", "title": "treats", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Upadacitinib", "label": "treats", "title": "treats", "to": "Crohn\u0027s Disease"}, {"arrows": "to", "from": "Risankizumab", "label": "treats", "title": "treats", "to": "Crohn\u0027s Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "binds", "title": "binds", "to": "Death Receptor 3"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "promotes", "title": "promotes", "to": "T Helper Cell Subtypes Th1 and Th17"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "positively regulates", "title": "positively regulates", "to": "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "positively regulates", "title": "positively regulates", "to": "RAF Proto-Oncogene Serine/Threonine-Protein Kinase"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "positively regulates", "title": "positively regulates", "to": "Nuclear Factor Kappa B"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Like Cytokine 1A", "label": "promotes", "title": "promotes", "to": "Toll-Like Receptor 4"}, {"arrows": "to", "from": "Toll-Like Receptor 4", "label": "induces", "title": "induces", "to": "T Helper Cell Subtypes Th1 and Th17"}, {"arrows": "to", "from": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "label": "interacts with", "title": "interacts with", "to": "Fc Gamma Receptor"}, {"arrows": "to", "from": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "label": "modulates", "title": "modulates", "to": "Interleukin-10"}, {"arrows": "to", "from": "Interleukin-10", "label": "induces", "title": "induces", "to": "CD206 Positive Regulatory Macrophages"}, {"arrows": "to", "from": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "label": "induces", "title": "induces", "to": "CD206 Positive Regulatory Macrophages"}, {"arrows": "to", "from": "Interleukin-10", "label": "does not influence", "title": "does not influence", "to": "CD4 Positive CD45R High T-Cells"}, {"arrows": "to", "from": "Anti-Tumor Necrosis Factor Monoclonal Antibodies", "label": "treats", "title": "treats", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "modulates", "title": "modulates", "to": "Nuclear Factor Kappa B"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "modulates", "title": "modulates", "to": "Extracellular Signal-Regulated Kinase"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "modulates", "title": "modulates", "to": "Protein Kinase B"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "regulates", "title": "regulates", "to": "Interleukin 1 Beta"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "regulates", "title": "regulates", "to": "Tumor Necrosis Factor Alpha"}, {"arrows": "to", "from": "Inflammatory Bowel Disease", "label": "regulates", "title": "regulates", "to": "Interferon Gamma"}, {"arrows": "to", "from": "Aryl Hydrocarbon Receptor", "label": "activates", "title": "activates", "to": "6-Formylindolo(3,2-b)carbazole"}, {"arrows": "to", "from": "6-Formylindolo(3,2-b)carbazole", "label": "inhibits", "title": "inhibits", "to": "Dextran Sulfate Sodium"}, {"arrows": "to", "from": "Aryl Hydrocarbon Receptor", "label": "prevents", "title": "prevents", "to": "Tumor Necrosis Factor Alpha"}, {"arrows": "to", "from": "Aryl Hydrocarbon Receptor", "label": "prevents", "title": "prevents", "to": "Interferon Gamma"}, {"arrows": "to", "from": "6-Formylindolo(3,2-b)carbazole", "label": "inhibits", "title": "inhibits", "to": "Myosin Light Chain"}, {"arrows": "to", "from": "6-Formylindolo(3,2-b)carbazole", "label": "inhibits", "title": "inhibits", "to": "Myosin Light Chain Kinase"}, {"arrows": "to", "from": "6-Formylindolo(3,2-b)carbazole", "label": "suppresses", "title": "suppresses", "to": "Nuclear Factor Kappa B Subunit P65"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 174", "label": "modulates", "title": "modulates", "to": "Dextran Sodium Sulfate"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 174", "label": "inhibits", "title": "inhibits", "to": "Interleukin 6"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 174", "label": "activates", "title": "activates", "to": "Interleukin 10"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 174", "label": "inhibits", "title": "inhibits", "to": "Tumor Necrosis Factor Alpha"}, {"arrows": "to", "from": "G Protein-Coupled Receptor 174", "label": "regulates", "title": "regulates", "to": "Major Histocompatibility Complex Class II"}, {"arrows": "to", "from": "Inflammatory bowel disease (IBD)", "label": "treated with", "title": "treated with", "to": "Infliximab"}, {"arrows": "to", "from": "Infliximab", "label": "modulates", "title": "modulates", "to": "Arachidonate 15-Lipoxygenase"}, {"arrows": "to", "from": "Infliximab", "label": "modulates", "title": "modulates", "to": "Fc Fragment of IgE Receptor 1 Alpha Chain"}, {"arrows": "to", "from": "Infliximab", "label": "modulates", "title": "modulates", "to": "Oligodendrocyte Transcription Factor 2"}, {"arrows": "to", "from": "Bifidobacterium", "label": "modulates", "title": "modulates", "to": "Fatty Acid Metabolism Pathway"}, {"arrows": "to", "from": "Bacteroides", "label": "correlates with", "title": "correlates with", "to": "Metallothionein Signaling Pathway"}, {"arrows": "to", "from": "Lachnoclostridium", "label": "associates with", "title": "associates with", "to": "immunoregulatory genes"}, {"arrows": "to", "from": "Ruminococcaceae", "label": "links to", "title": "links to", "to": "Fatty Acid Metabolism Pathway"}, {"arrows": "to", "from": "Dual-targeted therapy (DTT) for inflammatory bowel disease", "label": "targets", "title": "targets", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Dual-targeted therapy (DTT) for inflammatory bowel disease", "label": "affects", "title": "affects", "to": "Crohn\u0027s Disease"}, {"arrows": "to", "from": "Dual-targeted therapy (DTT) for inflammatory bowel disease", "label": "affects", "title": "affects", "to": "Ulcerative Colitis"}, {"arrows": "to", "from": "Therapeutic Agents Targeting Cellular Signaling Pathways in Inflammatory Bowel Disease", "label": "targets", "title": "targets", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions", "label": "targets", "title": "targets", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease", "label": "targets", "title": "targets", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease", "label": "targets", "title": "targets", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "binds", "title": "binds", "to": "Tumor Necrosis Factor Receptor 2"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Ankylosing Spondylitis"}, {"arrows": "to", "from": "Tumor Necrosis Factor", "label": "implicated in", "title": "implicated in", "to": "Crohn\u0027s Disease"}, {"arrows": "to", "from": "Baicalin", "label": "modulates", "title": "modulates", "to": "I\u03baB Kinase"}, {"arrows": "to", "from": "Baicalin", "label": "modulates", "title": "modulates", "to": "Inhibitor of Kappa B"}, {"arrows": "to", "from": "Baicalin", "label": "modulates", "title": "modulates", "to": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Cleaved-Caspase 3"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Cleaved-Caspase 9"}, {"arrows": "to", "from": "Baicalin", "label": "modulates", "title": "modulates", "to": "B-Cell Lymphoma 2"}, {"arrows": "to", "from": "Baicalin", "label": "modulates", "title": "modulates", "to": "Bcl-2-Associated X Protein"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Cytochrome c"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells p65"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Phosphorylated I\u03baB Kinase Beta"}, {"arrows": "to", "from": "Baicalin", "label": "inhibits", "title": "inhibits", "to": "Phosphorylated Inhibitor of Kappa B Alpha"}, {"arrows": "to", "from": "Baicalin", "label": "activates", "title": "activates", "to": "Superoxide Dismutase"}, {"arrows": "to", "from": "Baicalin", "label": "activates", "title": "activates", "to": "Catalase"}, {"arrows": "to", "from": "Baicalin", "label": "activates", "title": "activates", "to": "Glutathione Peroxidase"}, {"arrows": "to", "from": "Baicalin", "label": "decreases", "title": "decreases", "to": "Malondialdehyde"}, {"arrows": "to", "from": "Baicalin", "label": "decreases", "title": "decreases", "to": "Interleukin 1 Beta"}, {"arrows": "to", "from": "Baicalin", "label": "decreases", "title": "decreases", "to": "Myeloperoxidase"}, {"arrows": "to", "from": "Baicalin", "label": "decreases", "title": "decreases", "to": "Prostaglandin E2"}, {"arrows": "to", "from": "Baicalin", "label": "decreases", "title": "decreases", "to": "Tumor Necrosis Factor Alpha"}, {"arrows": "to", "from": "Palmitoleic Acid", "label": "improves", "title": "improves", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Palmitoleic Acid", "label": "reduces", "title": "reduces", "to": "Tumor Necrosis Factor-Alpha"}, {"arrows": "to", "from": "Palmitoleic Acid", "label": "reduces", "title": "reduces", "to": "Interleukin-6"}, {"arrows": "to", "from": "Palmitoleic Acid", "label": "upregulates", "title": "upregulates", "to": "Akkermansia muciniphila"}, {"arrows": "to", "from": "Akkermansia muciniphila", "label": "provides", "title": "provides", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Tumor Necrosis Factor-Alpha Inhibitor Therapy", "label": "treats", "title": "treats", "to": "Inflammatory Bowel Disease"}, {"arrows": "to", "from": "Crohn\u0027s Disease", "label": "is a type of", "title": "is a type of", "to": "Inflammatory Bowel Disease"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

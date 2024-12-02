@@ -1,0 +1,116 @@
+[
+    {
+        "source": "Baicalin",
+        "target": "IKK",
+        "relationship": "modulates",
+        "description": "Baicalin has a regulating effect on the IKK/IKB/NF-kB signaling pathway."
+    },
+    {
+        "source": "Baicalin",
+        "target": "IKB",
+        "relationship": "modulates",
+        "description": "Baicalin affects the IKK/IKB/NF-kB signaling pathway."
+    },
+    {
+        "source": "Baicalin",
+        "target": "NF-kB",
+        "relationship": "modulates",
+        "description": "Baicalin regulates the NF-kB signaling pathway."
+    },
+    {
+        "source": "Baicalin",
+        "target": "cleaved-caspase3",
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cleaved-caspase3."
+    },
+    {
+        "source": "Baicalin",
+        "target": "cleaved-caspase9",
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cleaved-caspase9."
+    },
+    {
+        "source": "Baicalin",
+        "target": "Bcl-2",
+        "relationship": "modulates",
+        "description": "Baicalin affects the Bcl-2/Bax ratio."
+    },
+    {
+        "source": "Baicalin",
+        "target": "Bax",
+        "relationship": "modulates",
+        "description": "Baicalin affects the Bcl-2/Bax ratio."
+    },
+    {
+        "source": "Baicalin",
+        "target": "cyt-c",
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cyt-c."
+    },
+    {
+        "source": "Baicalin",
+        "target": "NF-kB p-65",
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of NF-kB p-65."
+    },
+    {
+        "source": "Baicalin",
+        "target": "p-IKK\u03b2/IKK\u03b2",
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of p-IKK\u03b2/IKK\u03b2."
+    },
+    {
+        "source": "Baicalin",
+        "target": "p-IKB\u03b1/IKB\u03b1",
+        "relationship": "inhibits",
+        "description": "Baicalin could significantly inhibit p-IKB\u03b1/IKB\u03b1 content change."
+    },
+    {
+        "source": "Baicalin",
+        "target": "SOD",
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of SOD."
+    },
+    {
+        "source": "Baicalin",
+        "target": "CAT",
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of CAT."
+    },
+    {
+        "source": "Baicalin",
+        "target": "GSH-Px",
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of GSH-Px."
+    },
+    {
+        "source": "Baicalin",
+        "target": "MDA",
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of MDA."
+    },
+    {
+        "source": "Baicalin",
+        "target": "IL-1\u03b2",
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of IL-1\u03b2."
+    },
+    {
+        "source": "Baicalin",
+        "target": "MPO",
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of MPO."
+    },
+    {
+        "source": "Baicalin",
+        "target": "PEG2",
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of PEG2."
+    },
+    {
+        "source": "Baicalin",
+        "target": "TNF-\u03b1",
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of TNF-\u03b1."
+    }
+]

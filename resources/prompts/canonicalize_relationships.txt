@@ -1,0 +1,128 @@
+You are an expert in biomedical information processing. Your task is to enrich a list of relationships between entities by matching the source and target names in the relationships list with their corresponding entries in a provided list of canonicalized entities. For any unmatched entities, you will fill in missing information using the best of your ability and based on the guidelines provided.
+Your output should be in JSON format.
+
+Instructions:
+
+    Input Data:
+        Canonicalized Entities: A list of entities where each includes primary_name, candidates, entity_name, type, description, and is_ambiguous.
+        Relationships: A list where each entry includes source, target, relationship, and description.
+
+    Matching Process:
+        For each relationship in the relationships list:
+            Match the source and target names to the primary_name field in the canonicalized entities list.
+            Replace the source and target names in the relationship with the full canonicalized entity entry.
+
+    No-Match Handling:
+        If a source or target does not match any primary_name in the canonicalized entities list:
+            Create a new entity entry using the following guidelines:
+                primary_name: Use the unmatched name directly.
+                candidates: Include the unmatched name as the only candidate.
+                entity_name: Use the unmatched name directly.
+                type: Infer the type (Drug, Disease, Gene, or Protein) based on context or relationship type. If uncertain, default to "Unknown".
+                description: Set to "n/a entity was created by relationship disambiguator".
+                is_ambiguous: Set to true.
+
+    Output Format:
+        Return the updated relationships list in JSON format. Each relationship should include:
+            source: The full matching canonicalized entity entry for the source (or the created entity entry if unmatched).
+            target: The full matching canonicalized entity entry for the target (or the created entity entry if unmatched).
+            relationship: The type of relationship (unchanged).
+            description: A brief description of the relationship (unchanged).
+
+Input Example:
+
+Canonicalized Entities:
+
+[
+  {
+    "primary_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "candidates": ["Region 1 of Apo B100 (0014Lys-Ser0160)", "Key functional region of Apo B100"],
+    "entity_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "type": "Protein",
+    "description": "A region identified in Apo B100.",
+    "is_ambiguous": false
+  },
+  {
+    "primary_name": "Segment A of BRCA1",
+    "candidates": ["Segment A of BRCA1", "BRCA1 Segment A"],
+    "entity_name": "Segment A of BRCA1",
+    "type": "Gene",
+    "description": "Part of the BRCA1 gene sequence.",
+    "is_ambiguous": false
+  }
+]
+
+Relationships:
+
+[
+  {
+    "source": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+    "target": "Segment A of BRCA1",
+    "relationship": "binds",
+    "description": "Region 1 of Apo B100 binds to Segment A of BRCA1."
+  },
+  {
+    "source": "Unknown Region Y",
+    "target": "Segment A of BRCA1",
+    "relationship": "interacts with",
+    "description": "Unknown Region Y interacts with Segment A of BRCA1."
+  }
+]
+
+Output Example:
+
+[
+  {
+    "source": {
+      "primary_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+      "candidates": ["Region 1 of Apo B100 (0014Lys-Ser0160)", "Key functional region of Apo B100"],
+      "entity_name": "Region 1 of Apo B100 (0014Lys-Ser0160)",
+      "type": "Protein",
+      "description": "A region identified in Apo B100.",
+      "is_ambiguous": false
+    },
+    "target": {
+      "primary_name": "Segment A of BRCA1",
+      "candidates": ["Segment A of BRCA1", "BRCA1 Segment A"],
+      "entity_name": "Segment A of BRCA1",
+      "type": "Gene",
+      "description": "Part of the BRCA1 gene sequence.",
+      "is_ambiguous": false
+    },
+    "relationship": "binds",
+    "description": "Region 1 of Apo B100 binds to Segment A of BRCA1."
+  },
+  {
+    "source": {
+      "primary_name": "Unknown Region Y",
+      "candidates": ["Unknown Region Y"],
+      "entity_name": "Unknown Region Y",
+      "type": "Unknown",
+      "description": "n/a entity was created by relationship disambiguator",
+      "is_ambiguous": true
+    },
+    "target": {
+      "primary_name": "Segment A of BRCA1",
+      "candidates": ["Segment A of BRCA1", "BRCA1 Segment A"],
+      "entity_name": "Segment A of BRCA1",
+      "type": "Gene",
+      "description": "Part of the BRCA1 gene sequence.",
+      "is_ambiguous": false
+    },
+    "relationship": "interacts with",
+    "description": "Unknown Region Y interacts with Segment A of BRCA1."
+  }
+]
+
+Notes:
+
+    Guidance for Created Entities:
+        Follow the principles from previous prompts:
+            Be liberal in listing aliases and candidates.
+            Create a clean, descriptive primary_name if possible, avoiding acronyms and abbreviations.
+
+    Infer Entity Type Carefully:
+        Use the relationship description, source/target context, or default to "Unknown" if no type is clear.
+
+    Output Completeness:
+        Ensure all relationships are preserved in the output, enriched with full canonicalized entity details or appropriately filled placeholders for unmatched entities.

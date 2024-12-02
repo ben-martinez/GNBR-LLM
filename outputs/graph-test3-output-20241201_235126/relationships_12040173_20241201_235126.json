@@ -1,0 +1,50 @@
+[
+    {
+        "source": "Tumor necrosis factor (TNF)",
+        "target": "TNF receptor-1 (TNF-R1)",
+        "relationship": "binds",
+        "description": "TNF interacts with TNF receptor-1 (TNF-R1) to activate several signal transduction pathways."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "sepsis",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of sepsis."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "diabetes",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of diabetes."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "cancer",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of cancer."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "osteoporosis",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of osteoporosis."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "multiple sclerosis",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of multiple sclerosis."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "rheumatoid arthritis",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of rheumatoid arthritis."
+    },
+    {
+        "source": "TNF receptor-1 (TNF-R1)",
+        "target": "inflammatory bowel diseases",
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of inflammatory bowel diseases."
+    }
+]

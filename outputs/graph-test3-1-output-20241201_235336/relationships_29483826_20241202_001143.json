@@ -1,0 +1,44 @@
+[
+    {
+        "source": "Aryl hydrocarbon receptor (AhR)",
+        "target": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "relationship": "activates",
+        "description": "Aryl hydrocarbon receptor activation by FICZ modulates intestinal epithelial barrier function."
+    },
+    {
+        "source": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "target": "Dextran sulphate sodium (DSS)",
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits the effects of DSS on TJ protein expression."
+    },
+    {
+        "source": "Aryl hydrocarbon receptor (AhR)",
+        "target": "Tumor necrosis factor alpha (TNF-\u03b1)",
+        "relationship": "prevents",
+        "description": "AhR activation prevents TNF-\u03b1/IFN-\u03b3-induced decrease in TER and morphological disruption."
+    },
+    {
+        "source": "Aryl hydrocarbon receptor (AhR)",
+        "target": "Interferon gamma (IFN-\u03b3)",
+        "relationship": "prevents",
+        "description": "AhR activation prevents TNF-\u03b1/IFN-\u03b3-induced morphological disruption of TJs."
+    },
+    {
+        "source": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "target": "Myosin Light Chain (MLC)",
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits the increase in MLC phosphorylation."
+    },
+    {
+        "source": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "target": "Myosin Light Chain Kinase (MLCK)",
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits TNF-\u03b1/IFN-\u03b3-induced increase in MLCK expression."
+    },
+    {
+        "source": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "target": "Nuclear Factor Kappa B Subunit P65 (NF-\u03baB p65)",
+        "relationship": "suppresses",
+        "description": "FICZ suppresses NF-\u03baB p65 signaling pathway involved in colitis."
+    }
+]

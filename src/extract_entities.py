@@ -20,14 +20,18 @@ CLIENT = openai.OpenAI(
 # Set up the OpenAI client
 openai.api_key = API_KEY
 
+# Graph file name CHANGE THIS TO THE NAME OF YOUR GRAPH JSON FILE
+GRAPH_NAME = 'graph-test3-1.json'
+# Graph name without json extension
+output_folder_name = GRAPH_NAME.split('.')[0] + "-output-" + datetime.now().strftime('%Y%m%d_%H%M%S')
+
 # Paths to the prompts, abstracts, and output directory
 BASE_DIR = os.path.dirname(__file__)
 PROMPTS_DIR = os.path.join(BASE_DIR, '../resources/prompts/')
 ABSTRACTS_DIR = os.path.join(BASE_DIR, '../resources/sample_abstracts/')
-OUTPUT_DIR = os.path.join(BASE_DIR, '../outputs/')
+OUTPUT_DIR = os.path.join(BASE_DIR, f'../outputs/{output_folder_name}')
 GRAPH_DIR = os.path.join(BASE_DIR, '../outputs/graphs/')
 
-GRAPH_NAME = 'graph-test2.json'
 
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -77,7 +81,7 @@ def make_api_call(prompt, additional_inputs=None, temperature=0.7):
             temperature=temperature
         )
         response_text = response.choices[0].message.content.strip()
-        print(response_text)
+        #print(response_text)
         return response_text
     except Exception as e:
         print(f"API call failed: {e}")
@@ -159,7 +163,6 @@ def process_abstract(abstract_file):
     try:
         gather_prompt = load_prompt('gather_all_entities.txt')
         response_text_1 = make_api_call(gather_prompt, additional_inputs={"Abstract": abstract_content})
-        save_output(response_text_1, OUTPUT_DIR, f"entities_{abstract_name}_{timestamp}.txt")
         
         json_output_1 = parse_json_response(response_text_1)
         if json_output_1:
@@ -182,7 +185,6 @@ def process_abstract(abstract_file):
             "Entities": json.dumps(json_output_1, indent=4)
         }
         response_text_2 = make_api_call(refine_prompt, additional_inputs=additional_inputs)
-        save_output(response_text_2, OUTPUT_DIR, f"refined_entities_{abstract_name}_{timestamp}.txt")
         
         refined_json_output = parse_json_response(response_text_2)
         if refined_json_output:
@@ -204,7 +206,6 @@ def process_abstract(abstract_file):
             "Refined Entities": json.dumps(refined_json_output, indent=4)
         }
         response_text_3 = make_api_call(canonicalize_prompt, additional_inputs=additional_inputs)
-        save_output(response_text_3, OUTPUT_DIR, f"canonicalized_entities_{abstract_name}_{timestamp}.txt")
         
         canonicalized_json_output = parse_json_response(response_text_3)
         if canonicalized_json_output:
@@ -227,24 +228,47 @@ def process_abstract(abstract_file):
             "Canonicalized Entities": json.dumps(canonicalized_json_output, indent=4)
         }
         response_text_4 = make_api_call(gather_relations_prompt, additional_inputs=additional_inputs)
-        save_output(response_text_4, OUTPUT_DIR, f"canonicalized_relationships_{abstract_name}_{timestamp}.txt")
         
         relations_json_output = parse_json_response(response_text_4)
         if relations_json_output:
-            relations_file_name = f"canonicalized_relationships_{abstract_name}_{timestamp}.json"
+            relations_file_name = f"relationships_{abstract_name}_{timestamp}.json"
             save_output(relations_json_output, OUTPUT_DIR, relations_file_name, is_json=True)
         else:
             # Save raw response
-            save_output(response_text_4, OUTPUT_DIR, f"canonicalized_relationships_{abstract_name}_{timestamp}_raw.txt")
+            save_output(response_text_4, OUTPUT_DIR, f"relationships_{abstract_name}_{timestamp}_raw.txt")
     except Exception as e:
         print(f"Error during Step 4 for {abstract_filename}: {e}")
         return
+
+
+    # ============================
+    # Step 5: Canonicalize Relationships
+    # ============================
+    try:
+        canonicalize_relations_prompt = load_prompt('canonicalize_relationships.txt')
+        additional_inputs = {
+            "Canonicalized Entities": json.dumps(canonicalized_json_output, indent=4),
+            "Relationships": json.dumps(relations_json_output, indent=4)
+        }
+        response_text_5 = make_api_call(canonicalize_relations_prompt, additional_inputs=additional_inputs)
+        
+        canonicalized_relations_json_output = parse_json_response(response_text_5)
+        if canonicalized_relations_json_output:
+            canonicalized_relations_file_name = f"canonicalized_relationships_{abstract_name}_{timestamp}.json"
+            save_output(canonicalized_relations_json_output, OUTPUT_DIR, canonicalized_relations_file_name, is_json=True)
+        else:
+            # Save raw response
+            save_output(response_text_5, OUTPUT_DIR, f"canonicalized_relationships_{abstract_name}_{timestamp}_raw.txt")
+    except Exception as e:
+        print(f"Error during Step 5 for {abstract_filename}: {e}")
+        return
+    
     
     print(f"Processing of {abstract_filename} completed.\n")
 
     print("Now adding it to graph")
     pubmed_id = abstract_filename.strip('.txt')
-    add_extracted_data_to_graph(OUTPUT_DIR, canonicalized_file_name, relations_file_name, pubmed_id)
+    add_extracted_data_to_graph(OUTPUT_DIR, canonicalized_file_name, canonicalized_relations_file_name, pubmed_id)
     print("Graph updated")
 
 def add_extracted_data_to_graph(output_dir, canonicalized_file_name, relations_file_name, pubmed_id):

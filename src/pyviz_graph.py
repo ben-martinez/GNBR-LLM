@@ -30,8 +30,8 @@ def visualize_graph_interactive(graph_path, output_path="graph_visualization.htm
 
     # Add edges and handle missing nodes
     for edge in graph_data['edges']:
-        source = edge['source']
-        target = edge['target']
+        source = edge['source_name']
+        target = edge['target_name']
         
         # Add source node if missing
         if source not in node_ids:
@@ -55,5 +55,7 @@ def visualize_graph_interactive(graph_path, output_path="graph_visualization.htm
     net.show(output_path)
 
 
-graph_path = os.path.join(os.path.dirname(__file__), '../outputs/graphs/graph-test2.json')
-visualize_graph_interactive(graph_path)
+# CHANGE THIS TO THE NAME OF YOUR GRAPH JSON FILE
+graph_filename = "graph-test3-2"
+graph_path = os.path.join(os.path.dirname(__file__), f'../outputs/graphs/{graph_filename}.json')
+visualize_graph_interactive(graph_path, f"{graph_filename}_visualization.html")

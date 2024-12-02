@@ -1,0 +1,44 @@
+[
+    {
+        "entity_name": "Palmitoleic Acid (POA)",
+        "type": "Drug",
+        "description": "A fatty acid that has been shown to repair gut mucosal barriers and improve the efficacy of anti-TNF-\u03b1 therapy.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Anti-TNF-\u03b1 therapy",
+        "type": "Drug",
+        "description": "A biological therapy used to treat inflammatory bowel diseases by inhibiting tumor necrosis factor-alpha.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory Bowel Diseases (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Akkermansia muciniphila",
+        "type": "Gene",
+        "description": "A beneficial bacterium in the gut microbiota that is involved in gut health and metabolism.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF-\u03b1",
+        "type": "Protein",
+        "description": "Tumor necrosis factor-alpha, a cytokine involved in systemic inflammation and regulation of immune cells.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-6",
+        "type": "Protein",
+        "description": "Interleukin-6, a cytokine that plays a role in inflammation and the immune response.",
+        "is_ambiguous": false
+    }
+]

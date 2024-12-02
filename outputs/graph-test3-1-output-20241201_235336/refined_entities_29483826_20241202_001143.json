@@ -1,0 +1,56 @@
+[
+    {
+        "entity_name": "Aryl hydrocarbon receptor (AhR)",
+        "type": "Protein",
+        "description": "A protein involved in controlling intestinal mucosal homeostasis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "dextran sulphate sodium (DSS)",
+        "type": "Drug",
+        "description": "A chemical used to induce colitis in experimental models.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+        "type": "Drug",
+        "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Tumor necrosis factor alpha (TNF-\u03b1)",
+        "type": "Protein",
+        "description": "A cytokine involved in systemic inflammation and a key regulator of immune cells.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Interferon gamma (IFN-\u03b3)",
+        "type": "Protein",
+        "description": "A cytokine that is critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Myosin light chain (MLC)",
+        "type": "Protein",
+        "description": "Myosin light chain, involved in muscle contraction and cellular functions.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "MLCK",
+        "type": "Gene",
+        "description": "Myosin light chain kinase, an enzyme that phosphorylates myosin light chain.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "NF-\u03baB p65",
+        "type": "Protein",
+        "description": "A protein component of the NF-\u03baB transcription factor complex involved in cellular responses to stimuli.",
+        "is_ambiguous": false
+    }
+]

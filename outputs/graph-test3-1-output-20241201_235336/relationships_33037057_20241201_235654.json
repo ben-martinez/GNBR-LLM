@@ -1,0 +1,26 @@
+[
+    {
+        "source": "IL-1\u03b1",
+        "target": "IL-23",
+        "relationship": "regulates",
+        "description": "IL-1\u03b1 is identified as a key cytokine that controls IL-23-producing monocytes."
+    },
+    {
+        "source": "IL-1\u03b2",
+        "target": "IL-23",
+        "relationship": "regulates",
+        "description": "IL-1\u03b2 is identified as a key cytokine that controls IL-23-producing monocytes."
+    },
+    {
+        "source": "IL-10",
+        "target": "IL-23",
+        "relationship": "regulates",
+        "description": "IL-10 is identified as a critical regulator of monocyte IL-23 production."
+    },
+    {
+        "source": "Crohn's Disease",
+        "target": "Antitumour Necrosis Factor (TNF) Therapy",
+        "relationship": "non-responsive to",
+        "description": "Patients with severe ulcerating active Crohn's disease are identified as non-responsive to anti-TNF treatment."
+    }
+]

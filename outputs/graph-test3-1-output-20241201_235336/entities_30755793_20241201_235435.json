@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "Tumour Necrosis Factor (TNF)",
+        "type": "Protein",
+        "description": "A master pro-inflammatory cytokine that modulates multiple signalling pathways.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Rheumatoid Arthritis",
+        "type": "Disease",
+        "description": "An autoimmune disease characterized by chronic inflammation of the joints.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ankylosing Spondylitis",
+        "type": "Disease",
+        "description": "A type of arthritis that primarily affects the spine, leading to severe inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease that affects the lining of the digestive tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF Receptor 1 (TNFR1)",
+        "type": "Protein",
+        "description": "One of the receptors for Tumour Necrosis Factor that mediates its effects.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF Receptor 2 (TNFR2)",
+        "type": "Protein",
+        "description": "Another receptor for Tumour Necrosis Factor involved in signaling pathways.",
+        "is_ambiguous": false
+    }
+]

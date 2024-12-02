@@ -1,0 +1,214 @@
+[
+    {
+        "source": {
+            "primary_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "candidates": [
+                "Dual-Targeted Therapy for Inflammatory Bowel Disease",
+                "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+                "Dual-targeted therapy",
+                "DTT for IBD"
+            ],
+            "entity_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "type": "Drug",
+            "description": "A therapeutic approach that targets multiple pathways in the treatment of inflammatory bowel disease.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Inflammatory bowel disorder"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "targets",
+        "description": "DTT is a therapeutic approach aimed at treating inflammatory bowel disease."
+    },
+    {
+        "source": {
+            "primary_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "candidates": [
+                "Dual-Targeted Therapy for Inflammatory Bowel Disease",
+                "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+                "Dual-targeted therapy",
+                "DTT for IBD"
+            ],
+            "entity_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "type": "Drug",
+            "description": "A therapeutic approach that targets multiple pathways in the treatment of inflammatory bowel disease.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Crohn's Disease",
+            "candidates": [
+                "Crohn's Disease",
+                "Crohn disease",
+                "Crohn's",
+                "Regional enteritis",
+                "Ileitis",
+                "Ileocolitis"
+            ],
+            "entity_name": "Crohn's disease",
+            "type": "Disease",
+            "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+            "is_ambiguous": false
+        },
+        "relationship": "affects",
+        "description": "DTT has potential efficacy on Crohn's disease, although data are limited."
+    },
+    {
+        "source": {
+            "primary_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "candidates": [
+                "Dual-Targeted Therapy for Inflammatory Bowel Disease",
+                "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+                "Dual-targeted therapy",
+                "DTT for IBD"
+            ],
+            "entity_name": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+            "type": "Drug",
+            "description": "A therapeutic approach that targets multiple pathways in the treatment of inflammatory bowel disease.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Ulcerative Colitis",
+            "candidates": [
+                "Ulcerative Colitis",
+                "Ulcerative colitis",
+                "Colitis",
+                "Chronic ulcerative colitis"
+            ],
+            "entity_name": "Ulcerative colitis",
+            "type": "Disease",
+            "description": "A chronic disease characterized by inflammation of the colon and rectum.",
+            "is_ambiguous": false
+        },
+        "relationship": "affects",
+        "description": "DTT may also be applicable to Ulcerative colitis, with insufficient data available."
+    },
+    {
+        "source": {
+            "primary_name": "Therapeutic Agents Targeting Cellular Signaling Pathways in Inflammatory Bowel Disease",
+            "candidates": [
+                "Therapeutic Agents Targeting Cellular Signaling Pathways in Inflammatory Bowel Disease",
+                "Therapeutic Agents Targeting Cellular Signaling Pathways in IBD",
+                "Therapeutic Agents Targeting Cellular Signaling Pathways",
+                "Therapeutic agents for IBD"
+            ],
+            "entity_name": "Therapeutic Agents Targeting Cellular Signaling Pathways in IBD",
+            "type": "Drug",
+            "description": "A category of therapeutic agents designed to target cellular signaling mechanisms in the treatment of IBD.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Inflammatory bowel disorder"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "targets",
+        "description": "These agents are designed to target cellular signaling mechanisms involved in IBD."
+    },
+    {
+        "source": {
+            "primary_name": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions",
+            "candidates": [
+                "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions",
+                "Leukocyte Trafficking Agents",
+                "Therapeutic Agents Targeting Leukocyte Trafficking",
+                "Therapeutic agents for leukocyte trafficking"
+            ],
+            "entity_name": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions",
+            "type": "Drug",
+            "description": "A category of therapeutic agents aimed at influencing leukocyte movement in inflammatory conditions.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Inflammatory bowel disorder"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "targets",
+        "description": "This category of agents influences leukocyte movement in the context of IBD."
+    },
+    {
+        "source": {
+            "primary_name": "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease",
+            "candidates": [
+                "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease",
+                "JAK-dependent therapeutic agents for inflammatory bowel disease",
+                "JAK-dependent agents",
+                "Janus kinase agents"
+            ],
+            "entity_name": "JAK-dependent therapeutic agents for inflammatory bowel disease",
+            "type": "Drug",
+            "description": "Therapeutic agents that act through Janus kinase pathways, involved in cellular signaling.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Inflammatory bowel disorder"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "targets",
+        "description": "JAK-dependent therapeutic agents are utilized in the treatment of IBD."
+    },
+    {
+        "source": {
+            "primary_name": "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease",
+            "candidates": [
+                "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease",
+                "JAK-independent therapeutic agents for inflammatory bowel disease",
+                "JAK-independent agents",
+                "Janus kinase-independent agents"
+            ],
+            "entity_name": "JAK-independent therapeutic agents for inflammatory bowel disease",
+            "type": "Drug",
+            "description": "Agents that exert therapeutic effects through mechanisms that do not involve Janus kinases.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Inflammatory bowel disorder"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "targets",
+        "description": "Agents that do not involve Janus kinases are also used for treating IBD."
+    }
+]

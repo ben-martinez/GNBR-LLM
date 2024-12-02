@@ -1,0 +1,210 @@
+[
+    {
+        "source": {
+            "primary_name": "Palmitoleic Acid",
+            "candidates": [
+                "Palmitoleic Acid",
+                "POA",
+                "Hexadec-9-enoic Acid",
+                "9-Hexadecanoic Acid"
+            ],
+            "entity_name": "Palmitoleic Acid (POA)",
+            "type": "Drug",
+            "description": "A fatty acid that has been shown to repair gut mucosal barriers and improve the efficacy of anti-TNF-\u03b1 therapy.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "Inflammatory Bowel Diseases",
+                "IBD",
+                "Chronic Inflammatory Bowel Disease"
+            ],
+            "entity_name": "Inflammatory Bowel Diseases (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "improves",
+        "description": "Palmitoleic acid improves the efficacy of anti-TNF-\u03b1 therapy in inflammatory bowel disease."
+    },
+    {
+        "source": {
+            "primary_name": "Palmitoleic Acid",
+            "candidates": [
+                "Palmitoleic Acid",
+                "POA",
+                "Hexadec-9-enoic Acid",
+                "9-Hexadecanoic Acid"
+            ],
+            "entity_name": "Palmitoleic Acid (POA)",
+            "type": "Drug",
+            "description": "A fatty acid that has been shown to repair gut mucosal barriers and improve the efficacy of anti-TNF-\u03b1 therapy.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor-Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor-Alpha",
+                "TNF-\u03b1",
+                "TNF-alpha",
+                "Cachectin"
+            ],
+            "entity_name": "TNF-\u03b1",
+            "type": "Protein",
+            "description": "Tumor necrosis factor-alpha, a cytokine involved in systemic inflammation and regulation of immune cells.",
+            "is_ambiguous": false
+        },
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of TNF-\u03b1 in inflamed colon tissues."
+    },
+    {
+        "source": {
+            "primary_name": "Palmitoleic Acid",
+            "candidates": [
+                "Palmitoleic Acid",
+                "POA",
+                "Hexadec-9-enoic Acid",
+                "9-Hexadecanoic Acid"
+            ],
+            "entity_name": "Palmitoleic Acid (POA)",
+            "type": "Drug",
+            "description": "A fatty acid that has been shown to repair gut mucosal barriers and improve the efficacy of anti-TNF-\u03b1 therapy.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interleukin-6",
+            "candidates": [
+                "Interleukin-6",
+                "IL-6",
+                "B-Cell Stimulating Factor",
+                "BSF-2"
+            ],
+            "entity_name": "IL-6",
+            "type": "Protein",
+            "description": "Interleukin-6, a cytokine that plays a role in inflammation and the immune response.",
+            "is_ambiguous": false
+        },
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of IL-6 in inflamed colon tissues."
+    },
+    {
+        "source": {
+            "primary_name": "Palmitoleic Acid",
+            "candidates": [
+                "Palmitoleic Acid",
+                "POA",
+                "Hexadec-9-enoic Acid",
+                "9-Hexadecanoic Acid"
+            ],
+            "entity_name": "Palmitoleic Acid (POA)",
+            "type": "Drug",
+            "description": "A fatty acid that has been shown to repair gut mucosal barriers and improve the efficacy of anti-TNF-\u03b1 therapy.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Akkermansia muciniphila",
+            "candidates": [
+                "Akkermansia muciniphila",
+                "Akkermansia",
+                "Akkermansia muciniphila bacterium"
+            ],
+            "entity_name": "Akkermansia muciniphila",
+            "type": "Gene",
+            "description": "A beneficial bacterium in the gut microbiota that is involved in gut health and metabolism.",
+            "is_ambiguous": false
+        },
+        "relationship": "upregulates",
+        "description": "Palmitoleic acid significantly upregulates the transcriptional signatures of Akkermansia muciniphila."
+    },
+    {
+        "source": {
+            "primary_name": "Akkermansia muciniphila",
+            "candidates": [
+                "Akkermansia muciniphila",
+                "Akkermansia",
+                "Akkermansia muciniphila bacterium"
+            ],
+            "entity_name": "Akkermansia muciniphila",
+            "type": "Gene",
+            "description": "A beneficial bacterium in the gut microbiota that is involved in gut health and metabolism.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "Inflammatory Bowel Diseases",
+                "IBD",
+                "Chronic Inflammatory Bowel Disease"
+            ],
+            "entity_name": "Inflammatory Bowel Diseases (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "provides",
+        "description": "Akkermansia muciniphila provides better protection against colitis when orally transferred with POA-reprogrammed gut microbiota."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Alpha Inhibitor Therapy",
+            "candidates": [
+                "Tumor Necrosis Factor-Alpha Inhibitor Therapy",
+                "Anti-TNF-\u03b1 therapy",
+                "TNF-\u03b1 Blockade Therapy",
+                "TNF Inhibitor Therapy"
+            ],
+            "entity_name": "Anti-TNF-\u03b1 therapy",
+            "type": "Drug",
+            "description": "A biological therapy used to treat inflammatory bowel diseases by inhibiting tumor necrosis factor-alpha.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "Inflammatory Bowel Diseases",
+                "IBD",
+                "Chronic Inflammatory Bowel Disease"
+            ],
+            "entity_name": "Inflammatory Bowel Diseases (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "Anti-TNF-\u03b1 therapy is used to treat inflammatory bowel diseases."
+    },
+    {
+        "source": {
+            "primary_name": "Crohn's Disease",
+            "candidates": [
+                "Crohn's Disease",
+                "CD",
+                "Regional Enteritis",
+                "Ileitis"
+            ],
+            "entity_name": "Crohn's Disease (CD)",
+            "type": "Disease",
+            "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "Inflammatory Bowel Diseases",
+                "IBD",
+                "Chronic Inflammatory Bowel Disease"
+            ],
+            "entity_name": "Inflammatory Bowel Diseases (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "is a type of",
+        "description": "Crohn's disease is a type of inflammatory bowel disease."
+    }
+]

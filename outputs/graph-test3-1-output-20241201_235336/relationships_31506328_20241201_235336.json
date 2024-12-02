@@ -1,0 +1,38 @@
+[
+    {
+        "source": "Anti-TNF monoclonal antibodies",
+        "target": "Fc\u03b3-receptor (Fc\u03b3R)",
+        "relationship": "interacts with",
+        "description": "Anti-TNF monoclonal antibodies act through Fc\u03b3-receptor (Fc\u03b3R) signalling to promote repolarisation of proinflammatory intestinal macrophages."
+    },
+    {
+        "source": "Anti-TNF monoclonal antibodies",
+        "target": "Interleukin-10 (IL-10)",
+        "relationship": "modulates",
+        "description": "Anti-TNF therapy increased macrophage IL-10 production in an Fc\u03b3R-dependent manner."
+    },
+    {
+        "source": "Interleukin-10 (IL-10)",
+        "target": "CD206+ regulatory macrophages",
+        "relationship": "induces",
+        "description": "IL-10 signalling in macrophages is critical for the induction of CD206+ regulatory macrophages."
+    },
+    {
+        "source": "Anti-TNF monoclonal antibodies",
+        "target": "CD206+ regulatory macrophages",
+        "relationship": "induces",
+        "description": "Anti-TNF therapy causes differentiation of macrophages to a more regulatory CD206+ phenotype."
+    },
+    {
+        "source": "Interleukin-10 (IL-10)",
+        "target": "CD4+CD45Rbhigh T-cells",
+        "relationship": "does not influence",
+        "description": "IL-10 signalling in macrophages but not T cells was critical for the induction of CD206+ regulatory macrophages."
+    },
+    {
+        "source": "Anti-TNF monoclonal antibodies",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "treats",
+        "description": "The therapeutic efficacy of anti-TNF in resolving intestinal inflammation is critically dependent on IL-10 signalling in macrophages."
+    }
+]

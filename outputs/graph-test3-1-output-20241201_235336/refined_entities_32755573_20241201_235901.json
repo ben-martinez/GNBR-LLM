@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "Lysophosphatidic Acid",
+        "type": "Drug",
+        "description": "An endogenous lipid mediator involved in various physiological processes, including inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+        "type": "Protein",
+        "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Tumor Necrosis Factor (Tnf)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in systemic inflammation and immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Corticosterone-generating gene Cyp11b1",
+        "type": "Gene",
+        "description": "A gene encoding an enzyme involved in corticosterone synthesis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory Bowel Disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Colitis",
+        "type": "Disease",
+        "description": "Inflammation of the colon, often presenting with abdominal pain and diarrhea.",
+        "is_ambiguous": false
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "source": "Tumor Necrosis Factor Alpha (TNF-\u03b1)",
+        "target": "Autoimmune Disease",
+        "relationship": "activates",
+        "description": "TNF-\u03b1 is identified as a pathological component of autoimmune diseases."
+    },
+    {
+        "source": "Tumor Necrosis Factor Alpha (TNF-\u03b1)",
+        "target": "TNF-\u03b1 Inhibitors",
+        "relationship": "inhibits",
+        "description": "TNF-\u03b1 inhibitors are therapeutic agents that inhibit the action of TNF-\u03b1 to reduce inflammation in autoimmune diseases."
+    }
+]

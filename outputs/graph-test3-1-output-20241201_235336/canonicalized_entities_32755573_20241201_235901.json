@@ -1,0 +1,77 @@
+[
+    {
+        "primary_name": "Lysophosphatidic Acid",
+        "candidates": [
+            "Lysophosphatidic Acid"
+        ],
+        "entity_name": "Lysophosphatidic Acid",
+        "type": "Drug",
+        "description": "An endogenous lipid mediator involved in various physiological processes, including inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "G Protein-Coupled Receptor 35",
+        "candidates": [
+            "G Protein-Coupled Receptor 35",
+            "GPR35",
+            "GPCR 35",
+            "G-protein coupled receptor 35"
+        ],
+        "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+        "type": "Protein",
+        "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor",
+        "candidates": [
+            "Tumor Necrosis Factor",
+            "TNF",
+            "TNF-alpha",
+            "Tumor Necrosis Factor alpha"
+        ],
+        "entity_name": "Tumor Necrosis Factor (Tnf)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in systemic inflammation and immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Cytochrome P450 Family 11 Subfamily B Member 1",
+        "candidates": [
+            "Cytochrome P450 Family 11 Subfamily B Member 1",
+            "Cyp11b1",
+            "CYP11B1",
+            "Corticosterone 11-beta-hydroxylase gene"
+        ],
+        "entity_name": "Corticosterone-generating gene Cyp11b1",
+        "type": "Gene",
+        "description": "A gene encoding an enzyme involved in corticosterone synthesis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Inflammatory Bowel Disorders",
+            "Conditions of the intestine"
+        ],
+        "entity_name": "Inflammatory Bowel Disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Colitis",
+        "candidates": [
+            "Colitis",
+            "Colitides",
+            "Colon Inflammation",
+            "Inflammation of the colon"
+        ],
+        "entity_name": "Colitis",
+        "type": "Disease",
+        "description": "Inflammation of the colon, often presenting with abdominal pain and diarrhea.",
+        "is_ambiguous": false
+    }
+]

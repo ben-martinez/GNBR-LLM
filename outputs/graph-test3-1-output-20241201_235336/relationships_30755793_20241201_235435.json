@@ -1,0 +1,32 @@
+[
+    {
+        "source": "Tumour Necrosis Factor (TNF)",
+        "target": "TNF Receptor 1 (TNFR1)",
+        "relationship": "binds",
+        "description": "Tumour Necrosis Factor binds to TNF Receptor 1 to mediate its effects."
+    },
+    {
+        "source": "Tumour Necrosis Factor (TNF)",
+        "target": "TNF Receptor 2 (TNFR2)",
+        "relationship": "binds",
+        "description": "Tumour Necrosis Factor binds to TNF Receptor 2, which is involved in signaling pathways."
+    },
+    {
+        "source": "Tumour Necrosis Factor (TNF)",
+        "target": "Rheumatoid Arthritis",
+        "relationship": "implicated in",
+        "description": "Tumour Necrosis Factor has been implicated in the disease state of Rheumatoid Arthritis."
+    },
+    {
+        "source": "Tumour Necrosis Factor (TNF)",
+        "target": "Ankylosing Spondylitis",
+        "relationship": "implicated in",
+        "description": "Tumour Necrosis Factor has been implicated in the disease state of Ankylosing Spondylitis."
+    },
+    {
+        "source": "Tumour Necrosis Factor (TNF)",
+        "target": "Crohn's Disease",
+        "relationship": "implicated in",
+        "description": "Tumour Necrosis Factor has been implicated in the disease state of Crohn's Disease."
+    }
+]

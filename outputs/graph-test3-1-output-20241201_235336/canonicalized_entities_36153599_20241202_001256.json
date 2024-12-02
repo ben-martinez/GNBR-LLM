@@ -1,0 +1,69 @@
+[
+    {
+        "primary_name": "Infliximab",
+        "candidates": [
+            "Infliximab",
+            "Remicade",
+            "Chimeric monoclonal antibody against tumor necrosis factor-alpha (TNF-\u03b1)"
+        ],
+        "entity_name": "Infliximab",
+        "type": "Drug",
+        "description": "A TNF antagonist used in the treatment of inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "Inflammatory bowel disease (IBD)",
+            "IBD",
+            "Crohn's Disease",
+            "Ulcerative Colitis",
+            "Chronic Inflammatory Bowel Disease"
+        ],
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Arachidonate 15-Lipoxygenase",
+        "candidates": [
+            "Arachidonate 15-Lipoxygenase",
+            "ALOX15",
+            "Lipoxygenase type 15",
+            "15-Lipoxygenase",
+            "15-LOX"
+        ],
+        "entity_name": "ALOX15",
+        "type": "Gene",
+        "description": "A gene involved in the metabolism of lipids and inflammatory responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Fc Fragment of IgE Receptor 1 Alpha Chain",
+        "candidates": [
+            "Fc Fragment of IgE Receptor 1 Alpha Chain",
+            "FCER1A",
+            "High-affinity immunoglobulin E receptor alpha chain",
+            "CD23"
+        ],
+        "entity_name": "FCER1A",
+        "type": "Gene",
+        "description": "A gene that encodes the high-affinity IgE receptor component, involved in allergic responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Oligodendrocyte Transcription Factor 2",
+        "candidates": [
+            "Oligodendrocyte Transcription Factor 2",
+            "OLIG2",
+            "OLIG2 Transcription Factor",
+            "Oligodendrocyte-specific transcription factor 2"
+        ],
+        "entity_name": "OLIG2",
+        "type": "Gene",
+        "description": "A gene that plays a role in oligodendrocyte development and function.",
+        "is_ambiguous": false
+    }
+]

@@ -1,0 +1,498 @@
+[
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "I\u03baB Kinase",
+            "candidates": [
+                "I\u03baB Kinase",
+                "IKK",
+                "I\u03baB Kinase Complex"
+            ],
+            "entity_name": "IKK",
+            "type": "Protein",
+            "description": "I\u03baB kinase, part of the signaling pathway involved in inflammation.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Baicalin has a regulating effect on the IKK/IKB/NF-kB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inhibitor of Kappa B",
+            "candidates": [
+                "Inhibitor of Kappa B",
+                "IKB",
+                "IKB Protein",
+                "Inhibitor of Kappa B Family"
+            ],
+            "entity_name": "IKB",
+            "type": "Protein",
+            "description": "Inhibitor of kappa B, a protein family that regulates the NF-kB signaling pathway.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Baicalin affects the IKK/IKB/NF-kB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells",
+            "candidates": [
+                "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells",
+                "NF-kB",
+                "NF-kB Protein Complex",
+                "NF-kB Family"
+            ],
+            "entity_name": "NF-kB",
+            "type": "Protein",
+            "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells, a transcription factor involved in inflammatory responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Baicalin regulates the NF-kB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cleaved-Caspase 3",
+            "candidates": [
+                "Cleaved-Caspase 3",
+                "Active Caspase 3",
+                "Caspase 3"
+            ],
+            "entity_name": "cleaved-caspase3",
+            "type": "Protein",
+            "description": "An active form of caspase 3, involved in the apoptotic process.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cleaved-caspase3."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cleaved-Caspase 9",
+            "candidates": [
+                "Cleaved-Caspase 9",
+                "Active Caspase 9",
+                "Caspase 9"
+            ],
+            "entity_name": "cleaved-caspase9",
+            "type": "Protein",
+            "description": "An active form of caspase 9, also involved in apoptosis.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cleaved-caspase9."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "B-Cell Lymphoma 2",
+            "candidates": [
+                "B-Cell Lymphoma 2",
+                "Bcl-2",
+                "Bcl-2 Protein"
+            ],
+            "entity_name": "Bcl-2",
+            "type": "Protein",
+            "description": "B-cell lymphoma 2, a protein that regulates cell death.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Baicalin affects the Bcl-2/Bax ratio."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Bcl-2-Associated X Protein",
+            "candidates": [
+                "Bcl-2-Associated X Protein",
+                "Bax",
+                "Pro-Apoptotic Bcl-2 Protein"
+            ],
+            "entity_name": "Bax",
+            "type": "Protein",
+            "description": "Bcl-2-associated X protein, a pro-apoptotic member of the Bcl-2 family.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Baicalin affects the Bcl-2/Bax ratio."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cytochrome c",
+            "candidates": [
+                "Cytochrome c",
+                "Cyt-c",
+                "Cytochrome c Protein"
+            ],
+            "entity_name": "cyt-c",
+            "type": "Protein",
+            "description": "Cytochrome c, a protein involved in the electron transport chain and apoptosis.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of cyt-c."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells p65",
+            "candidates": [
+                "Nuclear Factor Kappa-Light-Chain-Enhancer of Activated B Cells p65",
+                "NF-kB p-65",
+                "p65 Subunit of NF-kB"
+            ],
+            "entity_name": "NF-kB p-65",
+            "type": "Protein",
+            "description": "A subunit of the NF-kB protein complex involved in immune response.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of NF-kB p-65."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Phosphorylated I\u03baB Kinase Beta",
+            "candidates": [
+                "Phosphorylated I\u03baB Kinase Beta",
+                "p-IKK\u03b2",
+                "IKK\u03b2"
+            ],
+            "entity_name": "p-IKK\u03b2/IKK\u03b2",
+            "type": "Protein",
+            "description": "Phosphorylated and non-phosphorylated forms of I\u03baB kinase beta, involved in the NF-kB signaling pathway.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin significantly decreased the expression of p-IKK\u03b2/IKK\u03b2."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Phosphorylated Inhibitor of Kappa B Alpha",
+            "candidates": [
+                "Phosphorylated Inhibitor of Kappa B Alpha",
+                "p-IKB\u03b1",
+                "IKB\u03b1"
+            ],
+            "entity_name": "p-IKB\u03b1/IKB\u03b1",
+            "type": "Protein",
+            "description": "Phosphorylated and non-phosphorylated forms of inhibitor of kappa B alpha, regulating NF-kB activity.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Baicalin could significantly inhibit p-IKB\u03b1/IKB\u03b1 content change."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Superoxide Dismutase",
+            "candidates": [
+                "Superoxide Dismutase",
+                "SOD",
+                "Superoxide Dismutase Enzyme"
+            ],
+            "entity_name": "SOD",
+            "type": "Protein",
+            "description": "Superoxide dismutase, an enzyme that helps break down potentially harmful oxygen molecules.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of SOD."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Catalase",
+            "candidates": [
+                "Catalase",
+                "CAT",
+                "Catalase Enzyme"
+            ],
+            "entity_name": "CAT",
+            "type": "Protein",
+            "description": "Catalase, an enzyme that catalyzes the decomposition of hydrogen peroxide.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of CAT."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Glutathione Peroxidase",
+            "candidates": [
+                "Glutathione Peroxidase",
+                "GSH-Px",
+                "Glutathione Peroxidase Enzyme"
+            ],
+            "entity_name": "GSH-Px",
+            "type": "Protein",
+            "description": "Glutathione peroxidase, an enzyme that protects the organism from oxidative damage.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Baicalin significantly increased the activity of GSH-Px."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Malondialdehyde",
+            "candidates": [
+                "Malondialdehyde",
+                "MDA",
+                "Malondialdehyde Marker"
+            ],
+            "entity_name": "Malondialdehyde (MDA)",
+            "type": "Protein",
+            "description": "A marker of oxidative stress.",
+            "is_ambiguous": false
+        },
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of MDA."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interleukin 1 Beta",
+            "candidates": [
+                "Interleukin 1 Beta",
+                "IL-1\u03b2",
+                "Cytokine IL-1\u03b2"
+            ],
+            "entity_name": "IL-1\u03b2",
+            "type": "Protein",
+            "description": "Interleukin 1 beta, a cytokine involved in inflammatory responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of IL-1\u03b2."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Myeloperoxidase",
+            "candidates": [
+                "Myeloperoxidase",
+                "MPO",
+                "Myeloperoxidase Enzyme"
+            ],
+            "entity_name": "MPO",
+            "type": "Protein",
+            "description": "Myeloperoxidase, an enzyme expressed in neutrophils that contributes to inflammation.",
+            "is_ambiguous": false
+        },
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of MPO."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Prostaglandin E2",
+            "candidates": [
+                "Prostaglandin E2",
+                "PGE2",
+                "Lipid Compound Prostaglandin E2"
+            ],
+            "entity_name": "Prostaglandin E2 (PEG2)",
+            "type": "Protein",
+            "description": "A lipid compound that has various roles in inflammation and pain.",
+            "is_ambiguous": false
+        },
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of PEG2."
+    },
+    {
+        "source": {
+            "primary_name": "Baicalin",
+            "candidates": [
+                "Baicalin"
+            ],
+            "entity_name": "Baicalin",
+            "type": "Drug",
+            "description": "A flavonoid compound with potential anti-inflammatory effects.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha",
+                "TNF-\u03b1",
+                "Cytokine TNF-\u03b1"
+            ],
+            "entity_name": "TNF-\u03b1",
+            "type": "Protein",
+            "description": "Tumor necrosis factor alpha, a cytokine involved in systemic inflammation.",
+            "is_ambiguous": false
+        },
+        "relationship": "decreases",
+        "description": "Baicalin significantly decreased the content of TNF-\u03b1."
+    }
+]

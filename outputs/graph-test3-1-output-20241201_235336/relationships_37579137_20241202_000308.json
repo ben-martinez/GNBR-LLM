@@ -1,0 +1,44 @@
+[
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "Death receptor 3 (DR3)",
+        "relationship": "binds",
+        "description": "The binding of TL1A to DR3 plays an important role in the interaction between dendritic cells and T cells."
+    },
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "Th1 and Th17 T helper cells",
+        "relationship": "promotes",
+        "description": "TL1A/DR3 promoted Th1 and Th17 cell differentiation."
+    },
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein",
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "RAF1",
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "Nuclear factor \u03baB (NF-\u03baB)",
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "target": "Toll-Like Receptor 4 (TLR4)",
+        "relationship": "promotes",
+        "description": "TL1A promoted TLR4-mediated DC activation."
+    },
+    {
+        "source": "Toll-Like Receptor 4 (TLR4)",
+        "target": "Th1 and Th17 T helper cells",
+        "relationship": "induces",
+        "description": "TL1A-induced naive CD4+ T cell differentiation into Th1 and Th17 cells."
+    }
+]

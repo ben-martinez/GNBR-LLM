@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "3-mercaptopyruvate sulfurtransferase (MPST)",
+        "type": "Protein",
+        "description": "A key enzyme that regulates endogenous hydrogen sulfide (H2S) biosynthesis, playing a role in inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, characterized by excessive inflammatory responses and oxidative stress.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "ulcerative colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease causing inflammation in the digestive tract, specifically affecting the colon.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract, causing inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "AKT",
+        "type": "Protein",
+        "description": "A protein kinase involved in signaling pathways that regulate cell growth and apoptosis, directly interacting with MPST.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF-\u03b1",
+        "type": "Protein",
+        "description": "Tumor necrosis factor-alpha, a proinflammatory cytokine involved in systemic inflammation.",
+        "is_ambiguous": false
+    }
+]

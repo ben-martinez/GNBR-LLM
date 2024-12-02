@@ -1,0 +1,44 @@
+[
+    {
+        "entity_name": "Neutrophil Extracellular Traps (NETs)",
+        "type": "Protein",
+        "description": "Web-like structures formed by neutrophils that trap pathogens and are associated with inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ulcerative Colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease causing inflammation in the digestive tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "anti-tumour necrosis factor \u03b1 (anti-TNF-\u03b1)",
+        "type": "Drug",
+        "description": "A treatment that inhibits the activity of tumor necrosis factor-alpha, used for inflammatory conditions.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "extracellular signal-regulated kinase-1/2 (ERK1/2)",
+        "type": "Protein",
+        "description": "Proteins involved in signaling pathways that regulate various cellular processes including inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "interleukin-1\u03b2 (IL-1\u03b2)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in the inflammatory response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "dextran sodium sulfate (DSS)",
+        "type": "Drug",
+        "description": "A chemical used to induce colitis in animal models for research purposes.",
+        "is_ambiguous": false
+    }
+]

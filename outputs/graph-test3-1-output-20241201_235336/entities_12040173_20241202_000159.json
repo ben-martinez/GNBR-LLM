@@ -1,0 +1,56 @@
+[
+    {
+        "entity_name": "Tumor necrosis factor",
+        "type": "Protein",
+        "description": "A major mediator of apoptosis, inflammation, and immunity.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF receptor-1",
+        "type": "Protein",
+        "description": "A receptor that mediates the effects of tumor necrosis factor.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "sepsis",
+        "type": "Disease",
+        "description": "A life-threatening condition caused by the body's response to infection.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "diabetes",
+        "type": "Disease",
+        "description": "A chronic condition that affects how the body processes blood sugar.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cancer",
+        "type": "Disease",
+        "description": "An uncontrolled growth of abnormal cells in the body.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "osteoporosis",
+        "type": "Disease",
+        "description": "A condition characterized by weak and brittle bones.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "multiple sclerosis",
+        "type": "Disease",
+        "description": "A disease in which the immune system eats away at the protective covering of nerves.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "rheumatoid arthritis",
+        "type": "Disease",
+        "description": "An autoimmune disorder that primarily affects joints.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "inflammatory bowel diseases",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine.",
+        "is_ambiguous": false
+    }
+]

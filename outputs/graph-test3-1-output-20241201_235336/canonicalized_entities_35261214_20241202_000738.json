@@ -1,0 +1,99 @@
+[
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Chronic Inflammatory Bowel Disease",
+            "Inflammatory Bowel Disorders",
+            "Inflammatory Bowel Condition"
+        ],
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A chronic inflammatory condition of the gastrointestinal tract, characterized by symptoms such as abdominal pain and diarrhea.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Nuclear Factor Kappa B",
+        "candidates": [
+            "Nuclear Factor Kappa B",
+            "NF-\u03baB",
+            "Nuclear factor kappa-light-chain-enhancer of activated B cells",
+            "Nuclear Factor kappa B complex"
+        ],
+        "entity_name": "Nuclear factor-\u03baB (NF-\u03baB)",
+        "type": "Protein",
+        "description": "A protein complex that plays a crucial role in regulating immune responses and inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Extracellular Signal-Regulated Kinase",
+        "candidates": [
+            "Extracellular Signal-Regulated Kinase",
+            "ERK",
+            "Extracellular signal-regulated kinase family",
+            "Mitogen-Activated Protein Kinase",
+            "MAPK/ERK"
+        ],
+        "entity_name": "Extracellular signal-regulated kinase (ERK)",
+        "type": "Protein",
+        "description": "A protein kinase involved in the MAPK/ERK signaling pathway, important for cell division and differentiation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Protein Kinase B",
+        "candidates": [
+            "Protein Kinase B",
+            "AKT",
+            "AKT1",
+            "AKT2",
+            "AKT3",
+            "Serine/Threonine Kinase AKT"
+        ],
+        "entity_name": "Protein kinase B (AKT)",
+        "type": "Protein",
+        "description": "A serine/threonine kinase that plays a key role in multiple cellular processes, including glucose metabolism and cell survival.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin 1 Beta",
+        "candidates": [
+            "Interleukin 1 Beta",
+            "IL-1\u03b2",
+            "Interleukin-1 beta",
+            "Interleukin-1",
+            "IL-1"
+        ],
+        "entity_name": "Interleukin-1\u03b2 (IL-1\u03b2)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Alpha",
+        "candidates": [
+            "Tumor Necrosis Factor Alpha",
+            "TNF-\u03b1",
+            "Tumor necrosis factor",
+            "TNF",
+            "Cachectin"
+        ],
+        "entity_name": "Tumor necrosis factor-\u03b1 (TNF-\u03b1)",
+        "type": "Protein",
+        "description": "A cytokine involved in systemic inflammation and a member of a group of proteins involved in the acute phase reaction.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interferon Gamma",
+        "candidates": [
+            "Interferon Gamma",
+            "IFN-\u03b3",
+            "Interferon gamma-1",
+            "Type II Interferon"
+        ],
+        "entity_name": "Interferon-\u03b3 (IFN-\u03b3)",
+        "type": "Protein",
+        "description": "A cytokine that is critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+        "is_ambiguous": false
+    }
+]

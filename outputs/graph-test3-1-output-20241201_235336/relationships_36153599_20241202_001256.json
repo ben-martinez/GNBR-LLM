@@ -1,0 +1,26 @@
+[
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Infliximab",
+        "relationship": "treated with",
+        "description": "IBD patients are treated with the TNF antagonist infliximab."
+    },
+    {
+        "source": "Infliximab",
+        "target": "ALOX15",
+        "relationship": "modulates",
+        "description": "Infliximab treatment influenced the expression of ALOX15 in the study."
+    },
+    {
+        "source": "Infliximab",
+        "target": "FCER1A",
+        "relationship": "modulates",
+        "description": "Infliximab treatment influenced the expression of FCER1A in the study."
+    },
+    {
+        "source": "Infliximab",
+        "target": "OLIG2",
+        "relationship": "modulates",
+        "description": "Infliximab treatment influenced the expression of OLIG2 in the study."
+    }
+]

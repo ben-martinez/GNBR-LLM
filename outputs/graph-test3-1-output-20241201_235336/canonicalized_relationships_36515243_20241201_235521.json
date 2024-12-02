@@ -1,0 +1,124 @@
+[
+    {
+        "source": {
+            "primary_name": "Upadacitinib",
+            "candidates": [
+                "Upadacitinib",
+                "ABP-501",
+                "Janus kinase 1 inhibitor",
+                "JAK1 inhibitor"
+            ],
+            "entity_name": "Upadacitinib",
+            "type": "Drug",
+            "description": "A Janus kinase (JAK) 1 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Crohn's disease",
+                "Ulcerative colitis"
+            ],
+            "entity_name": "Inflammatory Bowel Disease",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the colon and small intestine, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "Upadacitinib is used for the treatment of inflammatory bowel disease (IBD)."
+    },
+    {
+        "source": {
+            "primary_name": "Risankizumab",
+            "candidates": [
+                "Risankizumab",
+                "ABBV-181",
+                "IL-23 inhibitor",
+                "Interleukin-23 inhibitor"
+            ],
+            "entity_name": "Risankizumab",
+            "type": "Drug",
+            "description": "An IL-23 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Inflammatory bowel diseases",
+                "Crohn's disease",
+                "Ulcerative colitis"
+            ],
+            "entity_name": "Inflammatory Bowel Disease",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the colon and small intestine, including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "Risankizumab is used for the treatment of inflammatory bowel disease (IBD)."
+    },
+    {
+        "source": {
+            "primary_name": "Upadacitinib",
+            "candidates": [
+                "Upadacitinib",
+                "ABP-501",
+                "Janus kinase 1 inhibitor",
+                "JAK1 inhibitor"
+            ],
+            "entity_name": "Upadacitinib",
+            "type": "Drug",
+            "description": "A Janus kinase (JAK) 1 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Crohn's Disease",
+            "candidates": [
+                "Crohn's Disease",
+                "Crohn disease",
+                "Crohn's",
+                "Inflammatory bowel disease"
+            ],
+            "entity_name": "Crohn's Disease",
+            "type": "Disease",
+            "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "Upadacitinib is administered to Crohn's disease patients who inadequately respond to anti-TNF-\u03b1 treatment."
+    },
+    {
+        "source": {
+            "primary_name": "Risankizumab",
+            "candidates": [
+                "Risankizumab",
+                "ABBV-181",
+                "IL-23 inhibitor",
+                "Interleukin-23 inhibitor"
+            ],
+            "entity_name": "Risankizumab",
+            "type": "Drug",
+            "description": "An IL-23 inhibitor used for the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Crohn's Disease",
+            "candidates": [
+                "Crohn's Disease",
+                "Crohn disease",
+                "Crohn's",
+                "Inflammatory bowel disease"
+            ],
+            "entity_name": "Crohn's Disease",
+            "type": "Disease",
+            "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "Risankizumab is administered to Crohn's disease patients who inadequately respond to anti-TNF-\u03b1 treatment."
+    }
+]

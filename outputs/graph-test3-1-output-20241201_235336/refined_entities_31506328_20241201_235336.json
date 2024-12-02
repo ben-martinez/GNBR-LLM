@@ -1,0 +1,38 @@
+[
+    {
+        "entity_name": "Anti-TNF monoclonal antibodies",
+        "type": "Drug",
+        "description": "Monoclonal antibodies that inhibit tumor necrosis factor (TNF), used in the treatment of inflammatory bowel disease (IBD).",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Interleukin-10 (IL-10)",
+        "type": "Protein",
+        "description": "A cytokine with anti-inflammatory properties, playing a key role in regulating immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Fc\u03b3-receptor (Fc\u03b3R)",
+        "type": "Protein",
+        "description": "Receptors that bind to the Fc region of immunoglobulin G (IgG) and are involved in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD206+ regulatory macrophages",
+        "type": "Protein",
+        "description": "A subset of macrophages characterized by CD206 expression, associated with anti-inflammatory functions.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CD4+CD45Rbhigh T-cells",
+        "type": "Protein",
+        "description": "A subset of T-cells that are involved in the immune response, used in the study's model.",
+        "is_ambiguous": false
+    }
+]

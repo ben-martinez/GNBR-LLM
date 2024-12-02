@@ -1,0 +1,50 @@
+[
+    {
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ulcerative colitis",
+        "type": "Disease",
+        "description": "A chronic disease characterized by inflammation of the colon and rectum.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Dual-targeted therapy (DTT)",
+        "type": "Drug",
+        "description": "A therapeutic approach that targets multiple pathways in the treatment of inflammatory bowel disease.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "Therapeutic Agents Targeting Cellular Signaling Pathways",
+        "type": "Drug",
+        "description": "A category of therapeutic agents designed to target cellular signaling mechanisms in the treatment of IBD.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "Therapeutic Agents Targeting Leukocyte Trafficking",
+        "type": "Drug",
+        "description": "A category of therapeutic agents aimed at influencing leukocyte movement in inflammatory conditions.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "JAK-dependent therapeutic agents",
+        "type": "Drug",
+        "description": "Therapeutic agents that act through Janus kinase pathways, involved in cellular signaling.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "JAK-independent therapeutic agents",
+        "type": "Drug",
+        "description": "Agents that exert therapeutic effects through mechanisms that do not involve Janus kinases.",
+        "is_ambiguous": true
+    }
+]

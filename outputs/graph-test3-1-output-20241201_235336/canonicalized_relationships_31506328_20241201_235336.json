@@ -1,0 +1,192 @@
+[
+    {
+        "source": {
+            "primary_name": "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+            "candidates": [
+                "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+                "Anti-TNF Monoclonal Antibodies",
+                "TNF Inhibitors",
+                "Monoclonal Antibodies against TNF",
+                "TNF Blockers"
+            ],
+            "entity_name": "Anti-TNF monoclonal antibodies",
+            "type": "Drug",
+            "description": "Monoclonal antibodies that inhibit tumor necrosis factor (TNF), used in the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Fc Gamma Receptor",
+            "candidates": [
+                "Fc Gamma Receptor",
+                "Fc\u03b3 Receptor",
+                "Fc\u03b3R",
+                "Fc Receptors",
+                "Receptors for Immunoglobulin G"
+            ],
+            "entity_name": "Fc\u03b3-receptor (Fc\u03b3R)",
+            "type": "Protein",
+            "description": "Receptors that bind to the Fc region of immunoglobulin G (IgG) and are involved in the immune response.",
+            "is_ambiguous": false
+        },
+        "relationship": "interacts with",
+        "description": "Anti-TNF monoclonal antibodies act through Fc\u03b3-receptor (Fc\u03b3R) signalling to promote repolarisation of proinflammatory intestinal macrophages."
+    },
+    {
+        "source": {
+            "primary_name": "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+            "candidates": [
+                "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+                "Anti-TNF Monoclonal Antibodies",
+                "TNF Inhibitors",
+                "Monoclonal Antibodies against TNF",
+                "TNF Blockers"
+            ],
+            "entity_name": "Anti-TNF monoclonal antibodies",
+            "type": "Drug",
+            "description": "Monoclonal antibodies that inhibit tumor necrosis factor (TNF), used in the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interleukin-10",
+            "candidates": [
+                "Interleukin-10",
+                "IL-10",
+                "Cytokine IL-10",
+                "Interleukin 10"
+            ],
+            "entity_name": "Interleukin-10 (IL-10)",
+            "type": "Protein",
+            "description": "A cytokine with anti-inflammatory properties, playing a key role in regulating immune responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Anti-TNF therapy increased macrophage IL-10 production in an Fc\u03b3R-dependent manner."
+    },
+    {
+        "source": {
+            "primary_name": "Interleukin-10",
+            "candidates": [
+                "Interleukin-10",
+                "IL-10",
+                "Cytokine IL-10",
+                "Interleukin 10"
+            ],
+            "entity_name": "Interleukin-10 (IL-10)",
+            "type": "Protein",
+            "description": "A cytokine with anti-inflammatory properties, playing a key role in regulating immune responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "CD206 Positive Regulatory Macrophages",
+            "candidates": [
+                "CD206 Positive Regulatory Macrophages",
+                "CD206+ Regulatory Macrophages",
+                "CD206+ Macrophages",
+                "Regulatory Macrophages",
+                "CD206 Macrophages"
+            ],
+            "entity_name": "CD206+ regulatory macrophages",
+            "type": "Protein",
+            "description": "A subset of macrophages characterized by CD206 expression, associated with anti-inflammatory functions.",
+            "is_ambiguous": false
+        },
+        "relationship": "induces",
+        "description": "IL-10 signalling in macrophages is critical for the induction of CD206+ regulatory macrophages."
+    },
+    {
+        "source": {
+            "primary_name": "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+            "candidates": [
+                "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+                "Anti-TNF Monoclonal Antibodies",
+                "TNF Inhibitors",
+                "Monoclonal Antibodies against TNF",
+                "TNF Blockers"
+            ],
+            "entity_name": "Anti-TNF monoclonal antibodies",
+            "type": "Drug",
+            "description": "Monoclonal antibodies that inhibit tumor necrosis factor (TNF), used in the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "CD206 Positive Regulatory Macrophages",
+            "candidates": [
+                "CD206 Positive Regulatory Macrophages",
+                "CD206+ Regulatory Macrophages",
+                "CD206+ Macrophages",
+                "Regulatory Macrophages",
+                "CD206 Macrophages"
+            ],
+            "entity_name": "CD206+ regulatory macrophages",
+            "type": "Protein",
+            "description": "A subset of macrophages characterized by CD206 expression, associated with anti-inflammatory functions.",
+            "is_ambiguous": false
+        },
+        "relationship": "induces",
+        "description": "Anti-TNF therapy causes differentiation of macrophages to a more regulatory CD206+ phenotype."
+    },
+    {
+        "source": {
+            "primary_name": "Interleukin-10",
+            "candidates": [
+                "Interleukin-10",
+                "IL-10",
+                "Cytokine IL-10",
+                "Interleukin 10"
+            ],
+            "entity_name": "Interleukin-10 (IL-10)",
+            "type": "Protein",
+            "description": "A cytokine with anti-inflammatory properties, playing a key role in regulating immune responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "CD4 Positive CD45R High T-Cells",
+            "candidates": [
+                "CD4 Positive CD45R High T-Cells",
+                "CD4+CD45Rbhigh T-cells",
+                "CD4+ T-Cells",
+                "CD45Rbhigh T-Cells",
+                "CD4 T-Cells"
+            ],
+            "entity_name": "CD4+CD45Rbhigh T-cells",
+            "type": "Protein",
+            "description": "A subset of T-cells that are involved in the immune response, used in the study's model.",
+            "is_ambiguous": false
+        },
+        "relationship": "does not influence",
+        "description": "IL-10 signalling in macrophages but not T cells was critical for the induction of CD206+ regulatory macrophages."
+    },
+    {
+        "source": {
+            "primary_name": "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+            "candidates": [
+                "Anti-Tumor Necrosis Factor Monoclonal Antibodies",
+                "Anti-TNF Monoclonal Antibodies",
+                "TNF Inhibitors",
+                "Monoclonal Antibodies against TNF",
+                "TNF Blockers"
+            ],
+            "entity_name": "Anti-TNF monoclonal antibodies",
+            "type": "Drug",
+            "description": "Monoclonal antibodies that inhibit tumor necrosis factor (TNF), used in the treatment of inflammatory bowel disease (IBD).",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "Inflammatory Bowel Diseases",
+                "IBD",
+                "Crohn's Disease",
+                "Ulcerative Colitis",
+                "IBD Subtypes"
+            ],
+            "entity_name": "Inflammatory bowel disease (IBD)",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "treats",
+        "description": "The therapeutic efficacy of anti-TNF in resolving intestinal inflammation is critically dependent on IL-10 signalling in macrophages."
+    }
+]

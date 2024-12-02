@@ -1,0 +1,134 @@
+[
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 174",
+            "candidates": [
+                "G Protein-Coupled Receptor 174",
+                "GPR174"
+            ],
+            "entity_name": "GPR174",
+            "type": "Gene",
+            "description": "A G protein-coupled receptor involved in regulating immune function.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Dextran Sodium Sulfate",
+            "candidates": [
+                "Dextran Sodium Sulfate",
+                "DSS"
+            ],
+            "entity_name": "DSS",
+            "type": "Drug",
+            "description": "Dextran sodium sulfate, used to induce colitis in mice models.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "GPR174 knockout alleviates DSS-induced colitis by regulating immune function."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 174",
+            "candidates": [
+                "G Protein-Coupled Receptor 174",
+                "GPR174"
+            ],
+            "entity_name": "GPR174",
+            "type": "Gene",
+            "description": "A G protein-coupled receptor involved in regulating immune function.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interleukin 6",
+            "candidates": [
+                "Interleukin 6",
+                "IL-6"
+            ],
+            "entity_name": "IL-6 (Interleukin-6)",
+            "type": "Protein",
+            "description": "A cytokine that plays a role in inflammation and infection responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "GPR174 knockout led to decreased expression of the pro-inflammatory cytokine IL-6."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 174",
+            "candidates": [
+                "G Protein-Coupled Receptor 174",
+                "GPR174"
+            ],
+            "entity_name": "GPR174",
+            "type": "Gene",
+            "description": "A G protein-coupled receptor involved in regulating immune function.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interleukin 10",
+            "candidates": [
+                "Interleukin 10",
+                "IL-10"
+            ],
+            "entity_name": "IL-10 (Interleukin-10)",
+            "type": "Protein",
+            "description": "An anti-inflammatory cytokine that regulates immune responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "GPR174 knockout resulted in increased expression of the anti-inflammatory cytokine IL-10."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 174",
+            "candidates": [
+                "G Protein-Coupled Receptor 174",
+                "GPR174"
+            ],
+            "entity_name": "GPR174",
+            "type": "Gene",
+            "description": "A G protein-coupled receptor involved in regulating immune function.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha",
+                "TNF-alpha",
+                "TNF-\u03b1"
+            ],
+            "entity_name": "TNF-\u03b1 (Tumor necrosis factor-alpha)",
+            "type": "Protein",
+            "description": "A pro-inflammatory cytokine involved in systemic inflammation.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "GPR174 knockout was associated with reduced levels of pro-inflammatory cytokine TNF-\u03b1."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 174",
+            "candidates": [
+                "G Protein-Coupled Receptor 174",
+                "GPR174"
+            ],
+            "entity_name": "GPR174",
+            "type": "Gene",
+            "description": "A G protein-coupled receptor involved in regulating immune function.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Major Histocompatibility Complex Class II",
+            "candidates": [
+                "Major Histocompatibility Complex Class II",
+                "MHC Class II",
+                "MHC-II"
+            ],
+            "entity_name": "MHC-II (Major Histocompatibility Complex Class II)",
+            "type": "Protein",
+            "description": "A protein complex that plays a crucial role in the immune system by presenting peptides to CD4+ T cells.",
+            "is_ambiguous": false
+        },
+        "relationship": "regulates",
+        "description": "GPR174 affects the expression of MHC-II in dendritic cells."
+    }
+]

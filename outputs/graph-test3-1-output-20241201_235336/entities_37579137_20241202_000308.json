@@ -1,0 +1,50 @@
+[
+    {
+        "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+        "type": "Protein",
+        "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Death receptor 3 (DR3)",
+        "type": "Protein",
+        "description": "A receptor that interacts with TL1A and plays a role in immune response modulation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Inflammatory bowel disease",
+        "type": "Disease",
+        "description": "A chronic inflammatory condition of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Th1 and Th17 cells",
+        "type": "Gene",
+        "description": "Subtypes of T helper cells involved in the immune response, particularly in inflammatory processes.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "ICAM-grabbing nonintegrin",
+        "type": "Protein",
+        "description": "A protein involved in the immune response and cell signaling pathways.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "RAF1",
+        "type": "Protein",
+        "description": "A protein kinase involved in the signaling pathways that regulate cell growth and differentiation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Nuclear factor \u03baB (NF-\u03baB)",
+        "type": "Protein",
+        "description": "A protein complex that controls transcription of DNA and is involved in cellular responses to stimuli.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TLR4",
+        "type": "Protein",
+        "description": "A protein that plays a key role in the immune system by recognizing pathogens.",
+        "is_ambiguous": false
+    }
+]

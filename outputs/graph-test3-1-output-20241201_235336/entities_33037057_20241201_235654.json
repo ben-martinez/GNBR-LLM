@@ -1,0 +1,44 @@
+[
+    {
+        "entity_name": "Inflammatory Bowel Disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-23",
+        "type": "Protein",
+        "description": "A cytokine involved in the regulation of immune responses, particularly in the context of inflammatory diseases.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-10",
+        "type": "Protein",
+        "description": "An anti-inflammatory cytokine that plays a crucial role in regulating immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-1\u03b1",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine that is part of the interleukin-1 family, involved in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IL-1\u03b2",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine that is part of the interleukin-1 family, playing a key role in inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Antitumour Necrosis Factor (TNF) Therapy",
+        "type": "Drug",
+        "description": "A class of medications used to reduce inflammation by targeting tumor necrosis factor, commonly used in inflammatory conditions.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Crohn's Disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract, leading to various gastrointestinal symptoms.",
+        "is_ambiguous": false
+    }
+]

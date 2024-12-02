@@ -1,0 +1,218 @@
+[
+    {
+        "source": {
+            "primary_name": "Aryl Hydrocarbon Receptor",
+            "candidates": [
+                "Aryl Hydrocarbon Receptor",
+                "AhR",
+                "AHR",
+                "Aryl hydrocarbon receptor",
+                "Aryl hydrocarbon receptor protein"
+            ],
+            "entity_name": "Aryl hydrocarbon receptor (AhR)",
+            "type": "Protein",
+            "description": "A protein involved in controlling intestinal mucosal homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "6-Formylindolo(3,2-b)carbazole",
+            "candidates": [
+                "6-Formylindolo(3,2-b)carbazole",
+                "FICZ",
+                "6-Formylindolo(3,2-b)carbazole ligand",
+                "Indolo(3,2-b)carbazole derivative"
+            ],
+            "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+            "type": "Drug",
+            "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Aryl hydrocarbon receptor activation by FICZ modulates intestinal epithelial barrier function."
+    },
+    {
+        "source": {
+            "primary_name": "6-Formylindolo(3,2-b)carbazole",
+            "candidates": [
+                "6-Formylindolo(3,2-b)carbazole",
+                "FICZ",
+                "6-Formylindolo(3,2-b)carbazole ligand",
+                "Indolo(3,2-b)carbazole derivative"
+            ],
+            "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+            "type": "Drug",
+            "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Dextran Sulfate Sodium",
+            "candidates": [
+                "Dextran Sulfate Sodium",
+                "DSS",
+                "Dextran sulfate",
+                "Sodium dextran sulfate"
+            ],
+            "entity_name": "dextran sulphate sodium (DSS)",
+            "type": "Drug",
+            "description": "A chemical used to induce colitis in experimental models.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits the effects of DSS on TJ protein expression."
+    },
+    {
+        "source": {
+            "primary_name": "Aryl Hydrocarbon Receptor",
+            "candidates": [
+                "Aryl Hydrocarbon Receptor",
+                "AhR",
+                "AHR",
+                "Aryl hydrocarbon receptor",
+                "Aryl hydrocarbon receptor protein"
+            ],
+            "entity_name": "Aryl hydrocarbon receptor (AhR)",
+            "type": "Protein",
+            "description": "A protein involved in controlling intestinal mucosal homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Alpha",
+            "candidates": [
+                "Tumor Necrosis Factor Alpha",
+                "TNF-alpha",
+                "TNF-\u03b1",
+                "Tumor necrosis factor alpha",
+                "Cytokine TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor alpha (TNF-\u03b1)",
+            "type": "Protein",
+            "description": "A cytokine involved in systemic inflammation and a key regulator of immune cells.",
+            "is_ambiguous": false
+        },
+        "relationship": "prevents",
+        "description": "AhR activation prevents TNF-\u03b1/IFN-\u03b3-induced decrease in TER and morphological disruption."
+    },
+    {
+        "source": {
+            "primary_name": "Aryl Hydrocarbon Receptor",
+            "candidates": [
+                "Aryl Hydrocarbon Receptor",
+                "AhR",
+                "AHR",
+                "Aryl hydrocarbon receptor",
+                "Aryl hydrocarbon receptor protein"
+            ],
+            "entity_name": "Aryl hydrocarbon receptor (AhR)",
+            "type": "Protein",
+            "description": "A protein involved in controlling intestinal mucosal homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Interferon Gamma",
+            "candidates": [
+                "Interferon Gamma",
+                "IFN-gamma",
+                "IFN-\u03b3",
+                "Interferon \u03b3",
+                "Cytokine IFN-gamma"
+            ],
+            "entity_name": "Interferon gamma (IFN-\u03b3)",
+            "type": "Protein",
+            "description": "A cytokine that is critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+            "is_ambiguous": false
+        },
+        "relationship": "prevents",
+        "description": "AhR activation prevents TNF-\u03b1/IFN-\u03b3-induced morphological disruption of TJs."
+    },
+    {
+        "source": {
+            "primary_name": "6-Formylindolo(3,2-b)carbazole",
+            "candidates": [
+                "6-Formylindolo(3,2-b)carbazole",
+                "FICZ",
+                "6-Formylindolo(3,2-b)carbazole ligand",
+                "Indolo(3,2-b)carbazole derivative"
+            ],
+            "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+            "type": "Drug",
+            "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Myosin Light Chain",
+            "candidates": [
+                "Myosin Light Chain",
+                "MLC",
+                "Myosin light chains",
+                "Light chain of myosin"
+            ],
+            "entity_name": "Myosin light chain (MLC)",
+            "type": "Protein",
+            "description": "Myosin light chain, involved in muscle contraction and cellular functions.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits the increase in MLC phosphorylation."
+    },
+    {
+        "source": {
+            "primary_name": "6-Formylindolo(3,2-b)carbazole",
+            "candidates": [
+                "6-Formylindolo(3,2-b)carbazole",
+                "FICZ",
+                "6-Formylindolo(3,2-b)carbazole ligand",
+                "Indolo(3,2-b)carbazole derivative"
+            ],
+            "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+            "type": "Drug",
+            "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Myosin Light Chain Kinase",
+            "candidates": [
+                "Myosin Light Chain Kinase",
+                "MLCK",
+                "Myosin light chain kinase enzyme",
+                "Myosin light chain kinase gene"
+            ],
+            "entity_name": "MLCK",
+            "type": "Gene",
+            "description": "Myosin light chain kinase, an enzyme that phosphorylates myosin light chain.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "FICZ induced AhR activation inhibits TNF-\u03b1/IFN-\u03b3-induced increase in MLCK expression."
+    },
+    {
+        "source": {
+            "primary_name": "6-Formylindolo(3,2-b)carbazole",
+            "candidates": [
+                "6-Formylindolo(3,2-b)carbazole",
+                "FICZ",
+                "6-Formylindolo(3,2-b)carbazole ligand",
+                "Indolo(3,2-b)carbazole derivative"
+            ],
+            "entity_name": "6-Formylindolo(3,2-b)carbazole (FICZ)",
+            "type": "Drug",
+            "description": "A ligand of the Aryl hydrocarbon receptor (AhR) used in the study.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Nuclear Factor Kappa B Subunit P65",
+            "candidates": [
+                "Nuclear Factor Kappa B Subunit P65",
+                "NF-kappa B p65",
+                "NF-\u03baB p65",
+                "Nuclear factor kappa-light-chain-enhancer of activated B cells p65",
+                "p65 protein"
+            ],
+            "entity_name": "NF-\u03baB p65",
+            "type": "Protein",
+            "description": "A protein component of the NF-\u03baB transcription factor complex involved in cellular responses to stimuli.",
+            "is_ambiguous": false
+        },
+        "relationship": "suppresses",
+        "description": "FICZ suppresses NF-\u03baB p65 signaling pathway involved in colitis."
+    }
+]

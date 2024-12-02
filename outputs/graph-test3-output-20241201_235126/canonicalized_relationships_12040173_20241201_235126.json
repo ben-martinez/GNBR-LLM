@@ -1,0 +1,242 @@
+[
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor Alpha"
+            ],
+            "entity_name": "Tumor necrosis factor (TNF)",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis as well as inflammation and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "relationship": "binds",
+        "description": "TNF interacts with TNF receptor-1 (TNF-R1) to activate several signal transduction pathways."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Sepsis",
+            "candidates": [
+                "Sepsis",
+                "Septicemia",
+                "Severe Sepsis",
+                "Septic Shock"
+            ],
+            "entity_name": "sepsis",
+            "type": "Disease",
+            "description": "A life-threatening condition caused by the body's response to an infection.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of sepsis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Diabetes Mellitus",
+            "candidates": [
+                "Diabetes Mellitus",
+                "Diabetes",
+                "Type 1 Diabetes",
+                "Type 2 Diabetes",
+                "Gestational Diabetes"
+            ],
+            "entity_name": "diabetes",
+            "type": "Disease",
+            "description": "A metabolic disease that causes high blood sugar.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of diabetes."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cancer",
+            "candidates": [
+                "Cancer",
+                "Malignancy",
+                "Neoplasm",
+                "Carcinoma",
+                "Sarcoma"
+            ],
+            "entity_name": "cancer",
+            "type": "Disease",
+            "description": "A broad group of diseases involving unregulated cell growth.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of cancer."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Osteoporosis",
+            "candidates": [
+                "Osteoporosis",
+                "Osteopenia",
+                "Bone Density Loss"
+            ],
+            "entity_name": "osteoporosis",
+            "type": "Disease",
+            "description": "A disease that weakens bones, making them fragile and more likely to break.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of osteoporosis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Multiple Sclerosis",
+            "candidates": [
+                "Multiple Sclerosis",
+                "MS",
+                "Disseminated Sclerosis"
+            ],
+            "entity_name": "multiple sclerosis",
+            "type": "Disease",
+            "description": "A disease that affects the central nervous system, leading to a wide range of symptoms.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of multiple sclerosis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Rheumatoid Arthritis",
+            "candidates": [
+                "Rheumatoid Arthritis",
+                "RA",
+                "Chronic Inflammatory Arthritis"
+            ],
+            "entity_name": "rheumatoid arthritis",
+            "type": "Disease",
+            "description": "An autoimmune disorder that primarily affects joints.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of rheumatoid arthritis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNF-R1",
+                "P55"
+            ],
+            "entity_name": "TNF receptor-1 (TNF-R1)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TNF and activates several signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Crohn's Disease",
+                "Ulcerative Colitis",
+                "Chronic Inflammatory Bowel Disease"
+            ],
+            "entity_name": "inflammatory bowel diseases",
+            "type": "Disease",
+            "description": "Chronic inflammation of the digestive tract, including conditions such as Crohn's disease and ulcerative colitis.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "TNF-R1 signaling is implicated in the pathogenesis of inflammatory bowel diseases."
+    }
+]

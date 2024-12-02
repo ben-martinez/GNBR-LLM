@@ -1,0 +1,44 @@
+[
+    {
+        "source": "Palmitoleic Acid (POA)",
+        "target": "Inflammatory Bowel Diseases (IBD)",
+        "relationship": "improves",
+        "description": "Palmitoleic acid improves the efficacy of anti-TNF-\u03b1 therapy in inflammatory bowel disease."
+    },
+    {
+        "source": "Palmitoleic Acid (POA)",
+        "target": "Tumor Necrosis Factor-Alpha",
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of TNF-\u03b1 in inflamed colon tissues."
+    },
+    {
+        "source": "Palmitoleic Acid (POA)",
+        "target": "Interleukin-6",
+        "relationship": "reduces",
+        "description": "Palmitoleic acid reduces expressions of IL-6 in inflamed colon tissues."
+    },
+    {
+        "source": "Palmitoleic Acid (POA)",
+        "target": "Akkermansia muciniphila",
+        "relationship": "upregulates",
+        "description": "Palmitoleic acid significantly upregulates the transcriptional signatures of Akkermansia muciniphila."
+    },
+    {
+        "source": "Akkermansia muciniphila",
+        "target": "Inflammatory Bowel Diseases (IBD)",
+        "relationship": "provides",
+        "description": "Akkermansia muciniphila provides better protection against colitis when orally transferred with POA-reprogrammed gut microbiota."
+    },
+    {
+        "source": "Anti-TNF-\u03b1 therapy",
+        "target": "Inflammatory Bowel Diseases (IBD)",
+        "relationship": "treats",
+        "description": "Anti-TNF-\u03b1 therapy is used to treat inflammatory bowel diseases."
+    },
+    {
+        "source": "Crohn's Disease (CD)",
+        "target": "Inflammatory Bowel Diseases (IBD)",
+        "relationship": "is a type of",
+        "description": "Crohn's disease is a type of inflammatory bowel disease."
+    }
+]

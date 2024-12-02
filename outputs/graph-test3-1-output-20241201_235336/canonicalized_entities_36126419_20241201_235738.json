@@ -1,0 +1,84 @@
+[
+    {
+        "primary_name": "3-Mercaptopyruvate Sulfurtransferase",
+        "candidates": [
+            "3-Mercaptopyruvate Sulfurtransferase",
+            "MPST",
+            "Mercaptopyruvate Sulfurtransferase",
+            "3-Mercaptopyruvate Sulfur Transferase"
+        ],
+        "entity_name": "3-mercaptopyruvate sulfurtransferase (MPST)",
+        "type": "Protein",
+        "description": "A key enzyme that regulates endogenous hydrogen sulfide (H2S) biosynthesis, playing a role in inflammatory bowel disease.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Inflammatory Bowel Disorders",
+            "Inflammatory Bowel Conditions"
+        ],
+        "entity_name": "inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the colon and small intestine, characterized by excessive inflammatory responses and oxidative stress.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Ulcerative Colitis",
+        "candidates": [
+            "Ulcerative Colitis",
+            "UC",
+            "Colitis Ulcerosa",
+            "Ulcerative Colitis Disease"
+        ],
+        "entity_name": "ulcerative colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease causing inflammation in the digestive tract, specifically affecting the colon.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's Disease",
+        "candidates": [
+            "Crohn's Disease",
+            "CD",
+            "Crohn Disease",
+            "Regional Enteritis"
+        ],
+        "entity_name": "Crohn's disease (CD)",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that can affect any part of the gastrointestinal tract, causing inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "AKT Protein Kinase",
+        "candidates": [
+            "AKT Protein Kinase",
+            "AKT",
+            "Protein Kinase B",
+            "PKB",
+            "AKT1",
+            "AKT2",
+            "AKT3"
+        ],
+        "entity_name": "AKT",
+        "type": "Protein",
+        "description": "A protein kinase involved in signaling pathways that regulate cell growth and apoptosis, directly interacting with MPST.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Alpha",
+        "candidates": [
+            "Tumor Necrosis Factor Alpha",
+            "TNF-alpha",
+            "TNF-\u03b1",
+            "Tumor Necrosis Factor",
+            "TNF"
+        ],
+        "entity_name": "TNF-\u03b1",
+        "type": "Protein",
+        "description": "Tumor necrosis factor-alpha, a proinflammatory cytokine involved in systemic inflammation.",
+        "is_ambiguous": false
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Death Receptor 3",
+            "candidates": [
+                "Death Receptor 3",
+                "DR3",
+                "Receptor 3",
+                "Death Receptor 3 Protein"
+            ],
+            "entity_name": "Death receptor 3 (DR3)",
+            "type": "Protein",
+            "description": "A receptor that interacts with TL1A and plays a role in immune response modulation.",
+            "is_ambiguous": false
+        },
+        "relationship": "binds",
+        "description": "The binding of TL1A to DR3 plays an important role in the interaction between dendritic cells and T cells."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "T Helper Cell Subtypes Th1 and Th17",
+            "candidates": [
+                "T Helper Cell Subtypes Th1 and Th17",
+                "Th1 Cells",
+                "Th17 Cells",
+                "T Helper 1 Cells",
+                "T Helper 17 Cells"
+            ],
+            "entity_name": "Th1 and Th17 T helper cells",
+            "type": "Gene",
+            "description": "Subtypes of T helper cells involved in the immune response, particularly in inflammatory processes.",
+            "is_ambiguous": false
+        },
+        "relationship": "promotes",
+        "description": "TL1A/DR3 promoted Th1 and Th17 cell differentiation."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein",
+            "candidates": [
+                "Intercellular Adhesion Molecule-Grabbing Nonintegrin Protein",
+                "ICAM-Grabbing Nonintegrin Protein",
+                "ICAM Protein",
+                "ICAM-Grabbing Protein"
+            ],
+            "entity_name": "ICAM-grabbing nonintegrin protein",
+            "type": "Protein",
+            "description": "A protein involved in the immune response and cell signaling pathways.",
+            "is_ambiguous": false
+        },
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "RAF Proto-Oncogene Serine/Threonine-Protein Kinase",
+            "candidates": [
+                "RAF Proto-Oncogene Serine/Threonine-Protein Kinase",
+                "RAF1",
+                "RAF1 Protein Kinase",
+                "RAF Protein"
+            ],
+            "entity_name": "RAF1",
+            "type": "Protein",
+            "description": "A protein kinase involved in the signaling pathways that regulate cell growth and differentiation.",
+            "is_ambiguous": false
+        },
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Nuclear Factor Kappa B",
+            "candidates": [
+                "Nuclear Factor Kappa B",
+                "NF-kappa B",
+                "NF-\u03baB",
+                "Nuclear Factor \u03baB"
+            ],
+            "entity_name": "Nuclear factor \u03baB (NF-\u03baB)",
+            "type": "Protein",
+            "description": "A protein complex that controls transcription of DNA and is involved in cellular responses to stimuli.",
+            "is_ambiguous": false
+        },
+        "relationship": "positively regulates",
+        "description": "TL1A positively regulated the DC-specific ICAM-grabbing nonintegrin/RAF1/nuclear factor \u03baB signaling pathway."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor-Like Cytokine 1A",
+            "candidates": [
+                "Tumor Necrosis Factor-Like Cytokine 1A",
+                "TL1A",
+                "Cytokine TL1A",
+                "Cytokine Tumor Necrosis Factor-Like 1A"
+            ],
+            "entity_name": "Tumor necrosis factor-like cytokine 1A (TL1A)",
+            "type": "Protein",
+            "description": "A cytokine involved in the interaction between dendritic cells and T cells, contributing to intestinal inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Toll-Like Receptor 4",
+            "candidates": [
+                "Toll-Like Receptor 4",
+                "TLR4",
+                "TLR 4",
+                "Receptor 4"
+            ],
+            "entity_name": "TLR4",
+            "type": "Protein",
+            "description": "A protein that plays a key role in the immune system by recognizing pathogens.",
+            "is_ambiguous": false
+        },
+        "relationship": "promotes",
+        "description": "TL1A promoted TLR4-mediated DC activation."
+    },
+    {
+        "source": {
+            "primary_name": "Toll-Like Receptor 4",
+            "candidates": [
+                "Toll-Like Receptor 4",
+                "TLR4",
+                "TLR 4",
+                "Receptor 4"
+            ],
+            "entity_name": "TLR4",
+            "type": "Protein",
+            "description": "A protein that plays a key role in the immune system by recognizing pathogens.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "T Helper Cell Subtypes Th1 and Th17",
+            "candidates": [
+                "T Helper Cell Subtypes Th1 and Th17",
+                "Th1 Cells",
+                "Th17 Cells",
+                "T Helper 1 Cells",
+                "T Helper 17 Cells"
+            ],
+            "entity_name": "Th1 and Th17 T helper cells",
+            "type": "Gene",
+            "description": "Subtypes of T helper cells involved in the immune response, particularly in inflammatory processes.",
+            "is_ambiguous": false
+        },
+        "relationship": "induces",
+        "description": "TL1A-induced naive CD4+ T cell differentiation into Th1 and Th17 cells."
+    }
+]

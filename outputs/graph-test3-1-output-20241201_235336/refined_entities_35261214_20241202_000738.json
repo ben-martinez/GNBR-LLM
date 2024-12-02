@@ -1,0 +1,44 @@
+[
+    {
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A chronic inflammatory condition of the gastrointestinal tract, characterized by symptoms such as abdominal pain and diarrhea.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Nuclear factor-\u03baB (NF-\u03baB)",
+        "type": "Protein",
+        "description": "A protein complex that plays a crucial role in regulating immune responses and inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Extracellular signal-regulated kinase (ERK)",
+        "type": "Protein",
+        "description": "A protein kinase involved in the MAPK/ERK signaling pathway, important for cell division and differentiation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Protein kinase B (AKT)",
+        "type": "Protein",
+        "description": "A serine/threonine kinase that plays a key role in multiple cellular processes, including glucose metabolism and cell survival.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Interleukin-1\u03b2 (IL-1\u03b2)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Tumor necrosis factor-\u03b1 (TNF-\u03b1)",
+        "type": "Protein",
+        "description": "A cytokine involved in systemic inflammation and a member of a group of proteins involved in the acute phase reaction.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Interferon-\u03b3 (IFN-\u03b3)",
+        "type": "Protein",
+        "description": "A cytokine that is critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+        "is_ambiguous": false
+    }
+]

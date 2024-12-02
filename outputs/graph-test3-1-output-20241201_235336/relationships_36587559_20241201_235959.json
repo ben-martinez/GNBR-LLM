@@ -1,0 +1,44 @@
+[
+    {
+        "source": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "targets",
+        "description": "DTT is a therapeutic approach aimed at treating inflammatory bowel disease."
+    },
+    {
+        "source": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+        "target": "Crohn's disease",
+        "relationship": "affects",
+        "description": "DTT has potential efficacy on Crohn's disease, although data are limited."
+    },
+    {
+        "source": "Dual-targeted therapy (DTT) for inflammatory bowel disease",
+        "target": "Ulcerative colitis",
+        "relationship": "affects",
+        "description": "DTT may also be applicable to Ulcerative colitis, with insufficient data available."
+    },
+    {
+        "source": "Therapeutic Agents Targeting Cellular Signaling Pathways in IBD",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "targets",
+        "description": "These agents are designed to target cellular signaling mechanisms involved in IBD."
+    },
+    {
+        "source": "Therapeutic Agents Targeting Leukocyte Trafficking in Inflammatory Conditions",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "targets",
+        "description": "This category of agents influences leukocyte movement in the context of IBD."
+    },
+    {
+        "source": "Janus Kinase-Dependent Therapeutic Agents for Inflammatory Bowel Disease",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "targets",
+        "description": "JAK-dependent therapeutic agents are utilized in the treatment of IBD."
+    },
+    {
+        "source": "Janus Kinase-Independent Therapeutic Agents for Inflammatory Bowel Disease",
+        "target": "Inflammatory bowel disease (IBD)",
+        "relationship": "targets",
+        "description": "Agents that do not involve Janus kinases are also used for treating IBD."
+    }
+]

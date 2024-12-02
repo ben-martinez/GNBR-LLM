@@ -1,0 +1,50 @@
+[
+    {
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily affecting the colon and small intestine.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "TNF-\u03b1-antagonists",
+        "type": "Drug",
+        "description": "A class of medications that inhibit tumor necrosis factor-alpha, used in the treatment of autoimmune diseases including IBD.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Bifidobacterium",
+        "type": "Gene",
+        "description": "A genus of bacteria that is beneficial to gut health and is often associated with higher expression of metabolism-related genes.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Bacteroides",
+        "type": "Gene",
+        "description": "A genus of bacteria that is associated with increased metallothionein signaling in the gut.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Lachnoclostridium",
+        "type": "Gene",
+        "description": "A genus of bacteria associated with immunoregulatory genes in non-stenotic tissue of IBD patients.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ruminococcaceae",
+        "type": "Gene",
+        "description": "A family of bacteria linked to fatty acid metabolism genes in patients using TNF-\u03b1-antagonists.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "metallothionein signaling",
+        "type": "Protein",
+        "description": "A signaling pathway involving metallothionein proteins that may play a role in intestinal health and disease.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "fatty acid metabolism",
+        "type": "Protein",
+        "description": "A metabolic pathway involving the breakdown and synthesis of fatty acids, significant in the context of IBD and treatment.",
+        "is_ambiguous": true
+    }
+]

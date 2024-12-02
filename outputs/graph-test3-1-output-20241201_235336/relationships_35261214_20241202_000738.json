@@ -1,0 +1,38 @@
+[
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Nuclear factor-\u03baB (NF-\u03baB)",
+        "relationship": "modulates",
+        "description": "Protein modifications can activate or inhibit various signaling pathways, including NF-\u03baB."
+    },
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Extracellular signal-regulated kinase (ERK)",
+        "relationship": "modulates",
+        "description": "Protein modifications can activate or inhibit various signaling pathways, including ERK."
+    },
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Protein kinase B (AKT)",
+        "relationship": "modulates",
+        "description": "Protein modifications can activate or inhibit various signaling pathways, including AKT."
+    },
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Interleukin-1\u03b2 (IL-1\u03b2)",
+        "relationship": "regulates",
+        "description": "Protein modifications can modulate the release of cytokines such as IL-1\u03b2."
+    },
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Tumor necrosis factor-\u03b1 (TNF-\u03b1)",
+        "relationship": "regulates",
+        "description": "Protein modifications can modulate the release of cytokines such as TNF-\u03b1."
+    },
+    {
+        "source": "Inflammatory bowel disease (IBD)",
+        "target": "Interferon-\u03b3 (IFN-\u03b3)",
+        "relationship": "regulates",
+        "description": "Protein modifications can modulate the release of cytokines such as IFN-\u03b3."
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "entity_name": "Baicalin",
+        "type": "Drug",
+        "description": "A flavonoid compound with potential anti-inflammatory effects.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Ulcerative Colitis (UC)",
+        "type": "Disease",
+        "description": "A chronic inflammatory bowel disease causing inflammation in the digestive tract.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IKK",
+        "type": "Protein",
+        "description": "I\u03baB kinase, part of the signaling pathway involved in inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "IKB",
+        "type": "Protein",
+        "description": "Inhibitor of kappa B, a protein family that regulates the NF-kB signaling pathway.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "NF-kB",
+        "type": "Protein",
+        "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells, a transcription factor involved in inflammatory responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "SOD",
+        "type": "Protein",
+        "description": "Superoxide dismutase, an enzyme that helps break down potentially harmful oxygen molecules.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "CAT",
+        "type": "Protein",
+        "description": "Catalase, an enzyme that catalyzes the decomposition of hydrogen peroxide.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "GSH-Px",
+        "type": "Protein",
+        "description": "Glutathione peroxidase, an enzyme that protects the organism from oxidative damage.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "MDA",
+        "type": "Protein",
+        "description": "Malondialdehyde, a marker of oxidative stress.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "IL-1\u03b2",
+        "type": "Protein",
+        "description": "Interleukin 1 beta, a cytokine involved in inflammatory responses.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "MPO",
+        "type": "Protein",
+        "description": "Myeloperoxidase, an enzyme expressed in neutrophils that contributes to inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "PEG2",
+        "type": "Protein",
+        "description": "Prostaglandin E2, a lipid compound that has various roles in inflammation and pain.",
+        "is_ambiguous": true
+    },
+    {
+        "entity_name": "TNF-\u03b1",
+        "type": "Protein",
+        "description": "Tumor necrosis factor alpha, a cytokine involved in systemic inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cleaved-caspase3",
+        "type": "Protein",
+        "description": "An active form of caspase 3, involved in the apoptotic process.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cleaved-caspase9",
+        "type": "Protein",
+        "description": "An active form of caspase 9, also involved in apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Bcl-2",
+        "type": "Protein",
+        "description": "B-cell lymphoma 2, a protein that regulates cell death.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "Bax",
+        "type": "Protein",
+        "description": "Bcl-2-associated X protein, a pro-apoptotic member of the Bcl-2 family.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "cyt-c",
+        "type": "Protein",
+        "description": "Cytochrome c, a protein involved in the electron transport chain and apoptosis.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "NF-kB p-65",
+        "type": "Protein",
+        "description": "A subunit of the NF-kB protein complex involved in immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "p-IKK\u03b2/IKK\u03b2",
+        "type": "Protein",
+        "description": "Phosphorylated and non-phosphorylated forms of I\u03baB kinase beta, involved in the NF-kB signaling pathway.",
+        "is_ambiguous": false
+    },
+    {
+        "entity_name": "p-IKB\u03b1/IKB\u03b1",
+        "type": "Protein",
+        "description": "Phosphorylated and non-phosphorylated forms of inhibitor of kappa B alpha, regulating NF-kB activity.",
+        "is_ambiguous": false
+    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "primary_name": "G Protein-Coupled Receptor 174",
+        "candidates": [
+            "G Protein-Coupled Receptor 174",
+            "GPR174"
+        ],
+        "entity_name": "GPR174",
+        "type": "Gene",
+        "description": "A G protein-coupled receptor involved in regulating immune function.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Dextran Sodium Sulfate",
+        "candidates": [
+            "Dextran Sodium Sulfate",
+            "DSS"
+        ],
+        "entity_name": "DSS",
+        "type": "Drug",
+        "description": "Dextran sodium sulfate, used to induce colitis in mice models.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Inflammatory bowel diseases"
+        ],
+        "entity_name": "Inflammatory bowel disease (IBD)",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Alpha",
+        "candidates": [
+            "Tumor Necrosis Factor Alpha",
+            "TNF-alpha",
+            "TNF-\u03b1"
+        ],
+        "entity_name": "TNF-\u03b1 (Tumor necrosis factor-alpha)",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine involved in systemic inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin 6",
+        "candidates": [
+            "Interleukin 6",
+            "IL-6"
+        ],
+        "entity_name": "IL-6 (Interleukin-6)",
+        "type": "Protein",
+        "description": "A cytokine that plays a role in inflammation and infection responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin 10",
+        "candidates": [
+            "Interleukin 10",
+            "IL-10"
+        ],
+        "entity_name": "IL-10 (Interleukin-10)",
+        "type": "Protein",
+        "description": "An anti-inflammatory cytokine that regulates immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interferon Gamma",
+        "candidates": [
+            "Interferon Gamma",
+            "IFN-gamma",
+            "IFN-\u03b3"
+        ],
+        "entity_name": "IFN-\u03b3 (Interferon-gamma)",
+        "type": "Protein",
+        "description": "A cytokine critical for innate and adaptive immunity against viral and intracellular bacterial infections.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin 4",
+        "candidates": [
+            "Interleukin 4",
+            "IL-4"
+        ],
+        "entity_name": "IL-4 (Interleukin-4)",
+        "type": "Protein",
+        "description": "A cytokine that promotes the differentiation of naive T cells into Th2 cells.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Major Histocompatibility Complex Class II",
+        "candidates": [
+            "Major Histocompatibility Complex Class II",
+            "MHC Class II",
+            "MHC-II"
+        ],
+        "entity_name": "MHC-II (Major Histocompatibility Complex Class II)",
+        "type": "Protein",
+        "description": "A protein complex that plays a crucial role in the immune system by presenting peptides to CD4+ T cells.",
+        "is_ambiguous": false
+    }
+]

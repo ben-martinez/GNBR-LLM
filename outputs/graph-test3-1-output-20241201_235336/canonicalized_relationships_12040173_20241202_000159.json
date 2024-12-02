@@ -1,0 +1,250 @@
+[
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNF receptor-1",
+                "TNFR1",
+                "CD120a"
+            ],
+            "entity_name": "TNF receptor-1",
+            "type": "Protein",
+            "description": "A receptor that mediates the effects of tumor necrosis factor.",
+            "is_ambiguous": false
+        },
+        "relationship": "binds",
+        "description": "Tumor necrosis factor interacts with TNF receptor-1 to activate signaling pathways."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Sepsis",
+            "candidates": [
+                "Sepsis",
+                "Septicemia",
+                "Blood Poisoning",
+                "Systemic Inflammatory Response Syndrome"
+            ],
+            "entity_name": "sepsis",
+            "type": "Disease",
+            "description": "A life-threatening condition caused by the body's response to infection.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of sepsis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Diabetes Mellitus",
+            "candidates": [
+                "Diabetes Mellitus",
+                "Diabetes",
+                "Type 1 Diabetes",
+                "Type 2 Diabetes",
+                "Diabetes Mellitus Type 1",
+                "Diabetes Mellitus Type 2"
+            ],
+            "entity_name": "diabetes",
+            "type": "Disease",
+            "description": "A chronic condition that affects how the body processes blood sugar.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of diabetes."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cancer",
+            "candidates": [
+                "Cancer",
+                "Malignant Neoplasm",
+                "Neoplasm",
+                "Tumor"
+            ],
+            "entity_name": "cancer",
+            "type": "Disease",
+            "description": "An uncontrolled growth of abnormal cells in the body.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of cancer."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Osteoporosis",
+            "candidates": [
+                "Osteoporosis",
+                "Bone Loss",
+                "Osteopenia"
+            ],
+            "entity_name": "osteoporosis",
+            "type": "Disease",
+            "description": "A condition characterized by weak and brittle bones.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of osteoporosis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Multiple Sclerosis",
+            "candidates": [
+                "Multiple Sclerosis",
+                "MS",
+                "Disseminated Sclerosis"
+            ],
+            "entity_name": "multiple sclerosis",
+            "type": "Disease",
+            "description": "A disease in which the immune system eats away at the protective covering of nerves.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of multiple sclerosis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Rheumatoid Arthritis",
+            "candidates": [
+                "Rheumatoid Arthritis",
+                "RA",
+                "Chronic Inflammatory Arthritis"
+            ],
+            "entity_name": "rheumatoid arthritis",
+            "type": "Disease",
+            "description": "An autoimmune disorder that primarily affects joints.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of rheumatoid arthritis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha",
+                "TNF-alpha"
+            ],
+            "entity_name": "Tumor necrosis factor",
+            "type": "Protein",
+            "description": "A major mediator of apoptosis, inflammation, and immunity.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Crohn's Disease",
+                "Ulcerative Colitis",
+                "Inflammatory Bowel Diseases"
+            ],
+            "entity_name": "inflammatory bowel diseases",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the colon and small intestine.",
+            "is_ambiguous": false
+        },
+        "relationship": "implicated in",
+        "description": "Tumor necrosis factor has been implicated in the pathogenesis of inflammatory bowel diseases."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Inflammatory Bowel Disorders",
+            "Chronic Inflammatory Bowel Disease",
+            "Gastrointestinal Inflammation"
+        ],
+        "entity_name": "Inflammatory Bowel Disease (IBD)",
+        "type": "Disease",
+        "description": "A chronic inflammatory condition of the gastrointestinal tract with unknown specific etiopathogenesis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Anti-Tumor Necrosis Factor Alpha",
+        "candidates": [
+            "Anti-Tumor Necrosis Factor Alpha",
+            "Anti-TNF\u03b1",
+            "Anti-Tumor Necrosis Factor",
+            "TNF Inhibitor",
+            "Biologic Drug for Inflammatory Bowel Disease"
+        ],
+        "entity_name": "anti-tumor necrosis factor \u03b1 (anti-TNF\u03b1)",
+        "type": "Drug",
+        "description": "A biologic drug used to treat inflammatory bowel disease by inhibiting tumor necrosis factor \u03b1.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Janus Kinase",
+        "candidates": [
+            "Janus Kinase",
+            "JAK",
+            "Janus Kinase Family",
+            "JAK Enzymes",
+            "Janus Kinases"
+        ],
+        "entity_name": "Janus kinase (JAK)",
+        "type": "Protein",
+        "description": "A family of enzymes that transmit signals within cells and are implicated in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Sphingosine-1-Phosphate Receptors",
+        "candidates": [
+            "Sphingosine-1-Phosphate Receptors",
+            "S1P Receptors",
+            "Sphingosine-1-Phosphate Receptor Family",
+            "Sphingosine Receptors"
+        ],
+        "entity_name": "sphingosine-1-phosphate receptors",
+        "type": "Protein",
+        "description": "Receptors involved in lymphocyte trafficking and various aspects of the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Cytokines",
+        "candidates": [
+            "Cytokines",
+            "Interleukin-12/23",
+            "TL1A",
+            "Interleukin-36",
+            "IL-12/23, TL1A, and IL-36"
+        ],
+        "entity_name": "cytokines (IL-12/23, TL1A, and IL-36)",
+        "type": "Protein",
+        "description": "Signaling molecules that mediate and regulate immunity, inflammation, and hematopoiesis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "B Lymphocytes",
+        "candidates": [
+            "B Lymphocytes",
+            "B Cells",
+            "B Cell Subtypes",
+            "B-Cell Lymphocytes"
+        ],
+        "entity_name": "B cells",
+        "type": "Gene",
+        "description": "A type of white blood cell that plays a vital role in the immune response.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Innate Lymphoid Cells",
+        "candidates": [
+            "Innate Lymphoid Cells",
+            "ILCs",
+            "Innate Lymphoid Cell Types",
+            "Innate Immune Lymphoid Cells"
+        ],
+        "entity_name": "innate lymphoid cells",
+        "type": "Gene",
+        "description": "A group of immune cells involved in the maintenance of tissue homeostasis and immune responses.",
+        "is_ambiguous": false
+    }
+]

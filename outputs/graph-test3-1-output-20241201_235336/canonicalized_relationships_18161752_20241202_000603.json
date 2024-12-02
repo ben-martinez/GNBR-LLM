@@ -1,0 +1,189 @@
+[
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Receptor 1",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 1",
+                "TNFR1",
+                "TNF Receptor 1",
+                "TNF-R1"
+            ],
+            "entity_name": "TNFR1",
+            "type": "Protein",
+            "description": "One of the two receptors that TNF interacts with, involved in distinct and overlapping signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR1, initiating distinct and overlapping signal transduction pathways."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor Receptor 2",
+            "candidates": [
+                "Tumor Necrosis Factor Receptor 2",
+                "TNFR2",
+                "TNF Receptor 2",
+                "TNF-R2"
+            ],
+            "entity_name": "TNFR2",
+            "type": "Protein",
+            "description": "The second receptor that TNF interacts with, which initiates different signal transduction pathways.",
+            "is_ambiguous": false
+        },
+        "relationship": "interacts with",
+        "description": "TNF interacts with TNFR2, which initiates different signal transduction pathways."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Rheumatoid Arthritis",
+            "candidates": [
+                "Rheumatoid Arthritis",
+                "RA",
+                "Rheumatoid disease",
+                "Chronic Inflammatory Arthritis"
+            ],
+            "entity_name": "rheumatoid arthritis",
+            "type": "Disease",
+            "description": "An autoimmune disorder that primarily affects joints, causing inflammation and pain.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat rheumatoid arthritis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Ankylosing Spondylitis",
+            "candidates": [
+                "Ankylosing Spondylitis",
+                "AS",
+                "Marie-Str\u00fcmpell Disease",
+                "Bechterew's Disease"
+            ],
+            "entity_name": "ankylosing spondylitis",
+            "type": "Disease",
+            "description": "A type of arthritis that causes inflammation of the spine and the joints.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat ankylosing spondylitis."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Inflammatory Bowel Disease",
+            "candidates": [
+                "Inflammatory Bowel Disease",
+                "IBD",
+                "Crohn's Disease",
+                "Ulcerative Colitis",
+                "Inflammatory Bowel Disorders"
+            ],
+            "entity_name": "inflammatory bowel disease",
+            "type": "Disease",
+            "description": "A group of inflammatory conditions of the colon and small intestine.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat inflammatory bowel disease."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Cachectin",
+                "Tumor Necrosis Factor-alpha"
+            ],
+            "entity_name": "TNF (Tumor Necrosis Factor)",
+            "type": "Protein",
+            "description": "A key regulator of the inflammatory response that mediates various cellular responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Psoriasis",
+            "candidates": [
+                "Psoriasis",
+                "Psoriatic Disease",
+                "Psoriatic Arthritis",
+                "Chronic Plaque Psoriasis"
+            ],
+            "entity_name": "psoriasis",
+            "type": "Disease",
+            "description": "A chronic autoimmune condition that causes rapid skin cell production leading to scaling on the skin's surface.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "Agents that block the action of TNF are used to treat psoriasis."
+    }
+]

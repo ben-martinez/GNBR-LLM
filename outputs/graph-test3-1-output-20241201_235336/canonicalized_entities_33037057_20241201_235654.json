@@ -1,0 +1,96 @@
+[
+    {
+        "primary_name": "Inflammatory Bowel Disease",
+        "candidates": [
+            "Inflammatory Bowel Disease",
+            "IBD",
+            "Inflammatory Bowel Diseases",
+            "Inflammatory Bowel Disorder"
+        ],
+        "entity_name": "Inflammatory Bowel Disease",
+        "type": "Disease",
+        "description": "A group of inflammatory conditions of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin-23",
+        "candidates": [
+            "Interleukin-23",
+            "IL-23",
+            "IL23",
+            "Interleukin 23"
+        ],
+        "entity_name": "IL-23",
+        "type": "Protein",
+        "description": "A cytokine involved in the regulation of immune responses, particularly in the context of inflammatory diseases.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin-10",
+        "candidates": [
+            "Interleukin-10",
+            "IL-10",
+            "IL10",
+            "Interleukin 10"
+        ],
+        "entity_name": "IL-10",
+        "type": "Protein",
+        "description": "An anti-inflammatory cytokine that plays a crucial role in regulating immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin-1 Alpha",
+        "candidates": [
+            "Interleukin-1 Alpha",
+            "IL-1\u03b1",
+            "IL-1 Alpha",
+            "IL1A",
+            "Interleukin 1 Alpha"
+        ],
+        "entity_name": "IL-1\u03b1",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine that is part of the interleukin-1 family, involved in various immune responses.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Interleukin-1 Beta",
+        "candidates": [
+            "Interleukin-1 Beta",
+            "IL-1\u03b2",
+            "IL-1 Beta",
+            "IL1B",
+            "Interleukin 1 Beta"
+        ],
+        "entity_name": "IL-1\u03b2",
+        "type": "Protein",
+        "description": "A pro-inflammatory cytokine that is part of the interleukin-1 family, playing a key role in inflammation.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Tumor Necrosis Factor Inhibitors",
+        "candidates": [
+            "Tumor Necrosis Factor Inhibitors",
+            "Antitumour Necrosis Factor (TNF) Therapy",
+            "TNF Inhibitors",
+            "Anti-TNF Therapy",
+            "TNF Blockers"
+        ],
+        "entity_name": "Antitumour Necrosis Factor (TNF) Therapy",
+        "type": "Drug",
+        "description": "A class of medications used to reduce inflammation by targeting tumor necrosis factor, commonly used in inflammatory conditions.",
+        "is_ambiguous": false
+    },
+    {
+        "primary_name": "Crohn's Disease",
+        "candidates": [
+            "Crohn's Disease",
+            "Crohn Disease",
+            "Crohn's Illness",
+            "Crohn's Condition"
+        ],
+        "entity_name": "Crohn's Disease",
+        "type": "Disease",
+        "description": "A type of inflammatory bowel disease that causes inflammation of the digestive tract, leading to various gastrointestinal symptoms.",
+        "is_ambiguous": false
+    }
+]

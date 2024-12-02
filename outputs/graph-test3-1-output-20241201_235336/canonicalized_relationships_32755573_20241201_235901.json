@@ -1,0 +1,149 @@
+[
+    {
+        "source": {
+            "primary_name": "Lysophosphatidic Acid",
+            "candidates": [
+                "Lysophosphatidic Acid"
+            ],
+            "entity_name": "Lysophosphatidic Acid",
+            "type": "Drug",
+            "description": "An endogenous lipid mediator involved in various physiological processes, including inflammation.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "G Protein-Coupled Receptor 35",
+            "candidates": [
+                "G Protein-Coupled Receptor 35",
+                "GPR35",
+                "GPCR 35",
+                "G-protein coupled receptor 35"
+            ],
+            "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+            "type": "Protein",
+            "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Lysophosphatidic acid acts through GPR35 to induce tumor necrosis factor expression in macrophages."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 35",
+            "candidates": [
+                "G Protein-Coupled Receptor 35",
+                "GPR35",
+                "GPCR 35",
+                "G-protein coupled receptor 35"
+            ],
+            "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+            "type": "Protein",
+            "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Tumor Necrosis Factor alpha"
+            ],
+            "entity_name": "Tumor Necrosis Factor (Tnf)",
+            "type": "Protein",
+            "description": "A pro-inflammatory cytokine involved in systemic inflammation and immune responses.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "GPR35 modulates the expression of TNF in macrophages."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 35",
+            "candidates": [
+                "G Protein-Coupled Receptor 35",
+                "GPR35",
+                "GPCR 35",
+                "G-protein coupled receptor 35"
+            ],
+            "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+            "type": "Protein",
+            "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cytochrome P450 Family 11 Subfamily B Member 1",
+            "candidates": [
+                "Cytochrome P450 Family 11 Subfamily B Member 1",
+                "Cyp11b1",
+                "CYP11B1",
+                "Corticosterone 11-beta-hydroxylase gene"
+            ],
+            "entity_name": "Corticosterone-generating gene Cyp11b1",
+            "type": "Gene",
+            "description": "A gene encoding an enzyme involved in corticosterone synthesis.",
+            "is_ambiguous": false
+        },
+        "relationship": "inhibits",
+        "description": "Mice lacking GPR35 exhibit decreased transcript levels of the Cyp11b1 gene."
+    },
+    {
+        "source": {
+            "primary_name": "Tumor Necrosis Factor",
+            "candidates": [
+                "Tumor Necrosis Factor",
+                "TNF",
+                "TNF-alpha",
+                "Tumor Necrosis Factor alpha"
+            ],
+            "entity_name": "Tumor Necrosis Factor (Tnf)",
+            "type": "Protein",
+            "description": "A pro-inflammatory cytokine involved in systemic inflammation and immune responses.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Cytochrome P450 Family 11 Subfamily B Member 1",
+            "candidates": [
+                "Cytochrome P450 Family 11 Subfamily B Member 1",
+                "Cyp11b1",
+                "CYP11B1",
+                "Corticosterone 11-beta-hydroxylase gene"
+            ],
+            "entity_name": "Corticosterone-generating gene Cyp11b1",
+            "type": "Gene",
+            "description": "A gene encoding an enzyme involved in corticosterone synthesis.",
+            "is_ambiguous": false
+        },
+        "relationship": "activates",
+        "description": "Administration of TNF restores Cyp11b1 expression in GPR35-deficient mice."
+    },
+    {
+        "source": {
+            "primary_name": "G Protein-Coupled Receptor 35",
+            "candidates": [
+                "G Protein-Coupled Receptor 35",
+                "GPR35",
+                "GPCR 35",
+                "G-protein coupled receptor 35"
+            ],
+            "entity_name": "G Protein-Coupled Receptor 35 (GPR35)",
+            "type": "Protein",
+            "description": "A receptor implicated in inflammatory bowel disease and intestinal immune homeostasis.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Colitis",
+            "candidates": [
+                "Colitis",
+                "Colitides",
+                "Colon Inflammation",
+                "Inflammation of the colon"
+            ],
+            "entity_name": "Colitis",
+            "type": "Disease",
+            "description": "Inflammation of the colon, often presenting with abdominal pain and diarrhea.",
+            "is_ambiguous": false
+        },
+        "relationship": "regulates",
+        "description": "GPR35 signaling is involved in maintaining intestinal homeostasis and preventing colitis."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "anti-tumor necrosis factor \u03b1 (anti-TNF\u03b1)",
+        "relationship": "is treated by",
+        "description": "Anti-TNF\u03b1 is a biologic drug used to treat inflammatory bowel disease."
+    },
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "Janus kinase (JAK)",
+        "relationship": "is targeted by",
+        "description": "Janus kinase inhibitors represent one of the modes of action for treating IBD."
+    },
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "sphingosine-1-phosphate receptors",
+        "relationship": "is targeted by",
+        "description": "Sphingosine-1-phosphate receptors are involved in the treatment strategies for IBD."
+    },
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "cytokines (IL-12/23, TL1A, and IL-36)",
+        "relationship": "is targeted by",
+        "description": "Cytokines are implicated in the immune response related to IBD and are targeted in therapies."
+    },
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "B cells",
+        "relationship": "is influenced by",
+        "description": "New therapeutic concepts aim to control previously less targeted immune cells, including B cells."
+    },
+    {
+        "source": "Inflammatory Bowel Disease (IBD)",
+        "target": "innate lymphoid cells",
+        "relationship": "is influenced by",
+        "description": "New therapies for IBD are expected to control innate lymphoid cells as part of the immune response."
+    }
+]

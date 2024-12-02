@@ -1,0 +1,120 @@
+[
+    {
+        "source": {
+            "primary_name": "Bifidobacterium",
+            "candidates": [
+                "Bifidobacterium",
+                "Bifidobacterium spp.",
+                "Bifidobacteria",
+                "Bifidobacterium Genus"
+            ],
+            "entity_name": "Bifidobacterium",
+            "type": "Gene",
+            "description": "A genus of bacteria that is beneficial to gut health and is often associated with higher expression of metabolism-related genes.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Fatty Acid Metabolism Pathway",
+            "candidates": [
+                "Fatty Acid Metabolism Pathway",
+                "Fatty Acid Metabolism Pathway in Inflammatory Bowel Disease",
+                "Fatty Acid Metabolism in IBD",
+                "Fatty Acid Synthesis and Degradation Pathway"
+            ],
+            "entity_name": "Fatty Acid Metabolism Pathway in IBD",
+            "type": "Protein",
+            "description": "A metabolic pathway involving the breakdown and synthesis of fatty acids, significant in the context of IBD and treatment.",
+            "is_ambiguous": false
+        },
+        "relationship": "modulates",
+        "description": "An increased abundance of Bifidobacterium is associated with higher expression of genes involved in fatty acid metabolism."
+    },
+    {
+        "source": {
+            "primary_name": "Bacteroides",
+            "candidates": [
+                "Bacteroides",
+                "Bacteroides spp.",
+                "Bacteroidetes",
+                "Bacteroides Genus"
+            ],
+            "entity_name": "Bacteroides",
+            "type": "Gene",
+            "description": "A genus of bacteria that is associated with increased metallothionein signaling in the gut.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Metallothionein Signaling Pathway",
+            "candidates": [
+                "Metallothionein Signaling Pathway",
+                "Metallothionein Pathway",
+                "Metallothionein Pathway in Inflammatory Bowel Disease",
+                "Metallothionein Signaling in IBD"
+            ],
+            "entity_name": "Metallothionein Signaling Pathway in IBD",
+            "type": "Protein",
+            "description": "A signaling pathway involving metallothionein proteins that may play a role in intestinal health and disease.",
+            "is_ambiguous": false
+        },
+        "relationship": "correlates with",
+        "description": "Bacteroides correlates with increased metallothionein signaling."
+    },
+    {
+        "source": {
+            "primary_name": "Lachnoclostridium",
+            "candidates": [
+                "Lachnoclostridium",
+                "Lachnoclostridium spp.",
+                "Lachnoclostridia",
+                "Lachnoclostridium Genus"
+            ],
+            "entity_name": "Lachnoclostridium",
+            "type": "Gene",
+            "description": "A genus of bacteria associated with immunoregulatory genes in non-stenotic tissue of IBD patients.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "immunoregulatory genes",
+            "candidates": [
+                "immunoregulatory genes",
+                "genes involved in immune regulation"
+            ],
+            "entity_name": "immunoregulatory genes",
+            "type": "Unknown",
+            "description": "n/a entity was created by relationship disambiguator",
+            "is_ambiguous": true
+        },
+        "relationship": "associates with",
+        "description": "A transcriptional network dominated by immunoregulatory genes is associated with Lachnoclostridium bacteria in non-stenotic tissue."
+    },
+    {
+        "source": {
+            "primary_name": "Ruminococcaceae",
+            "candidates": [
+                "Ruminococcaceae",
+                "Ruminococcaceae Family",
+                "Ruminococcus",
+                "Ruminococcaceae Family Members"
+            ],
+            "entity_name": "Ruminococcaceae",
+            "type": "Gene",
+            "description": "A family of bacteria linked to fatty acid metabolism genes in patients using TNF-\u03b1-antagonists.",
+            "is_ambiguous": false
+        },
+        "target": {
+            "primary_name": "Fatty Acid Metabolism Pathway",
+            "candidates": [
+                "Fatty Acid Metabolism Pathway",
+                "Fatty Acid Metabolism Pathway in Inflammatory Bowel Disease",
+                "Fatty Acid Metabolism in IBD",
+                "Fatty Acid Synthesis and Degradation Pathway"
+            ],
+            "entity_name": "Fatty Acid Metabolism Pathway in IBD",
+            "type": "Protein",
+            "description": "A metabolic pathway involving the breakdown and synthesis of fatty acids, significant in the context of IBD and treatment.",
+            "is_ambiguous": false
+        },
+        "relationship": "links to",
+        "description": "A transcriptional network dominated by fatty acid metabolism genes is linked to Ruminococcaceae in patients using TNF-\u03b1-antagonists."
+    }
+]

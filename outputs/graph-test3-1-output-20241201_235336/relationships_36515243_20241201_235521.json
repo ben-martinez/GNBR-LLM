@@ -1,0 +1,26 @@
+[
+    {
+        "source": "Upadacitinib",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "treats",
+        "description": "Upadacitinib is used for the treatment of inflammatory bowel disease (IBD)."
+    },
+    {
+        "source": "Risankizumab",
+        "target": "Inflammatory Bowel Disease",
+        "relationship": "treats",
+        "description": "Risankizumab is used for the treatment of inflammatory bowel disease (IBD)."
+    },
+    {
+        "source": "Upadacitinib",
+        "target": "Crohn's Disease",
+        "relationship": "treats",
+        "description": "Upadacitinib is administered to Crohn's disease patients who inadequately respond to anti-TNF-\u03b1 treatment."
+    },
+    {
+        "source": "Risankizumab",
+        "target": "Crohn's Disease",
+        "relationship": "treats",
+        "description": "Risankizumab is administered to Crohn's disease patients who inadequately respond to anti-TNF-\u03b1 treatment."
+    }
+]

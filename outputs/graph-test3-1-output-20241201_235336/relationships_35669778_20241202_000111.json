@@ -1,0 +1,32 @@
+[
+    {
+        "source": "GPR174",
+        "target": "DSS",
+        "relationship": "modulates",
+        "description": "GPR174 knockout alleviates DSS-induced colitis by regulating immune function."
+    },
+    {
+        "source": "GPR174",
+        "target": "IL-6 (Interleukin-6)",
+        "relationship": "inhibits",
+        "description": "GPR174 knockout led to decreased expression of the pro-inflammatory cytokine IL-6."
+    },
+    {
+        "source": "GPR174",
+        "target": "IL-10 (Interleukin-10)",
+        "relationship": "activates",
+        "description": "GPR174 knockout resulted in increased expression of the anti-inflammatory cytokine IL-10."
+    },
+    {
+        "source": "GPR174",
+        "target": "TNF-\u03b1 (Tumor necrosis factor-alpha)",
+        "relationship": "inhibits",
+        "description": "GPR174 knockout was associated with reduced levels of pro-inflammatory cytokine TNF-\u03b1."
+    },
+    {
+        "source": "GPR174",
+        "target": "MHC-II (Major Histocompatibility Complex Class II)",
+        "relationship": "regulates",
+        "description": "GPR174 affects the expression of MHC-II in dendritic cells."
+    }
+]
