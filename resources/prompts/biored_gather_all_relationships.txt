@@ -1,0 +1,147 @@
+Relationship Extraction Prompt:
+
+You are an expert in biomedical relationship extraction. Your task is to analyze a given biomedical abstract and identify relationships between entities. You will be provided with the abstract (including its title and content) and a JSON list of entities. Extract relationships between the entities based on the context in the abstract.
+
+Task:
+
+For each relationship you identify:
+
+    Determine the Source and Target Entities:
+        Identify the source entity and the target entity based on the context in the abstract.
+
+    Classify the Type of Relationship:
+        Use common scientific actions or contextual cues to classify the relationship.
+        Relationships can be directional (e.g., "upregulates", "binds") or nondirectional (e.g., "association", "interaction").
+        Include detailed classifications, such as those provided below in the "Relationship Types" section.
+
+    Describe the Relationship:
+        Include a brief description of the relationship, if possible, extracted from the abstract.
+
+    Include Node Types:
+        For each relationship, include the type of both the source and target entities as specified in the entities list.
+
+    Structured Output:
+        Ensure each relationship entry is represented in a structured JSON format.
+
+Input:
+
+Abstract:
+
+<Insert abstract title and content here>
+
+Entities JSON:
+
+{
+  "entities": [
+    {
+      "name": "SCN5A",
+      "type": "GeneOrGeneProduct"
+    },
+    {
+      "name": "long QT syndrome",
+      "type": "DiseaseOrPhenotypicFeature"
+    },
+    {
+      "name": "tachycardia",
+      "type": "DiseaseOrPhenotypicFeature"
+    },
+    {
+      "name": "bradycardia",
+      "type": "DiseaseOrPhenotypicFeature"
+    }
+  ]
+}
+
+Relationship Types:
+
+Here are the types of relationships you may classify:
+
+Directional and Nondirectional Relationship Types:
+
+    Gene ↔ Gene:
+        Directional: "Upregulation", "Downregulation", "Regulation", "Modification", "Bind".
+        Nondirectional: "Positive_Correlation", "Negative_Correlation", "Association".
+    Chemical ↔ Gene:
+        Directional: "Exhibition", "Suppression", "Receptor Bind", "Response", "Resistance", "Chem_Modification".
+        Nondirectional: "Association".
+    Chemical ↔ Disease:
+        Directional: "Treatment", "Induce".
+        Nondirectional: "Association".
+    Gene ↔ Disease:
+        Directional: "Positive_Correlation", "Negative_Correlation".
+        Nondirectional: "Association".
+    Variant ↔ Disease:
+        Directional: "Cause", "Resistance", "Response".
+        Nondirectional: "Association".
+    Chemical ↔ Chemical:
+        Directional: "Inhibition", "Increase", "Comparison".
+        Nondirectional: "Association", "Drug_Interaction".
+    Chemical ↔ Variant:
+        Directional: "Resistance", "Response".
+        Nondirectional: "Association".
+
+If a relationship type does not fit the above categories, infer a new type based on the context, and describe it as clearly as possible.
+
+Rules:
+
+    Focus on Given Entities:
+        Extract relationships only between the entities provided in the input list.
+        Ignore relationships involving other entities not present in the list.
+
+    Be Liberal in Extracting Relationships:
+        Be inclusive when identifying relationships to avoid missing any potential connection.
+        List both directed and undirected edges where applicable.
+
+    Description:
+        Include a concise description of the relationship derived from the abstract.
+        If no explicit description is available, leave the field empty.
+
+    Include Node Types:
+        For each relationship, include the type of both the source and target entities as specified in the entities list.
+
+    Output Format:
+        Return a JSON list where each relationship is structured as follows:
+
+{
+  "source": "<source entity name>",
+  "source_type": "<source entity type>",
+  "target": "<target entity name>",
+  "target_type": "<target entity type>",
+  "relationship": "<type of relationship>",
+  "description": "<brief description of the relationship>"
+}
+
+Output Example:
+
+[
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "long QT syndrome",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Cause",
+    "description": "SCN5A mutations are linked to the development of long QT syndrome."
+  },
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "tachycardia",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Positive_Correlation",
+    "description": "SCN5A gene mutations have been associated with episodes of tachycardia."
+  },
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "bradycardia",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Negative_Correlation",
+    "description": "SCN5A gene mutations inversely correlate with bradycardia."
+  }
+]
+
+Notes:
+
+    Ensure the relationships are accurate and grounded in the context provided by the abstract.
+    Handle both directed and nondirectional relationships as specified.
+    Think step by step then return a JSON-formatted output, without any prefixed text or explanation.

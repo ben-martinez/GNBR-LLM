@@ -1,0 +1,196 @@
+Prompt for Transforming and Filtering Relationships:
+
+You are an expert in biomedical data curation. Your task is to transform and filter a list of relationships extracted from a biomedical abstract. You will be provided with:
+
+    A biomedical abstract.
+    A JSON list of entities extracted from the abstract.
+    A JSON list of relationships extracted from the abstract.
+
+Your task is to:
+
+    Transform all relationships:
+        Convert directed edges into their corresponding undirected labels according to a set of strict rules. The transformation must adhere to the provided mapping rules. This step is mandatory and ensures consistency across the relationships.
+        For example:
+            If a Gene upregulates another Gene, it should be transformed into a "Positive_Correlation" relationship.
+            If a Chemical induces a Disease, it should be transformed into a "Positive_Correlation" relationship.
+            If a Chemical treats a Disease, it should be transformed into a "Negative_Correlation" relationship.
+        Ensure the transformed relationships are labeled correctly for both directed and nondirectional contexts.
+
+    Filter relationships:
+        Discard relationships that do not fit the provided categories.
+
+    Add a description:
+        Include a brief description of the relationship based on the context of the abstract. If no description can be inferred, leave the field as "description": "".
+
+Relationship Transformation Rules (Mandatory):
+
+Adhere to these mappings to transform the relationships:
+
+    Gene-Gene Relationships:
+        "Upregulation" → "Positive_Correlation"
+        "Downregulation" → "Negative_Correlation"
+        "Regulation" → "Association"
+        "Bind" → "Bind"
+        "Modification" → "Association"
+        "Association" → "Association"
+
+    Chemical-Gene Relationships:
+        "Exhibition" (Chemical → Gene) → "Positive_Correlation"
+        "Response" (Gene → Chemical) → "Positive_Correlation"
+        "Suppression" (Chemical → Gene) → "Negative_Correlation"
+        "Resistance" (Gene → Chemical) → "Negative_Correlation"
+        "Receptor Bind" → "Bind"
+        "Chem_Modification" → "Association"
+        "Association" → "Association"
+
+    Chemical-Disease Relationships:
+        "Treatment" → "Negative_Correlation"
+        "Induce" → "Positive_Correlation"
+        "Association" → "Association"
+
+    Gene-Disease Relationships:
+        "Positive_Correlation" → "Positive_Correlation"
+        "Negative_Correlation" → "Negative_Correlation"
+        "Association" → "Association"
+
+    Variant-Disease Relationships:
+        "Cause" → "Cause"
+        "Association" → "Association"
+
+    Chemical-Chemical Relationships:
+        "Cotreatment" → "Cotreatment"
+        "Inhibition" → "Negative_Correlation"
+        "Increase" → "Positive_Correlation"
+        "Drug_Interaction" → "Drug_Interaction"
+        "Association" → "Association"
+        "Comparison" → "Comparison"
+
+    Chemical-Variant Relationships:
+        "Response" → "Positive_Correlation"
+        "Resistance" → "Negative_Correlation"
+        "Association" → "Association"
+
+Rules for Description:
+
+    Include a concise description of the relationship if it can be inferred from the abstract.
+    If no description is available, leave the field as "description": "".
+
+Output Format:
+
+Return a JSON list where each relationship is structured as follows:
+
+[
+  {
+    "source": "<source entity>",
+    "target": "<target entity>",
+    "type": "<relationship type>",
+    "description": "<brief description of the relationship>"
+  }
+]
+
+Input Example:
+
+Abstract:
+
+Title: Aconitine’s impact on cardiac health.
+Content: Aconitine binds to Na(+) channels, leading to arrhythmia and cardiotoxicity. It also increases intracellular Ca2+, enhancing myocardial injury through the activation of p38 MAPK pathways.
+
+Entities JSON:
+
+{
+  "entities": [
+    {
+      "name": "Aconitine",
+      "type": "Chemical"
+    },
+    {
+      "name": "Na(+)",
+      "type": "Chemical"
+    },
+    {
+      "name": "Ca2+",
+      "type": "Chemical"
+    },
+    {
+      "name": "myocardial injury",
+      "type": "Disease"
+    },
+    {
+      "name": "arrhythmia",
+      "type": "Disease"
+    },
+    {
+      "name": "cardiotoxicity",
+      "type": "Disease"
+    },
+    {
+      "name": "p38 MAPK",
+      "type": "GeneOrGeneProduct"
+    }
+  ]
+}
+
+Relationships JSON:
+
+[
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "long QT syndrome",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Cause",
+    "description": "SCN5A mutations are linked to the development of long QT syndrome."
+  },
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "tachycardia",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Positive_Correlation",
+    "description": "SCN5A gene mutations have been associated with episodes of tachycardia."
+  },
+  {
+    "source": "SCN5A",
+    "source_type": "GeneOrGeneProduct",
+    "target": "bradycardia",
+    "target_type": "DiseaseOrPhenotypicFeature",
+    "relationship": "Negative_Correlation",
+    "description": "SCN5A gene mutations inversely correlate with bradycardia."
+  }
+]
+
+Output Example:
+
+[
+  {
+    "source": "Aconitine",
+    "target": "Na(+)",
+    "type": "Bind",
+    "description": "Aconitine binds to Na(+) channels."
+  },
+  {
+    "source": "Aconitine",
+    "target": "Ca2+",
+    "type": "Positive_Correlation",
+    "description": "Aconitine increases intracellular Ca2+."
+  },
+  {
+    "source": "Ca2+",
+    "target": "myocardial injury",
+    "type": "Positive_Correlation",
+    "description": "Ca2+ enhances myocardial injury."
+  },
+  {
+    "source": "myocardial injury",
+    "target": "p38 MAPK",
+    "type": "Association",
+    "description": "Myocardial injury activates p38 MAPK pathways."
+  }
+]
+
+Key Points:
+
+    Transformation Is Mandatory: Every relationship must be transformed to its nondirectional label as per the provided rules.
+    Strict Adherence to Rules: Ensure the transformations are accurate, consistent, and fit the specified categories.
+    Include All Valid Relationships: Only discard relationships that do not fit into the predefined categories.
+    Output only a JSON file output.

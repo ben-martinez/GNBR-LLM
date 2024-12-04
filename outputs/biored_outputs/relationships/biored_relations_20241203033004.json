@@ -1,0 +1,261 @@
+[
+    {
+        "id": "15485686",
+        "title": "A novel SCN5A mutation manifests as a malignant form of long QT syndrome with perinatal onset of tachycardia/bradycardia.",
+        "text": "OBJECTIVE: Congenital long QT syndrome (LQTS) with in utero onset of the rhythm disturbances is associated with a poor prognosis. In this study we investigated a newborn patient with fetal bradycardia, 2:1 atrioventricular block and ventricular tachycardia soon after birth. METHODS: Mutational analysis and DNA sequencing were conducted in a newborn. The 2:1 atrioventricular block improved to 1:1 conduction only after intravenous lidocaine infusion or a high dose of mexiletine, which also controlled the ventricular tachycardia. RESULTS: A novel, spontaneous LQTS-3 mutation was identified in the transmembrane segment 6 of domain IV of the Na(v)1.5 cardiac sodium channel, with a G-->A substitution at codon 1763, which changed a valine (GTG) to a methionine (ATG). The proband was heterozygous but the mutation was absent in the parents and the sister. Expression of this mutant channel in tsA201 mammalian cells by site-directed mutagenesis revealed a persistent tetrodotoxin-sensitive but lidocaine-resistant current that was associated with a positive shift of the steady-state inactivation curve, steeper activation curve and faster recovery from inactivation. We also found a similar electrophysiological profile for the neighboring V1764M mutant. But, the other neighboring I1762A mutant had no persistent current and was still associated with a positive shift of inactivation. CONCLUSIONS: These findings suggest that the Na(v)1.5/V1763M channel dysfunction and possible neighboring mutants contribute to a persistent inward current due to altered inactivation kinetics and clinically congenital LQTS with perinatal onset of arrhythmias that responded to lidocaine and mexiletine.",
+        "entities": [
+            {
+                "name": "SCN5A",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "long QT syndrome",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "tachycardia",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "bradycardia",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "LQTS",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "patient",
+                "type": "OrganismTaxon"
+            },
+            {
+                "name": "atrioventricular block",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "ventricular tachycardia",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "lidocaine",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "mexiletine",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "Na(v)1.5",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "sodium",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "G-->A substitution at codon 1763",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "valine (GTG) to a methionine (ATG)",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "tsA201",
+                "type": "CellLine"
+            },
+            {
+                "name": "tetrodotoxin",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "V1764M",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "I1762A",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "V1763M",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "arrhythmias",
+                "type": "DiseaseOrPhenotypicFeature"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "SCN5A",
+                "target": "long QT syndrome",
+                "type": "Cause",
+                "description": "A novel SCN5A mutation manifests as a malignant form of long QT syndrome."
+            },
+            {
+                "source": "long QT syndrome",
+                "target": "tachycardia",
+                "type": "Association",
+                "description": "Congenital long QT syndrome is associated with perinatal onset of tachycardia."
+            },
+            {
+                "source": "long QT syndrome",
+                "target": "bradycardia",
+                "type": "Association",
+                "description": "Congenital long QT syndrome is associated with perinatal onset of bradycardia."
+            },
+            {
+                "source": "SCN5A",
+                "target": "tachycardia",
+                "type": "Positive_Correlation",
+                "description": "The SCN5A gene mutation correlates with episodes of tachycardia."
+            },
+            {
+                "source": "SCN5A",
+                "target": "bradycardia",
+                "type": "Positive_Correlation",
+                "description": "The SCN5A gene mutation correlates with episodes of bradycardia."
+            }
+        ]
+    },
+    {
+        "id": "16046395",
+        "title": "Allelic expression imbalance of human mu opioid receptor (OPRM1) caused by variant A118G.",
+        "text": "As a primary target for opioid drugs and peptides, the mu opioid receptor (OPRM1) plays a key role in pain perception and addiction. Genetic variants of OPRM1 have been implicated in predisposition to drug addiction, in particular the single nucleotide polymorphism A118G, leading to an N40D substitution, with an allele frequency of 10-32%, and uncertain functions. We have measured allele-specific mRNA expression of OPRM1 in human autopsy brain tissues, using A118G as a marker. In 8 heterozygous samples measured, the A118 mRNA allele was 1.5-2.5-fold more abundant than the G118 allele. Transfection into Chinese hamster ovary cells of a cDNA representing only the coding region of OPRM1, carrying adenosine, guanosine, cytidine, and thymidine in position 118, resulted in 1.5-fold lower mRNA levels only for OPRM1-G118, and more than 10-fold lower OPRM1 protein levels, measured by Western blotting and receptor binding assay. After transfection and inhibition of transcription with actinomycin D, analysis of mRNA turnover failed to reveal differences in mRNA stability between A118 and G118 alleles, indicating a defect in transcription or mRNA maturation. These results indicate that OPRM1-G118 is a functional variant with deleterious effects on both mRNA and protein yield. Clarifying the functional relevance of polymorphisms associated with susceptibility to a complex disorder such as drug addiction provides a foundation for clinical association studies.",
+        "entities": [
+            {
+                "name": "human",
+                "type": "OrganismTaxon"
+            },
+            {
+                "name": "mu opioid receptor",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "OPRM1",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "A118G",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "pain",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "drug addiction",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "N40D",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "A118",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "G118",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "Chinese hamster",
+                "type": "OrganismTaxon"
+            },
+            {
+                "name": "adenosine, guanosine, cytidine, and thymidine in position 118",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "actinomycin D",
+                "type": "ChemicalEntity"
+            }
+        ],
+        "relationships": []
+    },
+    {
+        "id": "18457324",
+        "title": "Genetic polymorphisms in the carbonyl reductase 3 gene CBR3 and the NAD(P)H:quinone oxidoreductase 1 gene NQO1 in patients who developed anthracycline-related congestive heart failure after childhood cancer.",
+        "text": "BACKGROUND: Exposure to anthracyclines as part of cancer therapy has been associated with the development of congestive heart failure (CHF). The potential role of genetic risk factors in anthracycline-related CHF remains to be defined. Thus, in this study, the authors examined whether common polymorphisms in candidate genes involved in the pharmacodynamics of anthracyclines (in particular, the nicotinamide adenine dinucleotide phosphate:quinone oxidoreductase 1 gene NQO1 and the carbonyl reductase 3 gene CBR3) had an impact on the risk of anthracycline-related CHF. METHODS: A nested case-control study was conducted within a cohort of 1979 patients enrolled in the Childhood Cancer Survivor Study who received treatment with anthracyclines and had available DNA. Thirty patients with CHF (cases) and 115 matched controls were genotyped for polymorphisms in NQO1 (NQO1*2) and CBR3 (the CBR3 valine [V] to methionine [M] substitution at position 244 [V244M]). Enzyme activity assays with recombinant CBR3 isoforms (CBR3 V244 and CBR3 M244) and the anthracycline substrate doxorubicin were used to investigate the functional impact of the CBR3 V244M polymorphism. RESULTS: Multivariate analyses adjusted for sex and primary disease recurrence were used to test for associations between the candidate genetic polymorphisms (NQO1*2 and CBR3 V244M) and the risk of CHF. Analyses indicated no association between the NQO1*2 polymorphism and the risk of anthracycline-related CHF (odds ratio [OR], 1.04; P=.97). There was a trend toward an association between the CBR3 V244M polymorphism and the risk of CHF (OR, 8.16; P=.056 for G/G vs A/A; OR, 5.44; P=.092 for G/A vs A/A). In line, recombinant CBR3 V244 (G allele) synthesized 2.6-fold more cardiotoxic doxorubicinol per unit of time than CBR3 M244 (A allele; CBR3 V244 [8.26+/-3.57 nmol/hour.mg] vs CBR3 M244 [3.22+/-0.67 nmol/hour.mg]; P=.01). CONCLUSIONS: The functional CBR3 V244M polymorphism may have an impact on the risk of anthracycline-related CHF among childhood cancer survivors by modulating the intracardiac formation of cardiotoxic anthracycline alcohol metabolites. Larger confirmatory case-control studies are warranted.",
+        "entities": [
+            {
+                "name": "carbonyl reductase 3",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "CBR3",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "NAD(P)H:quinone oxidoreductase 1",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "NQO1",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "patients",
+                "type": "OrganismTaxon"
+            },
+            {
+                "name": "anthracycline",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "congestive heart failure",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "cancer",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "anthracyclines",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "CHF",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "nicotinamide adenine dinucleotide phosphate:quinone oxidoreductase 1",
+                "type": "GeneOrGeneProduct"
+            },
+            {
+                "name": "valine [V] to methionine [M] substitution at position 244",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "V244M",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "V244",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "M244",
+                "type": "SequenceVariant"
+            },
+            {
+                "name": "doxorubicin",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "cardiotoxic",
+                "type": "DiseaseOrPhenotypicFeature"
+            },
+            {
+                "name": "doxorubicinol",
+                "type": "ChemicalEntity"
+            },
+            {
+                "name": "anthracycline alcohol",
+                "type": "ChemicalEntity"
+            }
+        ],
+        "relationships": []
+    }
+]

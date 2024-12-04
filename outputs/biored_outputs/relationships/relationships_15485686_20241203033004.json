@@ -1,0 +1,42 @@
+[
+    {
+        "source": "SCN5A",
+        "source_type": "GeneOrGeneProduct",
+        "target": "long QT syndrome",
+        "target_type": "DiseaseOrPhenotypicFeature",
+        "relationship": "Cause",
+        "description": "A novel SCN5A mutation manifests as a malignant form of long QT syndrome."
+    },
+    {
+        "source": "long QT syndrome",
+        "source_type": "DiseaseOrPhenotypicFeature",
+        "target": "tachycardia",
+        "target_type": "DiseaseOrPhenotypicFeature",
+        "relationship": "Association",
+        "description": "Congenital long QT syndrome is associated with perinatal onset of tachycardia."
+    },
+    {
+        "source": "long QT syndrome",
+        "source_type": "DiseaseOrPhenotypicFeature",
+        "target": "bradycardia",
+        "target_type": "DiseaseOrPhenotypicFeature",
+        "relationship": "Association",
+        "description": "Congenital long QT syndrome is associated with perinatal onset of bradycardia."
+    },
+    {
+        "source": "SCN5A",
+        "source_type": "GeneOrGeneProduct",
+        "target": "tachycardia",
+        "target_type": "DiseaseOrPhenotypicFeature",
+        "relationship": "Positive_Correlation",
+        "description": "The SCN5A gene mutation correlates with episodes of tachycardia."
+    },
+    {
+        "source": "SCN5A",
+        "source_type": "GeneOrGeneProduct",
+        "target": "bradycardia",
+        "target_type": "DiseaseOrPhenotypicFeature",
+        "relationship": "Positive_Correlation",
+        "description": "The SCN5A gene mutation correlates with episodes of bradycardia."
+    }
+]

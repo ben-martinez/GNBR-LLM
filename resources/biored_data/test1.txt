@@ -1,0 +1,169 @@
+15485686|t|A novel SCN5A mutation manifests as a malignant form of long QT syndrome with perinatal onset of tachycardia/bradycardia.
+15485686|a|OBJECTIVE: Congenital long QT syndrome (LQTS) with in utero onset of the rhythm disturbances is associated with a poor prognosis. In this study we investigated a newborn patient with fetal bradycardia, 2:1 atrioventricular block and ventricular tachycardia soon after birth. METHODS: Mutational analysis and DNA sequencing were conducted in a newborn. The 2:1 atrioventricular block improved to 1:1 conduction only after intravenous lidocaine infusion or a high dose of mexiletine, which also controlled the ventricular tachycardia. RESULTS: A novel, spontaneous LQTS-3 mutation was identified in the transmembrane segment 6 of domain IV of the Na(v)1.5 cardiac sodium channel, with a G-->A substitution at codon 1763, which changed a valine (GTG) to a methionine (ATG). The proband was heterozygous but the mutation was absent in the parents and the sister. Expression of this mutant channel in tsA201 mammalian cells by site-directed mutagenesis revealed a persistent tetrodotoxin-sensitive but lidocaine-resistant current that was associated with a positive shift of the steady-state inactivation curve, steeper activation curve and faster recovery from inactivation. We also found a similar electrophysiological profile for the neighboring V1764M mutant. But, the other neighboring I1762A mutant had no persistent current and was still associated with a positive shift of inactivation. CONCLUSIONS: These findings suggest that the Na(v)1.5/V1763M channel dysfunction and possible neighboring mutants contribute to a persistent inward current due to altered inactivation kinetics and clinically congenital LQTS with perinatal onset of arrhythmias that responded to lidocaine and mexiletine.
+15485686	8	13	SCN5A	GeneOrGeneProduct	6331
+15485686	56	72	long QT syndrome	DiseaseOrPhenotypicFeature	D008133
+15485686	97	108	tachycardia	DiseaseOrPhenotypicFeature	D013610
+15485686	109	120	bradycardia	DiseaseOrPhenotypicFeature	D001919
+15485686	144	160	long QT syndrome	DiseaseOrPhenotypicFeature	D008133
+15485686	162	166	LQTS	DiseaseOrPhenotypicFeature	D008133
+15485686	292	299	patient	OrganismTaxon	9606
+15485686	311	322	bradycardia	DiseaseOrPhenotypicFeature	D001919
+15485686	328	350	atrioventricular block	DiseaseOrPhenotypicFeature	D054537
+15485686	355	378	ventricular tachycardia	DiseaseOrPhenotypicFeature	D017180
+15485686	482	504	atrioventricular block	DiseaseOrPhenotypicFeature	D054537
+15485686	555	564	lidocaine	ChemicalEntity	D008012
+15485686	592	602	mexiletine	ChemicalEntity	D008801
+15485686	630	653	ventricular tachycardia	DiseaseOrPhenotypicFeature	D017180
+15485686	685	689	LQTS	DiseaseOrPhenotypicFeature	D008133
+15485686	767	775	Na(v)1.5	GeneOrGeneProduct	6331
+15485686	784	790	sodium	ChemicalEntity	D012964
+15485686	807	839	G-->A substitution at codon 1763	SequenceVariant	c|SUB|G|CODON1763|A
+15485686	857	891	valine (GTG) to a methionine (ATG)	SequenceVariant	p|SUB|V||M
+15485686	1018	1024	tsA201	CellLine	CVCL_2737
+15485686	1092	1104	tetrodotoxin	ChemicalEntity	D013779
+15485686	1119	1128	lidocaine	ChemicalEntity	D008012
+15485686	1366	1372	V1764M	SequenceVariant	p|SUB|V|1764|M
+15485686	1408	1414	I1762A	SequenceVariant	p|SUB|I|1762|A
+15485686	1557	1565	Na(v)1.5	GeneOrGeneProduct	6331
+15485686	1566	1572	V1763M	SequenceVariant	p|SUB|V|1763|M
+15485686	1731	1735	LQTS	DiseaseOrPhenotypicFeature	D008133
+15485686	1760	1771	arrhythmias	DiseaseOrPhenotypicFeature	D001145
+15485686	1790	1799	lidocaine	ChemicalEntity	D008012
+15485686	1804	1814	mexiletine	ChemicalEntity	D008801
+15485686	Association	D001919	6331	Novel
+15485686	Positive_Correlation	D001919	p|SUB|V|1763|M	Novel
+15485686	Association	D013610	6331	Novel
+15485686	Positive_Correlation	D013610	p|SUB|V|1763|M	Novel
+15485686	Association	6331	D001145	Novel
+15485686	Negative_Correlation	D001145	D008801	No
+15485686	Negative_Correlation	D001145	D008012	No
+15485686	Positive_Correlation	p|SUB|V|1763|M	D001145	Novel
+15485686	Positive_Correlation	p|SUB|V|1763|M	D008133	Novel
+15485686	Association	D008133	6331	Novel
+15485686	Association	D008133	p|SUB|V||M	Novel
+15485686	Association	D008133	c|SUB|G|CODON1763|A	Novel
+15485686	Negative_Correlation	D008133	D008801	No
+15485686	Negative_Correlation	D008133	D008012	No
+15485686	Negative_Correlation	D008801	D017180	No
+15485686	Negative_Correlation	D008012	D017180	No
+15485686	Negative_Correlation	D054537	D008801	No
+15485686	Negative_Correlation	D054537	D008012	No
+
+16046395|t|Allelic expression imbalance of human mu opioid receptor (OPRM1) caused by variant A118G.
+16046395|a|As a primary target for opioid drugs and peptides, the mu opioid receptor (OPRM1) plays a key role in pain perception and addiction. Genetic variants of OPRM1 have been implicated in predisposition to drug addiction, in particular the single nucleotide polymorphism A118G, leading to an N40D substitution, with an allele frequency of 10-32%, and uncertain functions. We have measured allele-specific mRNA expression of OPRM1 in human autopsy brain tissues, using A118G as a marker. In 8 heterozygous samples measured, the A118 mRNA allele was 1.5-2.5-fold more abundant than the G118 allele. Transfection into Chinese hamster ovary cells of a cDNA representing only the coding region of OPRM1, carrying adenosine, guanosine, cytidine, and thymidine in position 118, resulted in 1.5-fold lower mRNA levels only for OPRM1-G118, and more than 10-fold lower OPRM1 protein levels, measured by Western blotting and receptor binding assay. After transfection and inhibition of transcription with actinomycin D, analysis of mRNA turnover failed to reveal differences in mRNA stability between A118 and G118 alleles, indicating a defect in transcription or mRNA maturation. These results indicate that OPRM1-G118 is a functional variant with deleterious effects on both mRNA and protein yield. Clarifying the functional relevance of polymorphisms associated with susceptibility to a complex disorder such as drug addiction provides a foundation for clinical association studies.
+16046395	32	37	human	OrganismTaxon	9606
+16046395	38	56	mu opioid receptor	GeneOrGeneProduct	4988
+16046395	58	63	OPRM1	GeneOrGeneProduct	4988
+16046395	83	88	A118G	SequenceVariant	rs1799971
+16046395	145	163	mu opioid receptor	GeneOrGeneProduct	4988
+16046395	165	170	OPRM1	GeneOrGeneProduct	4988
+16046395	192	196	pain	DiseaseOrPhenotypicFeature	D010146
+16046395	243	248	OPRM1	GeneOrGeneProduct	4988
+16046395	291	305	drug addiction	DiseaseOrPhenotypicFeature	D019966
+16046395	356	361	A118G	SequenceVariant	rs1799971
+16046395	377	381	N40D	SequenceVariant	rs1799971
+16046395	509	514	OPRM1	GeneOrGeneProduct	4988
+16046395	518	523	human	OrganismTaxon	9606
+16046395	553	558	A118G	SequenceVariant	rs1799971
+16046395	612	616	A118	SequenceVariant	rs1799971
+16046395	669	673	G118	SequenceVariant	rs1799971
+16046395	700	715	Chinese hamster	OrganismTaxon	10029
+16046395	777	782	OPRM1	GeneOrGeneProduct	100770962
+16046395	793	854	adenosine, guanosine, cytidine, and thymidine in position 118	SequenceVariant	rs1799971
+16046395	904	909	OPRM1	GeneOrGeneProduct	100770962
+16046395	910	914	G118	SequenceVariant	rs1799971
+16046395	944	949	OPRM1	GeneOrGeneProduct	100770962
+16046395	1079	1092	actinomycin D	ChemicalEntity	D003609
+16046395	1175	1179	A118	SequenceVariant	rs1799971
+16046395	1184	1188	G118	SequenceVariant	rs1799971
+16046395	1283	1288	OPRM1	GeneOrGeneProduct	100770962
+16046395	1289	1293	G118	SequenceVariant	rs1799971
+16046395	1489	1503	drug addiction	DiseaseOrPhenotypicFeature	D019966
+16046395	Association	4988	D010146	No
+16046395	Association	4988	D019966	No
+16046395	Association	D019966	rs1799971	Novel
+
+18457324|t|Genetic polymorphisms in the carbonyl reductase 3 gene CBR3 and the NAD(P)H:quinone oxidoreductase 1 gene NQO1 in patients who developed anthracycline-related congestive heart failure after childhood cancer.
+18457324|a|BACKGROUND: Exposure to anthracyclines as part of cancer therapy has been associated with the development of congestive heart failure (CHF). The potential role of genetic risk factors in anthracycline-related CHF remains to be defined. Thus, in this study, the authors examined whether common polymorphisms in candidate genes involved in the pharmacodynamics of anthracyclines (in particular, the nicotinamide adenine dinucleotide phosphate:quinone oxidoreductase 1 gene NQO1 and the carbonyl reductase 3 gene CBR3) had an impact on the risk of anthracycline-related CHF. METHODS: A nested case-control study was conducted within a cohort of 1979 patients enrolled in the Childhood Cancer Survivor Study who received treatment with anthracyclines and had available DNA. Thirty patients with CHF (cases) and 115 matched controls were genotyped for polymorphisms in NQO1 (NQO1*2) and CBR3 (the CBR3 valine [V] to methionine [M] substitution at position 244 [V244M]). Enzyme activity assays with recombinant CBR3 isoforms (CBR3 V244 and CBR3 M244) and the anthracycline substrate doxorubicin were used to investigate the functional impact of the CBR3 V244M polymorphism. RESULTS: Multivariate analyses adjusted for sex and primary disease recurrence were used to test for associations between the candidate genetic polymorphisms (NQO1*2 and CBR3 V244M) and the risk of CHF. Analyses indicated no association between the NQO1*2 polymorphism and the risk of anthracycline-related CHF (odds ratio [OR], 1.04; P=.97). There was a trend toward an association between the CBR3 V244M polymorphism and the risk of CHF (OR, 8.16; P=.056 for G/G vs A/A; OR, 5.44; P=.092 for G/A vs A/A). In line, recombinant CBR3 V244 (G allele) synthesized 2.6-fold more cardiotoxic doxorubicinol per unit of time than CBR3 M244 (A allele; CBR3 V244 [8.26+/-3.57 nmol/hour.mg] vs CBR3 M244 [3.22+/-0.67 nmol/hour.mg]; P=.01). CONCLUSIONS: The functional CBR3 V244M polymorphism may have an impact on the risk of anthracycline-related CHF among childhood cancer survivors by modulating the intracardiac formation of cardiotoxic anthracycline alcohol metabolites. Larger confirmatory case-control studies are warranted.
+18457324	29	49	carbonyl reductase 3	GeneOrGeneProduct	874
+18457324	55	59	CBR3	GeneOrGeneProduct	874
+18457324	68	100	NAD(P)H:quinone oxidoreductase 1	GeneOrGeneProduct	1728
+18457324	106	110	NQO1	GeneOrGeneProduct	1728
+18457324	114	122	patients	OrganismTaxon	9606
+18457324	137	150	anthracycline	ChemicalEntity	D018943
+18457324	159	183	congestive heart failure	DiseaseOrPhenotypicFeature	D006333
+18457324	200	206	cancer	DiseaseOrPhenotypicFeature	D009369
+18457324	232	246	anthracyclines	ChemicalEntity	D018943
+18457324	258	264	cancer	DiseaseOrPhenotypicFeature	D009369
+18457324	317	341	congestive heart failure	DiseaseOrPhenotypicFeature	D006333
+18457324	343	346	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	395	408	anthracycline	ChemicalEntity	D018943
+18457324	417	420	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	570	584	anthracyclines	ChemicalEntity	D018943
+18457324	605	673	nicotinamide adenine dinucleotide phosphate:quinone oxidoreductase 1	GeneOrGeneProduct	1728
+18457324	679	683	NQO1	GeneOrGeneProduct	1728
+18457324	692	712	carbonyl reductase 3	GeneOrGeneProduct	874
+18457324	718	722	CBR3	GeneOrGeneProduct	874
+18457324	753	766	anthracycline	ChemicalEntity	D018943
+18457324	775	778	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	855	863	patients	OrganismTaxon	9606
+18457324	940	954	anthracyclines	ChemicalEntity	D018943
+18457324	985	993	patients	OrganismTaxon	9606
+18457324	999	1002	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	1072	1076	NQO1	GeneOrGeneProduct	1728
+18457324	1078	1082	NQO1	GeneOrGeneProduct	1728
+18457324	1090	1094	CBR3	GeneOrGeneProduct	874
+18457324	1100	1104	CBR3	GeneOrGeneProduct	874
+18457324	1105	1162	valine [V] to methionine [M] substitution at position 244	SequenceVariant	rs1056892
+18457324	1164	1169	V244M	SequenceVariant	rs1056892
+18457324	1213	1217	CBR3	GeneOrGeneProduct	874
+18457324	1228	1232	CBR3	GeneOrGeneProduct	874
+18457324	1233	1237	V244	SequenceVariant	rs1056892
+18457324	1242	1246	CBR3	GeneOrGeneProduct	874
+18457324	1247	1251	M244	SequenceVariant	rs1056892
+18457324	1261	1274	anthracycline	ChemicalEntity	D018943
+18457324	1285	1296	doxorubicin	ChemicalEntity	D004317
+18457324	1351	1355	CBR3	GeneOrGeneProduct	874
+18457324	1356	1361	V244M	SequenceVariant	rs1056892
+18457324	1535	1539	NQO1	GeneOrGeneProduct	1728
+18457324	1546	1550	CBR3	GeneOrGeneProduct	874
+18457324	1551	1556	V244M	SequenceVariant	rs1056892
+18457324	1574	1577	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	1625	1629	NQO1	GeneOrGeneProduct	1728
+18457324	1661	1674	anthracycline	ChemicalEntity	D018943
+18457324	1683	1686	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	1771	1775	CBR3	GeneOrGeneProduct	874
+18457324	1776	1781	V244M	SequenceVariant	rs1056892
+18457324	1811	1814	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	1904	1908	CBR3	GeneOrGeneProduct	874
+18457324	1909	1913	V244	SequenceVariant	rs1056892
+18457324	1951	1962	cardiotoxic	DiseaseOrPhenotypicFeature	D066126
+18457324	1963	1976	doxorubicinol	ChemicalEntity	C010013
+18457324	1999	2003	CBR3	GeneOrGeneProduct	874
+18457324	2004	2008	M244	SequenceVariant	rs1056892
+18457324	2020	2024	CBR3	GeneOrGeneProduct	874
+18457324	2025	2029	V244	SequenceVariant	rs1056892
+18457324	2060	2064	CBR3	GeneOrGeneProduct	874
+18457324	2065	2069	M244	SequenceVariant	rs1056892
+18457324	2134	2138	CBR3	GeneOrGeneProduct	874
+18457324	2139	2144	V244M	SequenceVariant	rs1056892
+18457324	2192	2205	anthracycline	ChemicalEntity	D018943
+18457324	2214	2217	CHF	DiseaseOrPhenotypicFeature	D006333
+18457324	2234	2240	cancer	DiseaseOrPhenotypicFeature	D009369
+18457324	2295	2306	cardiotoxic	DiseaseOrPhenotypicFeature	D066126
+18457324	2307	2328	anthracycline alcohol	ChemicalEntity	D000438,D018943
+18457324	Positive_Correlation	D066126	C010013	No
+18457324	Positive_Correlation	D000438	D066126	No
+18457324	Association	rs1056892	D000438	Novel
+18457324	Association	rs1056892	C010013	Novel
+18457324	Positive_Correlation	rs1056892	D006333	Novel
+18457324	Association	rs1056892	D018943	Novel
+18457324	Association	D006333	D000438	Novel
+18457324	Negative_Correlation	D018943	D009369	No
+18457324	Positive_Correlation	D018943	D066126	No
+18457324	Positive_Correlation	D018943	D006333	Novel
+18457324	Association	874	D066126	Novel
+18457324	Association	874	D000438	Novel
+18457324	Association	874	C010013	Novel
+18457324	Association	874	D006333	Novel
+18457324	Association	874	D018943	Novel
