@@ -1,0 +1,8 @@
+cerebras-cloud-sdk
+scispacy
+spacy
+tqdm
+jsonschema
+requests
+numpy
+tenacity
