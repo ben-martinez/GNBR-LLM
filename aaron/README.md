@@ -31,10 +31,14 @@ python main.py --graph_path ./data/knowledge_graph.json --data_path ./data/data.
 ## Visualize the Graph
 Open index.html in a web browser.
 
+See the script.js to load and visualize your specified json graph.
+
 The graph visualization supports:
 	•	Node and Edge Filtering: Toggle visibility of nodes and edges by type.
 	•	Search Functionality
 	•	Zooming
+
+A few prototype graphs are available in /data
 
 ## Logs
 Logs are stored in the logs/ directory for monitoring API calls and processing and error handling.
