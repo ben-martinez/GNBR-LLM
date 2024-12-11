@@ -10,7 +10,8 @@
  * 5. Comprehensive code documentation and clarity.
  */
 
-d3.json("data/knowledge_graph.json").then(data => {
+// d3.json("data/knowledge_graph.json").then(data => {
+d3.json("data/test_graph.json").then(data => {
     // Process nodes and edges from JSON data
     const nodes = Object.keys(data.nodes).map(key => ({
         id: key,

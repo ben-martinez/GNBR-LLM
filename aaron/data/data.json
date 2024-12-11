@@ -1,0 +1,18 @@
+[
+    {
+        "pmid": "34955621",
+        "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+        "abstract": "Coronavirus Disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has rapidly spread around the world jeopardizing the global economy and health. The rapid proliferation and infectivity of the virus can be attributed to many accumulating mutations in the spike protein leading to continuous generation of variants. The spike protein is a glycoprotein that recognizes and binds to cell surface receptor known as angiotensin-converting enzyme 2 (ACE2) leading to the fusion of the viral and host cell membranes and entry into the host cells. These circulating variants in the population have greatly impacted the virulence, transmissibility, and immunological evasion of the host. The present study is aimed at understanding the impact of the major mutations (L452R, T478K and N501Y) in the receptor-binding domain (RBD) of spike protein and their consequences on the binding affinity to human ACE2 through protein-protein docking and molecular dynamics simulation approaches. Protein-protein docking and Molecular mechanics with generalised Born and surface area solvation (MM/GBSA) binding free energy analysis reveal that the spike mutants-L452R, T478K and N501Y have a higher binding affinity to human ACE2 as compared to the native spike protein. The increase in the number of interface residues, interface area and intermolecular forces such as hydrogen bonds, salt bridges and non-bonded contacts corroborated with the increase in the binding affinity of the spike mutants to ACE2. Further, 75 ns all-atom molecular dynamics simulation investigations show variations in the geometric properties such as root mean square deviation (RMSD), radius of gyration (Rg), total solvent accessible surface area (SASA) and number of hydrogen bonds (NHBs) in the mutant spike:ACE2 complexes with respect to the native spike:ACE2 complex. Therefore, the findings of this study unravel plausible molecular mechanisms of increase in binding affinity of spike mutants (L452R, T478K and N501Y) to human ACE2 leading to higher virulence and infectivity of emerging SARS-CoV-2 variants. The study will further aid in designing novel therapeutics targeting the interface residues between spike protein and ACE2 receptor.",
+        "authors": [
+            "Arun Bahadur Gurung",
+            "Mohammad Ajmal Ali",
+            "Joongku Lee",
+            "Mohammad Abul Farah",
+            "Khalid Mashay Al-Anazi",
+            "Fahad Al-Hemaid",
+            "Hiba Sami"
+        ],
+        "journal": "Journal of King Saud University. Science",
+        "year": 2022
+    }
+]

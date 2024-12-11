@@ -1,0 +1,421 @@
+{
+  "nodes": {
+    "node_0": {
+      "type": "string",
+      "properties": {
+        "entity_type": "GENE",
+        "primary_name": "SARS-CoV-2",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241172",
+        "creation_date": "2024-12-10T16:34:02.237422"
+      }
+    },
+    "node_1": {
+      "type": "string",
+      "properties": {
+        "entity_type": "GENETIC VARIANT",
+        "primary_name": "L452R",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241384",
+        "creation_date": "2024-12-10T16:34:02.237494"
+      }
+    },
+    "node_2": {
+      "type": "string",
+      "properties": {
+        "entity_type": "GENETIC VARIANT",
+        "primary_name": "T478K",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241419",
+        "creation_date": "2024-12-10T16:34:02.241098"
+      }
+    },
+    "node_3": {
+      "type": "string",
+      "properties": {
+        "entity_type": "GENETIC VARIANT",
+        "primary_name": "N501Y",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241458",
+        "creation_date": "2024-12-10T16:34:02.241235"
+      }
+    },
+    "node_4": {
+      "type": "string",
+      "properties": {
+        "entity_type": "PROTEIN",
+        "primary_name": "Spike RBD",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241291",
+        "creation_date": "2024-12-10T16:34:02.241292"
+      }
+    },
+    "node_5": {
+      "type": "string",
+      "properties": {
+        "entity_type": "PROTEIN",
+        "primary_name": "ACE2",
+        "alternative_names": [],
+        "external_ids": null,
+        "description": null,
+        "last_updated": "2024-12-10T16:34:02.241469",
+        "creation_date": "2024-12-10T16:34:02.241347"
+      }
+    }
+  },
+  "edges": {
+    "node_0_node_1_ASSOCIATE": {
+      "type": "string",
+      "source_node": "node_0",
+      "target_node": "node_1",
+      "relationship_type": "ASSOCIATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "The present study is aimed at understanding the impact of the major mutations (L452R, T478K and N501Y) in the receptor-binding domain (RBD) of spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.237531"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.237741"
+      },
+      "last_updated": "2024-12-10T16:34:02.237529"
+    },
+    "node_0_node_2_ASSOCIATE": {
+      "type": "string",
+      "source_node": "node_0",
+      "target_node": "node_2",
+      "relationship_type": "ASSOCIATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "The present study is aimed at understanding the impact of the major mutations (L452R, T478K and N501Y) in the receptor-binding domain (RBD) of spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241117"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241154"
+      },
+      "last_updated": "2024-12-10T16:34:02.241115"
+    },
+    "node_0_node_3_ASSOCIATE": {
+      "type": "string",
+      "source_node": "node_0",
+      "target_node": "node_3",
+      "relationship_type": "ASSOCIATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "The present study is aimed at understanding the impact of the major mutations (L452R, T478K and N501Y) in the receptor-binding domain (RBD) of spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241249"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241262"
+      },
+      "last_updated": "2024-12-10T16:34:02.241248"
+    },
+    "node_4_node_5_INTERACT": {
+      "type": "string",
+      "source_node": "node_4",
+      "target_node": "node_5",
+      "relationship_type": "INTERACT",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "The spike protein is a glycoprotein that recognizes and binds to cell surface receptor known as angiotensin-converting enzyme 2 (ACE2) leading to the fusion of the viral and host cell membranes and entry into the host cells",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241364"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241372"
+      },
+      "last_updated": "2024-12-10T16:34:02.241363"
+    },
+    "node_1_node_5_POSITIVE_CORRELATE": {
+      "type": "string",
+      "source_node": "node_1",
+      "target_node": "node_5",
+      "relationship_type": "POSITIVE_CORRELATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "Protein-protein docking and Molecular mechanics with generalised Born and surface area solvation (MM/GBSA) binding free energy analysis reveal that the spike mutants-L452R, T478K and N501Y have a higher binding affinity to human ACE2 as compared to the native spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241398"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241404"
+      },
+      "last_updated": "2024-12-10T16:34:02.241397"
+    },
+    "node_2_node_5_POSITIVE_CORRELATE": {
+      "type": "string",
+      "source_node": "node_2",
+      "target_node": "node_5",
+      "relationship_type": "POSITIVE_CORRELATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "Protein-protein docking and Molecular mechanics with generalised Born and surface area solvation (MM/GBSA) binding free energy analysis reveal that the spike mutants-L452R, T478K and N501Y have a higher binding affinity to human ACE2 as compared to the native spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241431"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241437"
+      },
+      "last_updated": "2024-12-10T16:34:02.241430"
+    },
+    "node_3_node_5_POSITIVE_CORRELATE": {
+      "type": "string",
+      "source_node": "node_3",
+      "target_node": "node_5",
+      "relationship_type": "POSITIVE_CORRELATE",
+      "evidence": [
+        {
+          "paper_id": "34955621",
+          "citation_metadata": {
+            "title": "Structural and functional insights into the major mutations of SARS-CoV-2 Spike RBD and its interaction with human ACE2 receptor",
+            "authors": [
+              "Arun Bahadur Gurung",
+              "Mohammad Ajmal Ali",
+              "Joongku Lee",
+              "Mohammad Abul Farah",
+              "Khalid Mashay Al-Anazi",
+              "Fahad Al-Hemaid",
+              "Hiba Sami"
+            ],
+            "journal": "Journal of King Saud University. Science",
+            "year": 2022
+          },
+          "experimental_context": {
+            "study_type": "in silico",
+            "model_system": {
+              "type": "protein-protein docking",
+              "details": "protein-protein docking and molecular dynamics simulation approaches"
+            },
+            "methods": [
+              "protein-protein docking",
+              "molecular dynamics simulation"
+            ]
+          },
+          "statistical_evidence": {},
+          "extracted_text": "Protein-protein docking and Molecular mechanics with generalised Born and surface area solvation (MM/GBSA) binding free energy analysis reveal that the spike mutants-L452R, T478K and N501Y have a higher binding affinity to human ACE2 as compared to the native spike protein",
+          "extraction_confidence": 0.95,
+          "last_verified": "2024-12-10T16:34:02.241471"
+        }
+      ],
+      "aggregated_metadata": {
+        "total_papers": 1,
+        "earliest_evidence": 2022,
+        "latest_evidence": 2022,
+        "evidence_strength": 0.95,
+        "contradictory_evidence": false,
+        "last_updated": "2024-12-10T16:34:02.241477"
+      },
+      "last_updated": "2024-12-10T16:34:02.241470"
+    }
+  }
+}
