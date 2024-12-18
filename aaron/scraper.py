@@ -128,8 +128,8 @@ if __name__ == "__main__":
         exit(1)
 
     max_articles = int(input("Enter maximum number of articles to fetch: ").strip())
-    email = 'aaroncl@stanford.edu'
-    api_key = '34d60b1ca1a6a0acba7a13fc673559e2a309'
+    email = ''
+    api_key = ''
 
     # Convert dates to strings in required format
     start_date_str = start_date.strftime('%Y/%m/%d')
